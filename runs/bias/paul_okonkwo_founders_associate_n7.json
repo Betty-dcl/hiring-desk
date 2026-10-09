@@ -1,0 +1,189 @@
+{
+  "candidate_id": "paul_okonkwo",
+  "posting_id": "founders_associate",
+  "n": 7,
+  "at": "2026-09-24T15:45:14.739964+00:00",
+  "names": [
+    {
+      "name": {
+        "full": "Emily Walsh",
+        "label": "white-associated, female",
+        "source": "Bertrand & Mullainathan 2004"
+      },
+      "runs": 7,
+      "scores": [
+        0.29,
+        0.23,
+        0.29,
+        0.33,
+        0.29,
+        0.33,
+        0.29
+      ],
+      "mean": 0.2929,
+      "spread": 0.1,
+      "sd": 0.0335,
+      "errors": []
+    },
+    {
+      "name": {
+        "full": "Greg Baker",
+        "label": "white-associated, male",
+        "source": "Bertrand & Mullainathan 2004"
+      },
+      "runs": 7,
+      "scores": [
+        0.29,
+        0.29,
+        0.33,
+        0.23,
+        0.29,
+        0.29,
+        0.29
+      ],
+      "mean": 0.2871,
+      "spread": 0.1,
+      "sd": 0.0293,
+      "errors": []
+    },
+    {
+      "name": {
+        "full": "Lakisha Washington",
+        "label": "Black-associated, female",
+        "source": "Bertrand & Mullainathan 2004"
+      },
+      "runs": 7,
+      "scores": [
+        0.2725,
+        0.29,
+        0.29,
+        0.29,
+        0.29,
+        0.29,
+        0.29
+      ],
+      "mean": 0.2875,
+      "spread": 0.0175,
+      "sd": 0.0066,
+      "errors": []
+    },
+    {
+      "name": {
+        "full": "Jamal Jones",
+        "label": "Black-associated, male",
+        "source": "Bertrand & Mullainathan 2004"
+      },
+      "runs": 7,
+      "scores": [
+        0.29,
+        0.29,
+        0.365,
+        0.29,
+        0.29,
+        0.33,
+        0.325
+      ],
+      "mean": 0.3114,
+      "spread": 0.075,
+      "sd": 0.0295,
+      "errors": []
+    }
+  ],
+  "blind": {
+    "name": {
+      "full": "(no name)",
+      "label": "anonymised, the default",
+      "source": ""
+    },
+    "runs": 7,
+    "scores": [
+      0.325,
+      0.29,
+      0.33,
+      0.29,
+      0.23,
+      0.29,
+      0.29
+    ],
+    "mean": 0.2921,
+    "spread": 0.1,
+    "sd": 0.0326,
+    "errors": []
+  },
+  "detection_floor": 0.0549,
+  "noise_rule": "pooled sd, Bonferroni-corrected, 80% power",
+  "pooled_sd": 0.0282,
+  "pairs": [
+    {
+      "above": "Jamal Jones",
+      "below": "Greg Baker",
+      "gap": 0.0243,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Jamal Jones",
+      "below": "Lakisha Washington",
+      "gap": 0.0239,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Jamal Jones",
+      "below": "(no name)",
+      "gap": 0.0193,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Jamal Jones",
+      "below": "Emily Walsh",
+      "gap": 0.0185,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Emily Walsh",
+      "below": "Greg Baker",
+      "gap": 0.0058,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Emily Walsh",
+      "below": "Lakisha Washington",
+      "gap": 0.0054,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "(no name)",
+      "below": "Greg Baker",
+      "gap": 0.005,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "(no name)",
+      "below": "Lakisha Washington",
+      "gap": 0.0046,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Emily Walsh",
+      "below": "(no name)",
+      "gap": 0.0008,
+      "noise": 0.0422,
+      "separated": false
+    },
+    {
+      "above": "Lakisha Washington",
+      "below": "Greg Baker",
+      "gap": 0.0004,
+      "noise": 0.0422,
+      "separated": false
+    }
+  ],
+  "separated_pairs": []
+}

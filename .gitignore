@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.env
+.env.*
+# Local editor and tool settings (never shared).
+.vscode/
+.idea/
+.claude/settings.local.json
+settings.local.json
+.DS_Store
+Thumbs.db
+desktop.ini
+# Real personal data: never in the repository.
+local/
+# The team's own files (the company logo...): never committed.
+local-assets/
+# The desk's live state (votes, settings, the link secret, the lock): only the
+# invented demo is tracked. The explicit lines repeat runs/desk/* so that no
+# reorganisation lets them through.
+runs/desk/*
+!runs/desk/people.json
+!runs/desk/files/
+runs/desk/.lock
+runs/desk/.link_secret
+runs/desk/links_used.json
+runs/desk/ashby.json
+runs/desk/settings*.json
+runs/desk/outlook-token.json
+runs/desk/outlook-pending.json
+runs/desk/outlook-replies.json
+
+# The server option (deploy/): secrets and live data never in git.
+deploy/.env
+deploy/emails.txt
+deploy/desk.toml
+deploy/data/
+deploy/backups/

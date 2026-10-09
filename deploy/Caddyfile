@@ -1,0 +1,4 @@
+# HTTPS for the desk's address, with a certificate Caddy obtains and renews.
+{$DESK_DOMAIN} {
+	reverse_proxy oauth2-proxy:4180
+}

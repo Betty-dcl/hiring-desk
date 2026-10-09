@@ -1,0 +1,200 @@
+{
+  "candidate_id": "sylvia_hartmann",
+  "posting_id": "founders_associate",
+  "screened_at": "2026-09-19T22:18:40.272690+00:00",
+  "model": "claude-sonnet-5",
+  "score": 0.3925,
+  "coverage": 0.7,
+  "open_gates": [],
+  "open_questions": [
+    "full_spectrum_range",
+    "polished_writing",
+    "nice_startup_experience",
+    "nice_fundraising_exposure"
+  ],
+  "capped": [
+    "ai_native"
+  ],
+  "decides": false,
+  "for_human_review": true,
+  "assessments": [
+    {
+      "criterion_id": "high_intensity_experience",
+      "strength": "weak",
+      "fact_ids": [
+        "role_auditor",
+        "auditor_statutory_audits",
+        "role_finance_manager"
+      ],
+      "reasoning": "CV shows audit and finance-manager roles at mid-market/family-owned firms, not top-tier consulting, banking, VC/PE, or an early-stage startup, and no duration or intensity framing is given for any of them.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "ai_native",
+      "strength": "moderate",
+      "fact_ids": [
+        "letter_claude_code_reporting"
+      ],
+      "reasoning": "Describes daily use of Claude Code since January to rebuild a client's reporting pack, with the agent writing transformations she checks against source ledgers — a concrete, ongoing real-work automation example.",
+      "weight": 2.0,
+      "hard": true,
+      "capped_from": "strong",
+      "capped_why": "the letter only",
+      "rests_on": "the letter only",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "full_spectrum_range",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to describe moving between a strategic task and a mundane operational one within the same day or short span.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "extreme_ownership",
+      "strength": "strong",
+      "fact_ids": [
+        "finance_rebuilt_budget",
+        "finance_budget_reason",
+        "letter_ardenne_budget_rebuild"
+      ],
+      "reasoning": "The budgeting process broke after an ERP migration and had no owner, and she rebuilt it over four months without being asked, running it for the three subsidiaries until she left.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "analytical_range",
+      "strength": "weak",
+      "fact_ids": [
+        "finance_rebuilt_budget",
+        "engagement_pricing"
+      ],
+      "reasoning": "There is budgeting/rebuild work and a pricing engagement suggesting some quantitative and analytical activity, but no fact establishes a financial model, a market analysis, and a written narrative all done by her.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "polished_writing",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to reference an actual writing artifact (investor update, candidate email, partnership brief) that went out without edits.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "technical_curiosity",
+      "strength": "moderate",
+      "fact_ids": [
+        "letter_claude_code_reporting"
+      ],
+      "reasoning": "Directing Claude Code to write reporting transformations and checking its output shows she directs an AI agent on technical work, but nothing shows engagement with engineers or broader software-build understanding.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "fluent_english",
+      "strength": "moderate",
+      "fact_ids": [
+        "language_english"
+      ],
+      "reasoning": "CV lists English as 'professional' level, which bears on working proficiency but stops short of stating fluency.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "nice_fintech_saas_cfo",
+      "strength": "weak",
+      "fact_ids": [
+        "engagement_pricing"
+      ],
+      "reasoning": "A pricing project 'for a software company' touches software but doesn't establish fintech, B2B SaaS, or office-of-the-CFO industry experience specifically.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.25
+    },
+    {
+      "criterion_id": "nice_startup_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to state a role at an early-stage or startup company as founder, early employee, or operator.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_fundraising_exposure",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact mentions involvement in or proximity to a fundraising round.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_languages",
+      "strength": "strong",
+      "fact_ids": [
+        "language_spanish"
+      ],
+      "reasoning": "CV directly lists Spanish as fluent.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    }
+  ],
+  "dropped": []
+}

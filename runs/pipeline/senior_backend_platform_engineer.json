@@ -1,0 +1,17 @@
+{
+  "posting_id": "senior_backend_platform_engineer",
+  "stale_after_days": 7.0,
+  "events": [
+    {
+      "candidate_id": "paul_okonkwo",
+      "kind": "received",
+      "at": "2026-09-26T10:12:00+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "added_by_hand": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "candidate_id": "tomas_renner",
+  "posting_id": "founders_associate",
+  "screened_at": "2026-09-18T13:43:41.376015+00:00",
+  "model": "claude-sonnet-5",
+  "score": 0.32,
+  "coverage": 0.55,
+  "open_gates": [
+    "ai_native"
+  ],
+  "open_questions": [
+    "ai_native",
+    "full_spectrum_range",
+    "polished_writing",
+    "nice_fintech_saas_cfo",
+    "nice_startup_experience",
+    "nice_fundraising_exposure"
+  ],
+  "capped": [],
+  "decides": false,
+  "for_human_review": true,
+  "assessments": [
+    {
+      "criterion_id": "high_intensity_experience",
+      "strength": "moderate",
+      "fact_ids": [
+        "job_kessler",
+        "bullet_advised_clients"
+      ],
+      "reasoning": "Four years (2015–2019) as Senior Manager at a consulting firm advising C-suite clients matches the duration and category, but nothing establishes the firm as top-tier or describes the intensity of the role.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "ai_native",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to mention using AI agents, LLM tools, or building something with a coding agent; no fact mentions AI at all.",
+      "weight": 2.0,
+      "hard": true,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "full_spectrum_range",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to describe an instance of moving between strategic and mundane operational tasks; no such example is given.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "extreme_ownership",
+      "strength": "moderate",
+      "fact_ids": [
+        "bullet_owned_transformation",
+        "bullet_automation_programme"
+      ],
+      "reasoning": "Owning a transformation agenda and driving a company-wide programme show taking on large-scale initiatives, but neither describes noticing an unowned gap and stepping in unasked.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "analytical_range",
+      "strength": "weak",
+      "fact_ids": [
+        "bullet_built_analytics",
+        "bullet_scaled_analytics",
+        "bullet_advised_clients"
+      ],
+      "reasoning": "Building/scaling analytics and advising on growth/cost/operating model questions touch analysis, but no fact establishes financial modeling or narrative writing specifically.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "polished_writing",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to reference an actual writing sample (update, email, brief) that shipped without edits; none is given.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "technical_curiosity",
+      "strength": "weak",
+      "fact_ids": [
+        "bullet_built_analytics"
+      ],
+      "reasoning": "Building an analytics capability suggests some technical involvement, but there's no evidence of engaging engineers or directing AI agents on builds.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "fluent_english",
+      "strength": "strong",
+      "fact_ids": [
+        "lang_english"
+      ],
+      "reasoning": "English is explicitly listed as fluent.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "nice_fintech_saas_cfo",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to name an employer or role in fintech, B2B SaaS, or an office-of-the-CFO function; none of the listed employers or duties indicate this.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_startup_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to identify a startup employer or founder/early-employee/operator role; all listed employers appear to be established firms with no startup indication.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_fundraising_exposure",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to mention involvement in or proximity to a fundraising/round process; no fact touches this.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_languages",
+      "strength": "strong",
+      "fact_ids": [
+        "lang_german"
+      ],
+      "reasoning": "German is listed as native, directly satisfying the Spanish-or-German nice-to-have.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,111 @@
+{
+  "posting": {
+    "id": "open_application",
+    "title": "Open Application",
+    "company": "Causa Prima",
+    "location": "Madrid, on-site",
+    "source_url": "https://jobs.ashbyhq.com/causaprima",
+    "fetched_at": "2026-09-18"
+  },
+  "posting_id": "open_application",
+  "title": "Open Application",
+  "wishlist_declared": false,
+  "extracted_at": "2026-09-18T12:38:34.288297+00:00",
+  "model": "claude-sonnet-5",
+  "criteria": [
+    {
+      "id": "in_person_madrid_munich",
+      "question": "Are you able to work in-person between Madrid and Munich?",
+      "source_quote": "We work between Madrid (our primary hub) and Munich, in-person.",
+      "section": "requirement",
+      "looks_like": "Confirmation of willingness and ability to work in-person, based between Madrid and Munich.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ships_real_things",
+      "question": "Can you give an example of shipping a real thing quickly, rather than producing plans or decks about it?",
+      "source_quote": "You move fast and ship real things, not decks about things.",
+      "section": "requirement",
+      "looks_like": "A concrete example of moving quickly to produce a real, shipped outcome rather than planning documents or presentations.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "goes_deep",
+      "question": "Tell me about a time you went deep on a single problem rather than skimming across several.",
+      "source_quote": "You go deep. You'd rather understand a problem properly than skim five.",
+      "section": "requirement",
+      "looks_like": "An example showing thorough, deep understanding of one problem rather than shallow coverage of many.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "strong_instincts_judgment",
+      "question": "How do you apply strong instincts in your domain, and how do you judge when to trust them versus verify further?",
+      "source_quote": "You have strong instincts in your domain and the judgment to know when to trust them.",
+      "section": "requirement",
+      "looks_like": "An example pairing domain instinct with the judgment to know when that instinct is reliable enough to act on.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "comfortable_ambiguity_unglamorous",
+      "question": "Describe a time you took on ambiguous or unglamorous work without it being assigned to you.",
+      "source_quote": "You're comfortable with ambiguity and short on ego about owning the unglamorous parts.",
+      "section": "requirement",
+      "looks_like": "An example of stepping into unclear situations and owning undesirable tasks without ego getting in the way.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "cares_about_finance_ai",
+      "question": "What draws you to finance, AI, or both?",
+      "source_quote": "You actually care about finance, AI, or both.",
+      "section": "requirement",
+      "looks_like": "Genuine, specific interest or experience in finance and/or AI, not just general enthusiasm.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "submit_cv_and_lines",
+      "question": "Can you send your CV along with a few lines on what you're great at and what you'd want to own?",
+      "source_quote": "Drop your CV and a few lines on what you're great at and what you'd want to own.",
+      "section": "responsibility",
+      "looks_like": "A CV plus a short written statement covering key strengths and the area the person wants to take ownership of.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "articulate_exceptional_and_dent",
+      "question": "What are you exceptional at, and where would you want to make a dent here?",
+      "source_quote": "Tell us what you're exceptional at and where you'd want to make a dent",
+      "section": "responsibility",
+      "looks_like": "A clear, specific statement of the person's standout skill and the impact area they want to pursue at the company.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 8,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

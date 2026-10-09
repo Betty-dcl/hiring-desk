@@ -1,0 +1,187 @@
+{
+  "candidate_id": "paul_okonkwo",
+  "posting_id": "founders_associate",
+  "screened_at": "2026-09-18T13:42:42.216081+00:00",
+  "model": "claude-sonnet-5",
+  "score": 0.33,
+  "coverage": 0.5,
+  "open_gates": [
+    "ai_native"
+  ],
+  "open_questions": [
+    "high_intensity_experience",
+    "ai_native",
+    "full_spectrum_range",
+    "analytical_range",
+    "nice_startup_experience",
+    "nice_fundraising_exposure"
+  ],
+  "capped": [],
+  "decides": false,
+  "for_human_review": true,
+  "assessments": [
+    {
+      "criterion_id": "high_intensity_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to state a role in top-tier consulting, banking, VC/PE, or an early-stage startup with a duration; both listed employers show no indication of being high-intensity or early-stage.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "ai_native",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact mentions using AI agents, automating a workflow with one, or building anything with a coding agent.",
+      "weight": 2.0,
+      "hard": true,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "full_spectrum_range",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact describes moving between strategic and mundane/operational tasks; this CV only describes engineering work.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "extreme_ownership",
+      "strength": "weak",
+      "fact_ids": [
+        "wrote_runbooks",
+        "idempotency_layer"
+      ],
+      "reasoning": "Writing runbooks the team still uses and shipping an idempotency layer suggest proactive contribution, but neither is framed as an unowned gap he stepped into unasked.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "analytical_range",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact mentions building a financial model, structuring a market analysis, or writing a narrative; all listed work is infrastructure engineering.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "polished_writing",
+      "strength": "weak",
+      "fact_ids": [
+        "wrote_runbooks"
+      ],
+      "reasoning": "Writing on-call runbooks shows some writing output, but it is technical documentation, not the investor-update/candidate-email/partnership-brief kind of writing the posting asks about.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "technical_curiosity",
+      "strength": "strong",
+      "fact_ids": [
+        "owns_event_backbone",
+        "idempotency_layer",
+        "monolith_migration_led",
+        "skill_distributed_systems",
+        "skill_event_driven_architecture"
+      ],
+      "reasoning": "He is himself a hands-on infrastructure engineer who designed and led major system builds, directly establishing deep technical understanding, though no evidence speaks to directing AI agents specifically.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "fluent_english",
+      "strength": "strong",
+      "fact_ids": [
+        "language_english"
+      ],
+      "reasoning": "English is listed at native level.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "nice_fintech_saas_cfo",
+      "strength": "moderate",
+      "fact_ids": [
+        "idempotency_layer_purpose",
+        "built_ingestion_pipelines"
+      ],
+      "reasoning": "Work made delivery safe for 'financial reconciliation workloads' and built market-data ingestion pipelines, both fintech-adjacent, but no fact places him inside a fintech/SaaS/CFO-function company itself.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 0.6
+    },
+    {
+      "criterion_id": "nice_startup_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to state that Hallstrom Systems or Kettering Data was a startup, or that he held a founder/early-employee/operator role.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_fundraising_exposure",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact mentions any involvement with or proximity to a fundraising round.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_languages",
+      "strength": "strong",
+      "fact_ids": [
+        "language_german"
+      ],
+      "reasoning": "German is listed at professional proficiency.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    }
+  ],
+  "dropped": []
+}

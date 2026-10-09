@@ -1,0 +1,427 @@
+# The hiring desk: every choice here is a preference, not a fact.
+#
+# Each value below is a default somebody outside your company picked. Change
+# any of them; nothing in the code assumes the default. What is not in this
+# file is not configurable yet, and says so where it matters.
+
+[team]
+# Who decides on applications. One person by default: the one who runs
+# hiring. With a single name the desk is that person's sorting table: a click
+# is the decision, nothing is hidden and nothing waits on anybody else.
+# Several names (voters = ["Ana", "Ben", "Cy"]) turn the same click into a
+# vote, cast blind, settled by the rules under [votes] below.
+voters = ["Recruiter"]
+# Your logo in the header, instead of the black square: a PNG, JPEG, WebP or
+# SVG file on this machine, 200 KB at most, path relative to this folder.
+# Put it in local-assets/ -- that folder is never committed (.gitignore).
+# Empty: no logo (default). Example: logo = "local-assets/logo.png"
+logo = ""
+
+[votes]
+# The four choices on every application. The four meanings are fixed --
+# contact, discuss, later, pass -- because the rest of the desk acts on them;
+# they are shown in that order, warmest first. What each one is called is
+# yours, and can be changed on the desk's House rules page without touching
+# this file. Older names (Interview, Keep on file, Not interested) are still
+# read as the same meanings.
+# With one person deciding, "discuss" keeps the application aside to think
+# about; with several voters it sends it to the team ("Not sure, let's discuss
+# as a team" is the name a team would give it).
+# "later" is the pool: someone you like and would talk to, not for now -- a
+# good profile at the wrong time, or someone who did not get through a later
+# step. Each choice has its colour on the list: green, orange, blue, red.
+contact = "Yes, let's talk"
+discuss = "Not sure, to think about"
+later = "Keep in the pool"
+pass = "Not for us"
+
+# Whether keeping someone in the pool needs the day to come back to them.
+# false (default): the date is optional; without one they stay in the pool,
+# in its own tab, until someone takes them up again. true: a date every time,
+# and the application comes back by itself on that day.
+later_needs_date = false
+# One person deciding: "discuss" (not sure) or "later" (the pool) can be
+# switched off -- yes and no are always there. Example: off = ["discuss"]
+off = []
+# And choices of your own, each keeping people aside in a tab of its own, as the
+# pool does (at most six). Example: own = ["Another role", "Next year"]
+own = []
+
+# The three rules below only matter with more than one voter.
+
+# When a voter sees how the others voted:
+#   "until_you_vote"   -- after casting their own vote (default)
+#   "until_all_voted"  -- only once everyone has voted
+#   "off"              -- straight away
+blind = "until_you_vote"
+
+# When a class is settled:
+#   "unanimous"    -- everyone agrees; anything else goes to discussion (default)
+#   "majority"     -- more than half agree
+#   "any_contact"  -- one "contact" is enough to contact; the rest as unanimous
+agreement = "unanimous"
+
+# When one partner may go ahead without waiting for the others -- someone is
+# away, the candidate will not wait. Recorded under their name, with whose
+# votes were missing; the missing votes can still be cast afterwards.
+#   "after_one_yes" -- a voter who voted yes may go ahead (default)
+#   "all_voted"     -- only once everyone has voted
+#   "owner"         -- only the people named in [states] advancers
+go_ahead_alone = "after_one_yes"
+
+# When everyone agrees on "Not yet" but each gave a different date:
+#   "earliest" -- the card wakes up on the first date anyone asked for (default),
+#                 so nobody's "January" is quietly pushed to somebody's June
+#   "latest"   -- the last date anyone asked for
+later_date = "earliest"
+
+# One click instead of a sentence. Free text is always accepted too.
+pass_reasons = [
+    "not this role",
+    "timing",
+    "location or on-site",
+    "a stronger match already in process",
+]
+pass_reason_required = false
+
+[states]
+# Where an application stands -- apart from the votes. One state at a time,
+# derived from what people recorded (stages.py), never typed in:
+#   New -> Ready to contact -> Contacted -> Replied, OK
+#       -> First call -> Second interview -> ... -> Trial day
+#   ways out: Talk later (until a date), Answered no, Withdrew
+# (with several voters, Voting and Team to decide come after New)
+# The votes only ever reach a step to do (Ready to contact, Ready to answer
+# no, Talk later). Every step after that is declared by a person, with a date, from the
+# application's page. Nothing is sent by the desk.
+#
+# Who may move an application to its next step. Empty: any voter (default).
+# Otherwise some of the voters, by name: advancers = ["Ana"]
+advancers = []
+# How far ahead an interview or a trial day may be planned, in days.
+plan_ahead_days = 120
+# How many interviews come before the trial day, from 1 to 6. The trial day is
+# the last step. Each interview has its own name below. From any interview the
+# trial day can be recorded directly, for a role that needs fewer.
+interviews = 4
+# How long an interview lasts, in minutes: its length on the Calendar page and in
+# "Add to Google Calendar". A trial day lasts the day.
+meeting_minutes = 45
+# The time zone of the times typed on the desk (an IANA name).
+timezone = "Europe/Madrid"
+
+[states.names]
+# What each state is called, everywhere on the desk. Uncomment to rename.
+# new = "New"
+# votes_in = "Voting"
+# team_to_decide = "Team to decide"
+# to_contact = "Ready to contact"
+# contacted = "Contacted"
+# replied = "Replied, OK"
+# first_call = "First call"
+# interview_2 = "Second interview"
+# interview_3 = "Third interview"
+# interview_4 = "Fourth interview"
+# interview_5 = "Fifth interview"
+# interview_6 = "Sixth interview"
+# trial_day = "Trial day"
+# to_answer_no = "Ready to answer no"
+# answered_no = "Answered no"
+talk_later = "In the pool"
+# withdrew = "Withdrew"
+
+[any_order]
+# When the fit cannot tell two neighbours apart, the list says "any order"
+# over them instead of ranking them. What "cannot tell apart" means:
+#   "measured" -- (default) the gap at which two single screenings of the same
+#                 input would come out in the wrong order more often than
+#                 `swap`, from every repeat of the screener on disk. The value
+#                 and how it was computed: `python -m harness report`.
+#   "spread"   -- the rule before: the wider of the two people's own ranges
+#                 over repeated runs; anyone never re-screened is never grouped
+#   5          -- a fixed gap, in points
+gap = "measured"
+# One time in twenty. A stricter team writes 0.01 and sees wider bands.
+swap = 0.05
+
+[recap]
+weekday = "tuesday"
+# An application waiting this many days for someone's vote is named in the recap.
+awaiting_vote_days = 6
+# A candidate written to this many days ago, with no reply recorded.
+no_reply_days = 8
+
+[mail]
+# "draft": a file your mail client opens as an unsent draft; a person sends it.
+# "auto" is not built: it needs a mail account, and it would be the one place
+# the desk acts outside the company on its own.
+mode = "draft"
+company = "Causa Prima"
+sender = ""
+# Attach the reading note -- what was read, what was missing -- to the
+# pass message.
+attach_note_on_pass = true
+# "Draft with AI" beside the template's draft, for Ready to contact, Ready to
+# answer no and Talk later (drafting.py). Off by default. When on, one press
+# asks the model this repository is set up with (NBH_BACKEND: the team's
+# existing Claude subscription by default, no extra cost) for a draft written
+# only from the outcome, the role, the first name, the voters' comments, the
+# candidate's own sentences and the template below. A draft in an editable
+# box: never sent; numbers, links and names not in those sources are flagged;
+# a draft touching a protected subject is refused; who asked is recorded.
+# Limits: the check reads tokens, not meaning -- tone and emphasis are yours.
+ai_drafts = false
+
+# The mails the team does not write at all: never offered on the desk. By
+# default there is no reminder to someone who has not replied. Switch any mail
+# on or off on House rules.
+off = ["follow_up"]
+
+# One mail per step: yes, the reminder, the invitation to an interview (the
+# same words for each, {interview} says which), the trial day, the pool, no.
+# There is no "we have your application" mail: the applicant tracking system
+# (Ashby) already sends that one.
+#
+# Examples, not your words. The House rules page shows them in grey until someone
+# writes their own; until then the desk uses them and says it is doing so.
+# {first_name}, {last_name}, {role}, {company} and {sender} are filled in. In an
+# invitation, {interview} is its name ("second interview"), and {day} and {time}
+# are those of the meeting once it is planned on the desk; before that they show
+# as [day] and [time], blanks to fill in by hand. An interview can still have
+# words of its own: add interview_2 = """...""" below.
+[mail.subjects]
+contact = "{company} | {role}: a first conversation"
+follow_up = "Following up: {role} at {company}"
+interview = "{company} | {role}: {interview}, {day} at {time}"
+trial_day = "{company} | {role}: your trial day, {day}"
+later = "Your application to {company}: {role}"
+pass = "Your application to {company}: {role}"
+
+[mail.templates]
+# Yes: we would like to talk.
+contact = """
+Dear {first_name},
+
+Thank you for applying for the {role} position at {company}. We have read your
+application with care and would like to get to know you better.
+
+Would you be available for a first interview in the coming days? If you send us
+two or three slots that suit you, we will confirm one of them the same day.
+
+We look forward to speaking with you.
+
+Best regards,
+
+{sender}
+"""
+# Contacted, and no reply yet: one reminder, never a second. Off by default.
+follow_up = """
+Dear {first_name},
+
+I am following up on my earlier message about your application for the {role}
+position at {company}. We would still be glad to speak with you.
+
+If your plans have changed or the timing no longer suits you, a short reply is
+all we need, and we will close the file on our side.
+
+Best regards,
+
+{sender}
+"""
+# Every interview, the first to the last: its name, its day, its time.
+interview = """
+Dear {first_name},
+
+Thank you for your time so far. We are glad to confirm your {interview} for the
+{role} position on {day} at {time}.
+
+We will send you the details beforehand: who you will be speaking with, and how
+to join. If this time does not suit you, simply reply and we will find another
+one.
+
+Best regards,
+
+{sender}
+"""
+# After the last interview: the trial day, the final step.
+trial_day = """
+Dear {first_name},
+
+Thank you for the conversations so far. We have enjoyed them and would like to
+invite you to the final step of our process: a trial day with the team, on {day}.
+We will expect you at {time}.
+
+A trial day is one working day spent on a real topic, alongside the people you
+would work with. It gives you an honest view of how we work, and gives us a view
+of how you approach a problem. We will send the practical details and the topic
+of the day beforehand.
+
+If this date does not suit you, reply and we will find another one.
+
+Best regards,
+
+{sender}
+"""
+# Keep in the pool: not now, and their agreement to keep the application.
+later = """
+Dear {first_name},
+
+Thank you for your application for the {role} position at {company}, and for
+the time you put into it.
+
+We have read it with care. We are not able to move forward at this stage: the
+timing is not right on our side. This is not a refusal. With your agreement, we
+would like to keep your application and come back to you when the timing
+changes.
+
+If you would prefer that we do not keep your details, simply reply to this
+message and we will delete them.
+
+Best regards,
+
+{sender}
+"""
+# Not for us: a clear, respectful answer.
+pass = """
+Dear {first_name},
+
+Thank you for your application for the {role} position at {company}, and for
+your interest in what we are building.
+
+After careful consideration, we have decided not to take your application
+further for this position. This decision concerns this role at this time, and
+not the quality of your background.
+
+We wish you every success in your search, and would be glad to hear from you
+again if a future opening matches your profile.
+
+Best regards,
+
+{sender}
+"""
+
+[match]
+# The AI guess (match.py): a count of what the CV and the "Why us" answer say
+# against what the posting asks for. Roles listed here have no posting to
+# compare to (an open application): their number rests on proof, AI in the
+# work and motivation only.
+open_roles = ["open_application"]
+
+[retention]
+# How long the desk keeps an application after the last thing that happened to
+# it (erase.py; the Retention page). Nothing is erased on its own: the people
+# past it are listed, and a person erases them. Someone in process is never
+# listed. The pool keeps people longer: they were asked to agree to it.
+months = 12
+pool_months = 24
+
+[backup]
+# Where a dated copy of everything the desk knows goes (backup.py): a folder a
+# sync tool copies off this computer is the natural place, e.g. a Google Drive
+# folder. Empty: no backup (check.py warns). install.py sets it.
+to = ""
+# How many backups to keep; the oldest are removed.
+keep = 30
+
+[outlook]
+# Look in the Outlook mailbox of the person who runs hiring for replies from
+# the people written to (outlook.py, docs/OUTLOOK.md). Off by default; can
+# also be turned on in House rules. When on, a "Check Outlook" button on the
+# Interested tab asks Microsoft, for each application in "Contacted" only:
+# "a mail from this address since we wrote?". The desk keeps the time of the
+# reply and a link to open it, nothing else, and never ticks "Replied, OK" by
+# itself: a reply can be a no.
+# Permission: Mail.ReadBasic, delegated (no mail body, no attachments).
+# Before turning it on: say so in the privacy notice candidates receive, and
+# note it in the company's record of processing (docs/OUTLOOK.md).
+enabled = false
+# The desk's registration in the company's Microsoft Entra ID, made once by
+# an admin (docs/OUTLOOK.md). Not a secret: the sign-in is the person's own.
+client_id = ""
+# The company's tenant id or domain ("causaprima.com"); "organizations"
+# accepts any work account.
+tenant = "organizations"
+
+[access]
+# Who is looking.
+#   "pick"   -- a name menu, on one laptop, for trying it (default). Binds to
+#               127.0.0.1 only: anyone who reaches the page could vote as anyone.
+#   "header" -- behind a sign-in proxy (Google Workspace, Microsoft Entra,
+#               Cloudflare Access) that puts the signed-in email in a header.
+#               Only the emails mapped below get in; the name menu disappears.
+mode = "pick"
+header = "X-Forwarded-Email"
+# Header mode only: the addresses the sign-in proxy connects from (IPs or
+# networks). Every other peer is refused before the header is read -- the
+# header is only a claim, and anyone who reaches the port can type it. Header
+# mode will not start while this is empty. Docker's bridge: ["172.17.0.1"].
+trusted_proxies = []
+# The desk's public address ("https://desk.company.example") when the proxy
+# rewrites Host. Forms posted from any other origin are refused. Empty: the
+# address the request was sent to.
+origin = ""
+
+[access.emails]
+# "name@company.example" = "Recruiter"
+
+[ashby]
+# The connector (ashby.py). Off until someone sets ASHBY_API_KEY: nothing here
+# does anything without it. The key needs candidatesRead to pull, and
+# candidatesWrite only if notes are sent back.
+#
+# Bring new applications in by itself: at each start of the desk and every
+# evening at 19:00 (daily.py, which install.py schedules). It reads Ashby,
+# never writes to it. Switch it on once the first connection was checked by
+# hand (CLAUDE.md, "Connect Ashby"). The key: ASHBY_API_KEY, or the file
+# .hiringdesk/ashby_key in the home folder.
+auto_pull = false
+# Which Ashby statuses come onto the desk.
+statuses = ["Active"]
+# Form questions kept as the letter -- matched on the question's title,
+# ignoring case, by substring.
+# The open door asks for "a few lines on what you're great at and what you'd
+# want to own": those lines are read as the letter too.
+letter_questions = ["cover letter", "why", "own", "great at", "exceptional"]
+# The note written back for a class the voters agreed on. Private to the
+# hiring team, and silent (no notification), unless changed here.
+note_private = true
+notify = false
+# Send the fit percentage with the class, labelled as a machine's reading.
+note_with_score = true
+# The voters' one-line comments stay on the desk unless this is true.
+note_with_comments = false
+
+[ashby.jobs]
+# Only needed when an Ashby job title is not exactly a posting's title.
+# "Founders Associate" = "founders_associate"
+
+[tracking]
+# How the answer promise is measured (metrics.py, the Overview tab,
+# tuesday.py). Read from the log only; no model, nothing sent.
+#
+# The promise, in calendar days: an answer within this many days of applying.
+answer_within_days = 14
+# Whether "we have your application" counts as the answer. It says "you will
+# hear from us", so by default it does not.
+acknowledgment_counts = false
+# A timestamp with no time zone: "unknown" (that delay is not computed, and
+# says so) or "utc" (read as UTC).
+naive_timestamps = "unknown"
+# No percentage is printed over fewer than this many applications.
+min_n_percent = 5
+# Agreement between voters over fewer applications than this carries a warning.
+min_n_agreement = 10
+# Which vote measures a voter's bar: "first" (cast before seeing the others,
+# under the blind rule) or "latest".
+agreement_votes = "first"
+bootstrap = 2000
+confidence = 0.95
+# The recap's "~N min" uses the gaps between votes in one sitting once this
+# many votes have been timed; until then it assumes minutes_per_vote, and says so.
+minutes_per_vote = 1.5
+session_gap_minutes = 20
+min_timed_votes = 5
+# One-click vote links in the recap: valid this long, once, for one voter.
+link_ttl_hours = 168
+# Where the desk is reached from a mail (the recap draft's links).
+base_url = "http://127.0.0.1:8765"

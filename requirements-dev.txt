@@ -1,0 +1,5 @@
+-r requirements-model.txt
+# The test runner (tested fresh with 9.1.1). MIT.
+pytest>=8,<10
+# Draws the PDF fixtures in tests/test_pdf.py. Tests only (tested with 5.0.1). BSD.
+reportlab>=4,<6

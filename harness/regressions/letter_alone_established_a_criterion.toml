@@ -1,0 +1,28 @@
+id = "letter_alone_established_a_criterion"
+found = "2026-09-20"
+origin = "recorded"
+kind = "screening"
+what_broke = """
+On Sylvia's screening with her cover letter, the model rated `ai_native` -- the
+posting's one declared gate -- `strong`, citing a single sentence of the letter
+and nothing from the CV. A letter is written for this posting by someone who
+has read the criteria.
+"""
+guards = """
+screen.LETTER_CAP: a criterion resting on the letter alone stops at `moderate`.
+The cap lifts as soon as the CV supports the same criterion.
+"""
+
+[inputs]
+agenda = "mandates/generated/role_founders_associate.provenance.json"
+facts = "runs/facts_with_letter/facts_sylvia_hartmann.json"
+record = "runs/screenings/sylvia_hartmann_founders_associate_with_letter.json"
+
+[expect]
+same_score = true
+
+[expect.strength]
+ai_native = "moderate"
+
+[expect.capped_why]
+ai_native = "the letter only"

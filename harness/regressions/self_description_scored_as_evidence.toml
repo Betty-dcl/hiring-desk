@@ -1,0 +1,28 @@
+id = "self_description_scored_as_evidence"
+found = "2026-09-19"
+origin = "reconstructed"
+kind = "screening"
+what_broke = """
+A fictional applicant who copies the posting's own sentences into her CV scored
+76% and ranked 2nd of 5. The screener read "I thrive in high-ownership
+environments" as evidence of ownership.
+"""
+guards = """
+screen.ASSERTION_CAP: a criterion backed only by self-description cannot rise
+above `weak`, whatever the model says. Languages and degrees are exempt.
+"""
+
+# The 76% answer was not kept. This rebuilds the worst version of it: every
+# criterion Mara's real screening cited facts for is answered `strong`. Without
+# the cap that answer scores 95%; with it, 42.5%.
+[inputs]
+agenda = "mandates/generated/role_founders_associate.provenance.json"
+facts = "runs/facts/facts_mara_velichko.json"
+record = "runs/screenings/mara_velichko_founders_associate.json"
+inflate = "strong"
+
+[expect]
+score_max = 0.5
+
+[expect.never_above]
+"assertions only" = "weak"

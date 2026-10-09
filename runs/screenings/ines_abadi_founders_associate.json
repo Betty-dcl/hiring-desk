@@ -1,0 +1,217 @@
+{
+  "candidate_id": "ines_abadi",
+  "posting_id": "founders_associate",
+  "screened_at": "2026-09-21T19:15:45.504712+00:00",
+  "model": "claude-sonnet-5",
+  "score": 0.88,
+  "coverage": 1.0,
+  "open_gates": [],
+  "open_questions": [],
+  "capped": [],
+  "decides": false,
+  "for_human_review": true,
+  "assessments": [
+    {
+      "criterion_id": "high_intensity_experience",
+      "strength": "strong",
+      "fact_ids": [
+        "analyst_title",
+        "miravel_fund_type",
+        "miravel_fund_size",
+        "chief_of_staff_title",
+        "talvera_company_type",
+        "talvera_headcount"
+      ],
+      "reasoning": "Analyst at a lower-mid-market PE firm (Sep 2021–Dec 2023, ~2.25 years) followed directly by Chief of Staff at an 11-person seed-stage startup (Jan 2024–present) together span a continuous high-intensity stretch matching the PE and early-stage-startup categories named in the posting.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "ai_native",
+      "strength": "strong",
+      "fact_ids": [
+        "internal_tool_built",
+        "internal_tool_motivation",
+        "internal_tool_users",
+        "internal_tool_replaced_spreadsheet"
+      ],
+      "reasoning": "Built a working internal tool with Claude Code that automated a manual invoice/cash workflow, was adopted by four people, and replaced a spreadsheet — a concrete, demonstrable use of a coding agent in real work.",
+      "weight": 2.0,
+      "hard": true,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "full_spectrum_range",
+      "strength": "moderate",
+      "fact_ids": [
+        "chased_receipts",
+        "banking_payroll_setup",
+        "investor_update_frequency",
+        "operating_model_built"
+      ],
+      "reasoning": "The CV shows both mundane operational work (chasing receipts, banking setup) and strategic work (investor updates, operating models) by the same person, but no fact shows them done in the same day/session with equal energy.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "extreme_ownership",
+      "strength": "moderate",
+      "fact_ids": [
+        "internal_tool_built",
+        "internal_tool_motivation",
+        "hiring_work_trial"
+      ],
+      "reasoning": "Building a tool after doing a task manually twice, and setting up a work-trial format the company still uses, suggest self-initiated fixes, but no fact explicitly frames these as filling an unowned gap without being asked.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "analytical_range",
+      "strength": "moderate",
+      "fact_ids": [
+        "operating_model_built",
+        "diligence_model_built",
+        "investor_update_frequency",
+        "investor_template_reuse"
+      ],
+      "reasoning": "Financial modeling (operating and diligence models) and narrative writing (investor updates) are both clearly evidenced for the same person, but no fact explicitly describes structuring a market/strategic analysis.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "polished_writing",
+      "strength": "strong",
+      "fact_ids": [
+        "investor_update_frequency",
+        "investor_template_reuse"
+      ],
+      "reasoning": "Monthly investor updates over six quarters were good enough that the lead investor asked to reuse the format as a template for two other portfolio companies — external validation of writing quality.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "technical_curiosity",
+      "strength": "strong",
+      "fact_ids": [
+        "internal_tool_built"
+      ],
+      "reasoning": "Using Claude Code to build a working tool that pulls data from an accounting system into a usable view demonstrates directing an AI agent to build software.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "fluent_english",
+      "strength": "strong",
+      "fact_ids": [
+        "language_english"
+      ],
+      "reasoning": "CV states English fluent directly.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "nice_fintech_saas_cfo",
+      "strength": "strong",
+      "fact_ids": [
+        "talvera_company_type",
+        "banking_payroll_setup",
+        "external_accountants"
+      ],
+      "reasoning": "Talvera is a seed-stage B2B payments (fintech) company, and the role included banking, payroll, month-end close and accountant coordination — office-of-the-CFO functions.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    },
+    {
+      "criterion_id": "nice_startup_experience",
+      "strength": "strong",
+      "fact_ids": [
+        "chief_of_staff_title",
+        "talvera_company_type",
+        "talvera_headcount"
+      ],
+      "reasoning": "Chief of Staff at an 11-person seed-stage startup is direct operator-level startup experience.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    },
+    {
+      "criterion_id": "nice_fundraising_exposure",
+      "strength": "strong",
+      "fact_ids": [
+        "fundraise_data_room"
+      ],
+      "reasoning": "Sat in on the Fund II fundraise as the analyst preparing the data room — direct exposure to how a round comes together.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    },
+    {
+      "criterion_id": "nice_languages",
+      "strength": "strong",
+      "fact_ids": [
+        "language_spanish"
+      ],
+      "reasoning": "Native Spanish directly satisfies the Spanish-or-German preference.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    }
+  ],
+  "dropped": []
+}

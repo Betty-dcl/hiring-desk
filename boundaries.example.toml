@@ -1,0 +1,12 @@
+# Per-principal boundaries: text that must not appear in a transcript.
+#
+# Copy to `boundaries.local.toml`, which is not committed. The list of things
+# a principal may not say is itself a disclosure, so it does not belong in a
+# public repository -- only the mechanism does.
+#
+# The names below are invented.
+
+[[boundary]]
+label = "client internals"
+pattern = '\b(?:Acme Logistics|Brentwood Associates)\b'
+why = "named client engagements the principal did not authorise"

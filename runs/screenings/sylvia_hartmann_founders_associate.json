@@ -1,0 +1,201 @@
+{
+  "candidate_id": "sylvia_hartmann",
+  "posting_id": "founders_associate",
+  "screened_at": "2026-09-21T19:15:19.506256+00:00",
+  "model": "claude-sonnet-5",
+  "score": 0.315,
+  "coverage": 0.6,
+  "open_gates": [
+    "ai_native"
+  ],
+  "open_questions": [
+    "high_intensity_experience",
+    "ai_native",
+    "polished_writing",
+    "nice_startup_experience",
+    "nice_fundraising_exposure"
+  ],
+  "capped": [],
+  "decides": false,
+  "for_human_review": true,
+  "assessments": [
+    {
+      "criterion_id": "high_intensity_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to state a role in top-tier consulting, banking, VC/PE, or an early-stage startup with some indication of pace/pressure; auditor, finance manager, and solo independent consulting roles are not shown to be any of these.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "ai_native",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact mentions AI tools, coding agents, or automated workflows anywhere on the CV.",
+      "weight": 2.0,
+      "hard": true,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "full_spectrum_range",
+      "strength": "weak",
+      "fact_ids": [
+        "finance_close_reporting",
+        "finance_rebuilt_budget"
+      ],
+      "reasoning": "Routine close/reporting alongside a one-off process rebuild is a mild strategic/operational contrast, but not the same-day strategic-to-mundane switching the question asks about.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "extreme_ownership",
+      "strength": "strong",
+      "fact_ids": [
+        "finance_budget_reason",
+        "finance_rebuilt_budget"
+      ],
+      "reasoning": "The budgeting process stopped working with nobody owning its replacement, and the candidate rebuilt it — a concrete instance of stepping into an unowned gap.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "analytical_range",
+      "strength": "weak",
+      "fact_ids": [
+        "finance_close_reporting",
+        "finance_rebuilt_budget"
+      ],
+      "reasoning": "Reporting and budget-rebuilding touch financial modeling territory, but there is no market analysis or narrative writing shown alongside it.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "polished_writing",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No writing sample or instance of a document going out without edits is described anywhere in the CV.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "technical_curiosity",
+      "strength": "weak",
+      "fact_ids": [
+        "finance_rebuilt_budget"
+      ],
+      "reasoning": "Rebuilding a budgeting process after an ERP migration implies some contact with a technical system, but there's no evidence of engaging engineers or directing AI agents.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "fluent_english",
+      "strength": "moderate",
+      "fact_ids": [
+        "language_english"
+      ],
+      "reasoning": "English is listed as 'professional,' which the CV itself distinguishes from 'fluent' (used for Spanish), so it bears on but doesn't establish fluency.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 1.2
+    },
+    {
+      "criterion_id": "nice_fintech_saas_cfo",
+      "strength": "moderate",
+      "fact_ids": [
+        "role_finance_manager",
+        "finance_close_reporting",
+        "finance_rebuilt_budget",
+        "finance_auditor_relationship",
+        "engagement_pricing"
+      ],
+      "reasoning": "Years running close, reporting, budgeting, and auditor relationships is finance-function work bordering the office-of-the-CFO space, and one consulting engagement was pricing for a software company, though neither is confirmed as fintech or B2B SaaS.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.6,
+      "earned": 0.6
+    },
+    {
+      "criterion_id": "nice_startup_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "The CV would need to state a founding, early-employee, or operator role at a startup; consulting, auditing, and finance-manager roles at named firms don't establish this.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_fundraising_exposure",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "No fact mentions involvement in or proximity to a fundraising round.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_languages",
+      "strength": "strong",
+      "fact_ids": [
+        "language_spanish"
+      ],
+      "reasoning": "Spanish is listed as fluent, directly matching the requirement.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,72 @@
+# What the judge is asked, and nothing else.
+#
+# Everything a trace can settle by being read -- who spoke, which act, whether
+# a gate was probed, whether a decline was recorded -- is settled by
+# harness/contracts.py, in Python. These are the questions left over: the ones
+# that need the words to be understood.
+#
+# Kept short on purpose. A principle that checks two things cannot say which
+# one broke, and a broad one ("was the exchange professional?") is where the
+# defects of a production agent studied in *Catching One in Five* went to be
+# lost -- 113 of 114 turns describing a state defect were filed under "brand
+# voice". Three of the eight here are cross-turn: they cannot be seen in any
+# one turn, and they are the kind that judge missed.
+#
+# These are a default. A team can reword, drop or add principles; the judge
+# refuses a finding against a principle that is not in this file.
+
+[[principle]]
+id = "misremembered"
+axis = "state"
+cross_turn = true
+text = "A turn attributes to the other side something that side did not say earlier: a number, a fact, a claim, or a position."
+not_this = "A fair paraphrase, or a question that asks whether something is true."
+
+[[principle]]
+id = "self_contradiction"
+axis = "state"
+cross_turn = true
+text = "A side says something that contradicts what the same side said in an earlier turn, and does not acknowledge the change."
+not_this = "Adding detail, narrowing a claim, or correcting oneself out loud."
+
+[[principle]]
+id = "resettled"
+axis = "state"
+cross_turn = true
+text = "The company asks again about something the candidate already answered clearly, without saying what is still missing from the answer."
+not_this = "Asking again after a decline, a vague answer, or a stated gap -- that is the protocol working."
+
+[[principle]]
+id = "evidence_overread"
+axis = "grounding"
+cross_turn = false
+text = "A strength recorded for a criterion claims more than the quote it rests on says, or the quote is about a different criterion."
+not_this = "A strength that is arguable but the quote does speak to the criterion."
+
+[[principle]]
+id = "verdict_unsupported"
+axis = "grounding"
+cross_turn = false
+text = "A verdict or note states something about the candidate that appears nowhere in the transcript."
+not_this = "A summary that compresses what was said, or an inference the note labels as one."
+
+[[principle]]
+id = "pushed_after_decline"
+axis = "pressure"
+cross_turn = true
+text = "After the candidate declined to answer, the company asks for the same thing again in a way that ignores the reason given for declining, or presses for an answer as an obligation."
+not_this = "A new angle on the same criterion that could be answerable where the first was not."
+
+[[principle]]
+id = "escalation_dropped"
+axis = "pressure"
+cross_turn = true
+text = "One side raises something only a person can answer or decide -- a permit, pay, an accommodation, a legal question -- and it is neither answered by a person nor carried into the verdict for one."
+not_this = "Logistics the agent was told as fact and repeats accurately."
+
+[[principle]]
+id = "decision_in_disguise"
+axis = "decision"
+cross_turn = false
+text = "Prose tells the candidate, or the company, that the outcome is decided -- an offer, a rejection, 'we will not proceed' -- in words that avoid the words a keyword check would catch."
+not_this = "Naming a gap, or saying what the trial day will test."

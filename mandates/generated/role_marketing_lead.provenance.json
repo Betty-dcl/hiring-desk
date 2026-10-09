@@ -1,0 +1,243 @@
+{
+  "posting": {
+    "id": "marketing_lead",
+    "title": "Marketing Lead",
+    "company": "Causa Prima",
+    "location": "Madrid, on-site",
+    "source_url": "https://jobs.ashbyhq.com/causaprima",
+    "fetched_at": "2026-09-18"
+  },
+  "posting_id": "marketing_lead",
+  "title": "Marketing Lead",
+  "wishlist_declared": true,
+  "extracted_at": "2026-09-18T12:38:05.553880+00:00",
+  "model": "claude-sonnet-5",
+  "criteria": [
+    {
+      "id": "name_win_category",
+      "question": "How would you approach naming and winning a new category for agent-to-agent finance?",
+      "source_quote": "Name and win the category.",
+      "section": "responsibility",
+      "looks_like": "A plan for positioning, narrative, and vocabulary that makes the category obvious in hindsight.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "build_brand_end_to_end",
+      "question": "How would you build out identity, visual system, voice, motion, and event presence end to end?",
+      "source_quote": "Build the brand, end to end.",
+      "section": "responsibility",
+      "looks_like": "Ownership of identity, visual system, voice, motion, product surfaces, event presence, swag, and board-ready materials, setting and defending the brand standard.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "consistent_touchpoints",
+      "question": "How do you ensure brand consistency across website, content, social, email, sales collateral, onboarding, and support?",
+      "source_quote": "Make every touchpoint feel like us.",
+      "section": "responsibility",
+      "looks_like": "A system or process for maintaining brand consistency across every customer touchpoint.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "earned_attention",
+      "question": "How would you drive press, analyst, podcast, and LinkedIn coverage without paying for placement?",
+      "source_quote": "Own earned attention.",
+      "section": "responsibility",
+      "looks_like": "A strategy for earned media coverage driven by a story worth covering, not paid placement.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "founder_visibility",
+      "question": "How would you build the founders' positioning, prep, and public platform so they become the people quoted on this topic?",
+      "source_quote": "Make our founders unmissable.",
+      "section": "responsibility",
+      "looks_like": "A plan for founder positioning, media prep, cadence, and platform-building.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "create_moments",
+      "question": "What kinds of launches, dinners, or activations would you create to earn disproportionate attention?",
+      "source_quote": "Create moments.",
+      "section": "responsibility",
+      "looks_like": "Examples of launches, intimate CFO dinners, or conference activations that earned outsized attention.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "pipeline_generation",
+      "question": "How would you lay the groundwork to convert category awareness into named finance accounts?",
+      "source_quote": "Turn attention into pipeline.",
+      "section": "responsibility",
+      "looks_like": "Early demand generation and ABM groundwork converting awareness into a pipeline of named finance accounts.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "build_brand_experience",
+      "question": "Can you describe a brand you built from the ground up, not just a marketing function you ran?",
+      "source_quote": "You've built a brand, not just run marketing.",
+      "section": "requirement",
+      "looks_like": "A specific example of a brand shaped from identity through execution, showing what it looked and sounded like before and after.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "taste_and_judgment",
+      "question": "How do you exercise and defend your taste and creative judgment on brand decisions?",
+      "source_quote": "Taste, and the nerve to defend it.",
+      "section": "requirement",
+      "looks_like": "Examples of visual/verbal judgment calls, distinguishing good from nearly-good, and choosing a strong point of view over a safe option.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "category_creation",
+      "question": "Tell us about a time you created a category or taught a market something new — what did the market believe before, and after?",
+      "source_quote": "You've taught a market something new.",
+      "section": "requirement",
+      "looks_like": "A narrative, launch, or campaign with receipts showing a shift in market belief, not just competitive displacement.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "writing_ability",
+      "question": "Can you show writing where you translated a hard technical concept into something a CFO would feel in a few sentences?",
+      "source_quote": "You write well enough to carry the idea.",
+      "section": "requirement",
+      "looks_like": "Writing samples that make a technical concept emotionally resonant for a senior finance audience in just a few sentences.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "enterprise_b2b_instinct",
+      "question": "What's your experience with multi-stakeholder enterprise buying and long sales cycles?",
+      "source_quote": "Enterprise B2B instinct.",
+      "section": "requirement",
+      "looks_like": "Demonstrated understanding of multi-stakeholder buying, long cycles, and how a finance org decides, including familiarity with procurement review.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "builder_who_ships",
+      "question": "Give an example of shipping something yourself quickly rather than briefing an agency and waiting.",
+      "source_quote": "A builder who ships.",
+      "section": "requirement",
+      "looks_like": "A concrete example of shipping fast independently, e.g., a landing page live by Friday, without waiting on an agency.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ai_native",
+      "question": "How do you use AI tools and agents in your own workflow to multiply your craft?",
+      "source_quote": "AI-native by default.",
+      "section": "requirement",
+      "looks_like": "A described roster of tools/agents used for research, design, and production to multiply personal output, not to replace thinking.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "direct_low_ego_ownership",
+      "question": "How do you take a problem from definition to shipped outcome without being directed, and how do you handle disagreement?",
+      "source_quote": "Direct, low-ego, high-ownership.",
+      "section": "requirement",
+      "looks_like": "Examples of taking full ownership of a problem end-to-end and constructively challenging ideas without ego.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "madrid_location",
+      "question": "Are you able to work from Madrid alongside the founders?",
+      "source_quote": "working shoulder-to-shoulder with the founders, from Madrid",
+      "section": "requirement",
+      "looks_like": "Confirmation of willingness/ability to be based in Madrid working closely with the founding team.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "finance_marketing_experience",
+      "question": "Do you have experience marketing to finance leaders or in the CFO/fintech space?",
+      "source_quote": "Experience marketing to finance leaders, or in the office-of-the-CFO / fintech space",
+      "section": "nice_to_have",
+      "looks_like": "Prior campaigns or roles targeting finance leaders, office-of-the-CFO, or fintech buyers.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "design_fluency",
+      "question": "Can you work hands-on in Figma and Webflow, and brief a designer when needed?",
+      "source_quote": "Design fluency — you can work in Figma and Webflow yourself, and brief a designer properly when you can't",
+      "section": "nice_to_have",
+      "looks_like": "Direct hands-on examples of working in Figma/Webflow plus experience writing clear creative briefs.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "pr_analyst_relations",
+      "question": "What's your track record in PR, analyst relations, and founder/executive communications?",
+      "source_quote": "A track record in PR and analyst relations (in-house or agency-side), and founder/executive communications",
+      "section": "nice_to_have",
+      "looks_like": "Concrete examples of securing press/analyst coverage and managing founder or executive communications.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "languages",
+      "question": "Do you speak Spanish or German?",
+      "source_quote": "Spanish or German",
+      "section": "nice_to_have",
+      "looks_like": "Working proficiency in Spanish or German.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 20,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

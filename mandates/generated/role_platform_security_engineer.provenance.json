@@ -1,0 +1,287 @@
+{
+  "posting": {
+    "id": "platform_security_engineer",
+    "title": "Platform Security Engineer",
+    "company": "Causa Prima",
+    "location": "Madrid, on-site",
+    "source_url": "https://jobs.ashbyhq.com/causaprima",
+    "fetched_at": "2026-09-18"
+  },
+  "posting_id": "platform_security_engineer",
+  "title": "Platform Security Engineer",
+  "wishlist_declared": false,
+  "extracted_at": "2026-09-18T12:39:43.152280+00:00",
+  "model": "claude-sonnet-5",
+  "criteria": [
+    {
+      "id": "req_hands_on_builder",
+      "question": "Can you describe your hands-on approach to backend security engineering, where security emerges from system architecture rather than separate compliance processes?",
+      "source_quote": "This is a hands-on backend security engineering role where security, threat resilience, and compliance are natural outcomes of brilliant system architecture, not separate, bureaucratic processes.",
+      "section": "requirement",
+      "looks_like": "Concrete examples of building security, threat resilience, and compliance into system architecture itself rather than treating them as separate bureaucratic processes.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_builder_not_governance",
+      "question": "How have you designed trust guarantees directly into database and application layers from day one, rather than layering governance on top?",
+      "source_quote": "We are looking for a builder, not a governance operator—someone who treats trust guarantees as core system properties designed directly into the database and application layers from day one.",
+      "section": "requirement",
+      "looks_like": "Examples of trust properties (isolation, attribution, verifiability) built into schema/application layer design from the start, not bolted on afterward.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_real_hands_on_depth",
+      "question": "Can you point to specific systems you personally designed and built, beyond process, documentation, or audit-standardization work?",
+      "source_quote": "Architecture or technical-leadership experience is fine, even welcome, as long as it comes with real hands-on depth you can point to—specific systems you designed and built—rather than process, documentation, or audit-standardization work alone.",
+      "section": "requirement",
+      "looks_like": "Named systems with the candidate's direct hands-on design and build contribution, not just leadership of process or documentation efforts.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_experience_5years",
+      "question": "Tell me about your 5+ years of experience designing production backend platforms and distributed systems.",
+      "source_quote": "Experience: 5+ years designing production backend platforms and distributed systems design.",
+      "section": "requirement",
+      "looks_like": "Specific production backend platforms and distributed systems designed over a 5+ year career, with technical detail.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_database",
+      "question": "Walk me through a database schema you designed that used row-level security (RLS) and event sourcing.",
+      "source_quote": "Database experience: Deep schema design, RLS, and event-sourcing database expertise.",
+      "section": "requirement",
+      "looks_like": "Concrete schema design decisions, RLS policies implemented, and event-sourcing patterns applied in a real system.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_security_architecture",
+      "question": "Describe an application-level security system you built, including its encryption model, key management, and auth pattern.",
+      "source_quote": "Security Architecture: Practical application-level security, encryption models, key management, and auth patterns.",
+      "section": "requirement",
+      "looks_like": "Specifics of encryption schemes, key management infrastructure, and authentication/authorization patterns implemented in practice.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_adversarial_mindset",
+      "question": "Give an example where thinking like an attacker helped you find a race condition, logic flaw, or vulnerability.",
+      "source_quote": "Adversarial Mindset: You naturally think like an attacker to uncover race conditions, logic flaws, and vulnerabilities.",
+      "section": "requirement",
+      "looks_like": "A specific race condition, logic flaw, or vulnerability the candidate found by reasoning like an attacker.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_policy_as_code",
+      "question": "Describe your hands-on experience with policy-as-code tools such as Cerbos, OPA, or Cedar.",
+      "source_quote": "Policy-as-Code: Hands-on experience with Cerbos, OPA, Cedar, or similar.",
+      "section": "requirement",
+      "looks_like": "Real deployment or configuration of Cerbos, OPA, Cedar, or a comparable policy-as-code tool in production.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_domain_breadth",
+      "question": "Describe the breadth of the security stack you've owned end-to-end, rather than one narrow slice.",
+      "source_quote": "Domain knowledge: You've owned real breadth of the security stack, not one narrow slice of it.",
+      "section": "requirement",
+      "looks_like": "Examples spanning multiple layers of the security stack under the candidate's own ownership, not a single narrow area.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "req_understand_scale",
+      "question": "What does securing mission-critical enterprise software at large scale require, based on your experience?",
+      "source_quote": "You understand what securing mission-critical enterprise software at large scale demands.",
+      "section": "requirement",
+      "looks_like": "Examples reflecting an understanding of the demands of securing mission-critical enterprise software at scale.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_regulated_industries",
+      "question": "Do you have experience in regulated industries like fintech, banking, or insurance?",
+      "source_quote": "Regulated industries (fintech, banking, insurance) are a plus, but end-to-end ownership counts for more than time spent inside a large org.",
+      "section": "nice_to_have",
+      "looks_like": "Prior work in fintech, banking, or insurance, though the posting weighs end-to-end ownership more heavily than this.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_crypto_primitives",
+      "question": "What experience do you have working directly with cryptographic primitives?",
+      "source_quote": "Cryptographic primitives",
+      "section": "nice_to_have",
+      "looks_like": "Hands-on work implementing or applying cryptographic primitives in a real system.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_event_streaming",
+      "question": "Have you worked with event streaming systems like Kafka or Redpanda?",
+      "source_quote": "Event streaming (Kafka/Redpanda)",
+      "section": "nice_to_have",
+      "looks_like": "Hands-on experience building or operating Kafka or Redpanda-based pipelines.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_kubernetes",
+      "question": "What's your experience with Kubernetes and cloud-native architecture?",
+      "source_quote": "Kubernetes and cloud-native architecture knowledge",
+      "section": "nice_to_have",
+      "looks_like": "Hands-on Kubernetes deployment and cloud-native architecture experience.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_llm_agentic_security",
+      "question": "What exposure do you have to LLM/agentic system security, such as prompt injection defense or agent threat modeling?",
+      "source_quote": "LLM/agentic system security exposure (prompt injection defense, guardrails, agent threat modeling)—relevant to our product surface, but a plus on top of the backend and security fundamentals above, not a substitute for them.",
+      "section": "nice_to_have",
+      "looks_like": "Specific work on guardrails, prompt injection defenses, or agent threat modeling, on top of solid backend/security fundamentals.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_execution_model",
+      "question": "How would you design the core execution model governing how autonomous agents run, interact, and modify system state?",
+      "source_quote": "Design the core execution model that governs how autonomous agents run, interact, and modify system state.",
+      "section": "responsibility",
+      "looks_like": "A concrete design approach for controlling how autonomous agents execute, interact, and change system state.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_threat_modeling",
+      "question": "Describe how you'd conduct continuous, code-level threat modeling to catch issues like memory leakage, prompt manipulation, and authorization bypasses before staging.",
+      "source_quote": "Conduct continuous, code-level threat modeling across our distributed networks to identify structural vectors, memory leakage, prompt manipulation, and authorization bypasses before a single line hits staging.",
+      "section": "responsibility",
+      "looks_like": "A systematic, code-level threat-modeling process applied continuously and integrated before code reaches staging.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_audit_events",
+      "question": "How would you build an append-only, tamper-resistant event system that makes every action reconstructable without external logging tools?",
+      "source_quote": "Build append-only, tamper-resistant event systems that make every action reconstructable without relying on external logging frameworks or reactive \"audit tooling.\"",
+      "section": "responsibility",
+      "looks_like": "Design of a native, append-only audit/event-sourcing mechanism that avoids dependence on external logging or reactive audit tools.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_isolation",
+      "question": "How would you engineer strict execution and data isolation between agents, users, and workflows in multi-tenant infrastructure?",
+      "source_quote": "Engineer strict execution and data isolation layers between agents, users, and workflows in a multi-tenant infrastructure.",
+      "section": "responsibility",
+      "looks_like": "Concrete isolation mechanisms enforcing separation between agents, users, and workflows in a multi-tenant system.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_offensive_testing",
+      "question": "What's your approach to running internal pentesting, chaos testing, and red teaming against your own infrastructure?",
+      "source_quote": "Run active internal pentesting, adversarial chaos testing, and targeted red teaming exercises against our own infrastructure to aggressively expose flaws in isolation barriers and cryptographic verification boundaries.",
+      "section": "responsibility",
+      "looks_like": "Experience running internal pentesting, chaos testing, or red-teaming exercises to expose isolation and cryptographic verification flaws.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_agent_guarantees",
+      "question": "How would you ensure agentic accounting processes are attributable, deterministic, verifiable in hindsight, and constrained by explicit system rules?",
+      "source_quote": "Ensure all automated, agentic accounting processes are strictly attributable, deterministic where required, verifiable in hindsight, and unalterably constrained by explicit system rules.",
+      "section": "responsibility",
+      "looks_like": "Mechanisms enforcing attribution, determinism, verifiability, and rule-based constraints on automated agent processes.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_pipeline_security",
+      "question": "How would you architect a software delivery pipeline that guarantees integrity from code commit to production deployment?",
+      "source_quote": "Architect and refine our internal software delivery pipeline to guarantee absolute integrity from code commit to production deployment.",
+      "section": "responsibility",
+      "looks_like": "A pipeline architecture that ensures end-to-end integrity from commit through production deployment.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_cicd_verification",
+      "question": "How would you build deterministic verification into CI/CD to ensure dependencies and services are signed, scanned, and secure by default?",
+      "source_quote": "Build deterministic verification mechanisms into the CI/CD pipeline, ensuring that all third-party dependencies, agent libraries, and compiled services are cryptographically signed, scanned, and secure by default.",
+      "section": "responsibility",
+      "looks_like": "Concrete CI/CD verification mechanisms such as cryptographic signing and scanning of dependencies, libraries, and services.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_compliance_architecture",
+      "question": "How would you translate regulatory and audit requirements into low-level system constraints, eliminating the need for manual review workflows?",
+      "source_quote": "Translate complex regulatory and audit requirements directly into low-level system constraints, completely eliminating the need for reactive operational processes or manual review workflows.",
+      "section": "responsibility",
+      "looks_like": "Examples of encoding compliance requirements as system-level enforced constraints rather than manual review processes.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 24,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

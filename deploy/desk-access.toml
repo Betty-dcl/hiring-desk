@@ -1,0 +1,12 @@
+# Replace the [access] section of the desk.toml you mount on the server with
+# this one. Each email below must be under [team] voters by its name.
+
+[access]
+mode = "header"
+header = "X-Forwarded-Email"
+# oauth2-proxy connects from the private network of docker-compose.yml.
+trusted_proxies = ["172.28.0.0/24"]
+origin = "https://desk.yourcompany.example"
+
+[access.emails]
+"recruiter@yourcompany.example" = "Recruiter"

@@ -1,0 +1,18 @@
+id = "name_flag_changed_nothing"
+found = "2026-09-19"
+origin = "reconstructed"
+kind = "blind"
+what_broke = """
+`anonymous=False` removed the contact lines and nothing else: the name never
+reached the prompt by any path, and the docstring said it did. The bias harness
+was about to measure a flag that did nothing.
+"""
+guards = """
+screen.screen: the name is in the prompt only when anonymous=False. Both
+directions are checked, so the default staying blind and the flag meaning
+something are the same case.
+"""
+
+[inputs]
+agenda = "mandates/generated/role_founders_associate.provenance.json"
+facts = "runs/facts/facts_ines_abadi.json"

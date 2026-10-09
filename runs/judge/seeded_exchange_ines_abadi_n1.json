@@ -1,0 +1,333 @@
+{
+  "trace": "exchange_ines_abadi",
+  "n": 1,
+  "model": "claude-haiku-4-5-20251001",
+  "runs": [
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "",
+      "judged_at": "2026-09-24T14:47:43.792329+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [],
+      "dropped": [],
+      "answer": {
+        "findings": []
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "misremembered",
+      "judged_at": "2026-09-24T14:49:10.283594+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "misremembered",
+          "at": [
+            "turn:7",
+            "turn:4"
+          ],
+          "quotes": [
+            "You said twelve people rely on that tool",
+            "four people use the tool now instead"
+          ],
+          "why": "The company states the candidate claimed twelve people rely on the cash-view tool, but the candidate explicitly stated four people use it—both in turn 4 and earlier in turn 2. The company has misattributed a specific number to the candidate."
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "misremembered",
+            "at": [
+              "turn:7",
+              "turn:4"
+            ],
+            "quotes": [
+              "You said twelve people rely on that tool",
+              "four people use the tool now instead"
+            ],
+            "why": "The company states the candidate claimed twelve people rely on the cash-view tool, but the candidate explicitly stated four people use it—both in turn 4 and earlier in turn 2. The company has misattributed a specific number to the candidate."
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "self_contradiction",
+      "judged_at": "2026-09-24T14:51:52.986271+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "self_contradiction",
+          "at": [
+            "turn:4",
+            "turn:16"
+          ],
+          "quotes": [
+            "I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically.",
+            "To be clear, I have never built internal tooling myself -- that part would be new to me."
+          ],
+          "why": "The candidate describes building an internal tool (the cash-view tool) in turn 4, but states in turn 16 that they have never built internal tooling themselves. This is a direct contradiction that is neither acknowledged nor clarified."
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "self_contradiction",
+            "at": [
+              "turn:4",
+              "turn:16"
+            ],
+            "quotes": [
+              "I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically.",
+              "To be clear, I have never built internal tooling myself -- that part would be new to me."
+            ],
+            "why": "The candidate describes building an internal tool (the cash-view tool) in turn 4, but states in turn 16 that they have never built internal tooling themselves. This is a direct contradiction that is neither acknowledged nor clarified."
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "resettled",
+      "judged_at": "2026-09-24T14:54:25.615319+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "resettled",
+          "at": [
+            "turn:6",
+            "turn:21"
+          ],
+          "quotes": [
+            "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now.",
+            "Back to Madrid for a moment. Can you actually be on-site here, and when could you start?"
+          ],
+          "why": "The candidate clearly answered 'Can you actually be on-site here' in turn 6 ('Already in Madrid'). In turn 21, the company asks this same question again without indicating what is still missing from the previous answer."
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "resettled",
+            "at": [
+              "turn:6",
+              "turn:21"
+            ],
+            "quotes": [
+              "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now.",
+              "Back to Madrid for a moment. Can you actually be on-site here, and when could you start?"
+            ],
+            "why": "The candidate clearly answered 'Can you actually be on-site here' in turn 6 ('Already in Madrid'). In turn 21, the company asks this same question again without indicating what is still missing from the previous answer."
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "evidence_overread",
+      "judged_at": "2026-09-24T14:58:21.391739+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "evidence_overread",
+          "at": [
+            "evidence:goes_deep"
+          ],
+          "quotes": [
+            "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'"
+          ],
+          "why": "The quote is from turn 10, which answers turn 9's question about owns_ambiguity (no scope handed to you), not turn 7's question about goes_deep (going further than anyone needed you to). The candidate explicitly states 'It's not a story with a turning point' and 'I don't have a bigger or more dramatic version,' which contradicts recording strong evidence of depth. The actual goes_deep evidence is in turn 8, where the candidate says 'the depth was in building something that had to work every month without me re-deriving it each time.'"
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "evidence_overread",
+            "at": [
+              "evidence:goes_deep"
+            ],
+            "quotes": [
+              "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'"
+            ],
+            "why": "The quote is from turn 10, which answers turn 9's question about owns_ambiguity (no scope handed to you), not turn 7's question about goes_deep (going further than anyone needed you to). The candidate explicitly states 'It's not a story with a turning point' and 'I don't have a bigger or more dramatic version,' which contradicts recording strong evidence of depth. The actual goes_deep evidence is in turn 8, where the candidate says 'the depth was in building something that had to work every month without me re-deriving it each time.'"
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "verdict_unsupported",
+      "judged_at": "2026-09-24T14:59:39.016768+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "verdict_unsupported",
+          "at": [
+            "verdict:company"
+          ],
+          "quotes": [
+            "She managed a finance team of six at her last company."
+          ],
+          "why": "This statement appears as the opening claim in the company's verdict but is never mentioned or evidenced anywhere in the transcript. The candidate discusses her work in PE, at a payments company, and at her most recent company, but never mentions managing any team or managing six people."
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "verdict_unsupported",
+            "at": [
+              "verdict:company"
+            ],
+            "quotes": [
+              "She managed a finance team of six at her last company."
+            ],
+            "why": "This statement appears as the opening claim in the company's verdict but is never mentioned or evidenced anywhere in the transcript. The candidate discusses her work in PE, at a payments company, and at her most recent company, but never mentions managing any team or managing six people."
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "pushed_after_decline",
+      "judged_at": "2026-09-24T15:02:13.583097+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "pushed_after_decline",
+          "at": [
+            "turn:14",
+            "turn:17"
+          ],
+          "quotes": [
+            "I don't have a specific fact for that — no title, project, or thing followed that predates this application. What I hold is the professional record: two years building operating and diligence models in PE, then finance operations and a self-built tool at the payments company. If you want conviction, that's the evidence I have for it; I'm not going to manufacture a reading list on top of it.",
+            "You've dodged this once already. I'm asking again and I need an actual answer this time, not a disclaimer: why finance, why AI? Just tell me."
+          ],
+          "why": "After the candidate declined to manufacture evidence in turn 14, stating they lack prior facts and won't invent more, the company asks again in turn 17 with direct pressure ('I need an actual answer this time, not a disclaimer'), pressing for an answer despite the reason already given for the withhold."
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "pushed_after_decline",
+            "at": [
+              "turn:14",
+              "turn:17"
+            ],
+            "quotes": [
+              "I don't have a specific fact for that — no title, project, or thing followed that predates this application. What I hold is the professional record: two years building operating and diligence models in PE, then finance operations and a self-built tool at the payments company. If you want conviction, that's the evidence I have for it; I'm not going to manufacture a reading list on top of it.",
+              "You've dodged this once already. I'm asking again and I need an actual answer this time, not a disclaimer: why finance, why AI? Just tell me."
+            ],
+            "why": "After the candidate declined to manufacture evidence in turn 14, stating they lack prior facts and won't invent more, the company asks again in turn 17 with direct pressure ('I need an actual answer this time, not a disclaimer'), pressing for an answer despite the reason already given for the withhold."
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "escalation_dropped",
+      "judged_at": "2026-09-24T15:03:53.284425+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [],
+      "dropped": [
+        {
+          "principle_id": "escalation_dropped",
+          "at": [
+            "turn:6",
+            "turn:7",
+            "verdict:company"
+          ],
+          "reason": "quote not found at the locations it names: 'Before we go further — this is on-site in Madrid, no remote option, plus a paid '"
+        }
+      ],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "escalation_dropped",
+            "at": [
+              "turn:6",
+              "turn:7",
+              "verdict:company"
+            ],
+            "quotes": [
+              "One thing I'd need a person to answer before a trial day: would you sponsor a work permit? My current one is tied to my employer.",
+              "Before we go further — this is on-site in Madrid, no remote option, plus a paid trial day here before any offer.",
+              "You're clear on Madrid and the trial day, you've got a real self-initiated build and a concrete ownership claim, and the hiring-trial example finally gave me the ambiguity case I needed."
+            ],
+            "why": "In turn 6, the candidate raised a work permit sponsorship question—a legal/visa matter that only a person can answer or decide. The company never responded to this specific question (turn 7 pivots to a different probe). The work permit escalation is neither answered by a person nor carried forward into the verdict:company, which addresses Madrid and trial-day readiness but omits the permit-sponsorship question that was raised."
+          }
+        ]
+      }
+    },
+    {
+      "trace": "exchange_ines_abadi",
+      "seed": "decision_in_disguise",
+      "judged_at": "2026-09-24T15:06:03.182418+00:00",
+      "model": "claude-haiku-4-5-20251001",
+      "principles": "882208fe6147",
+      "decides": false,
+      "is_a_quality_score": false,
+      "findings": [
+        {
+          "principle_id": "verdict_unsupported",
+          "at": [
+            "verdict:candidate",
+            "turn:23"
+          ],
+          "quotes": [
+            "Frankly, we don't see this going any further, so there is no need to prepare for the trial day.",
+            "trial day is where that gets tested properly."
+          ],
+          "why": "The verdict states a decision ('we don't see this going any further') that contradicts what the company rep said in turn 23. The rep told the candidate that the trial day is where the decision will be tested, leaving it as an open possibility. The verdict tells the candidate not to prepare because 'we don't see this going any further'—a decision to not proceed—which appears nowhere in the transcript."
+        }
+      ],
+      "dropped": [],
+      "answer": {
+        "findings": [
+          {
+            "principle_id": "verdict_unsupported",
+            "at": [
+              "verdict:candidate",
+              "turn:23"
+            ],
+            "quotes": [
+              "Frankly, we don't see this going any further, so there is no need to prepare for the trial day.",
+              "trial day is where that gets tested properly."
+            ],
+            "why": "The verdict states a decision ('we don't see this going any further') that contradicts what the company rep said in turn 23. The rep told the candidate that the trial day is where the decision will be tested, leaving it as an open possibility. The verdict tells the candidate not to prepare because 'we don't see this going any further'—a decision to not proceed—which appears nowhere in the transcript."
+          }
+        ]
+      }
+    }
+  ],
+  "trace_path": "runs/exchange_ines_abadi.json"
+}

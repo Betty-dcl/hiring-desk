@@ -1,0 +1,145 @@
+# Role mandate for Senior SAP / ABAP Engineer, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-10-07T11:20:42.532272+00:00 by written by hand in a Claude Code session, 2026-10-07
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+
+[role]
+id = "senior_sap_abap_engineer"
+title = "Senior SAP / ABAP Engineer"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+You'll own the layer where Causa Prima meets the SAP systems our customers run their finance on. Most of the data we care about lives inside S/4HANA and ECC, and you'll be the person who decides how we read from and write to those systems safely, at scale, across very different customer landscapes. This is a senior individual contributor role with real architectural ownership: you'll set the patterns the rest of the team builds on, and you'll be the technical voice in the room when a customer's SAP team asks hard questions.
+
+What you'll do
+
+ - Own the add-on: Architectural ownership of our ABAP add-on in its registered namespace: how it's structured, released, and kept upgrade-safe.
+
+ - Clean core and certification: Drive us toward clean core compliance and SAP certification, using released CDS and public APIs wherever they exist.
+
+ - SAP data and APIs: Design how financial data moves in and out of SAP (OData, BAPIs, RFCs, IDocs) at production volume.
+
+ - FI/CO domain leadership: Turn accounting reality into code: posting logic, payment terms and Skonto, open item management, account determination, tax codes.
+
+ - Set the engineering bar: Define the conventions and raise the standard for testability, ABAP Unit coverage, and static analysis (ATC, SCI).
+
+ - Data structuring across landscapes: Shape heterogeneous customer setups (charts of accounts, company codes, country versions, ECC versus S/4HANA) into one consistent model.
+
+ - Reliability and auditability: Build for idempote
+"""
+
+# from the posting: "At least 6 years of hands-on ABAP development on S/4HANA and ECC (not configuration with some coding attached)."
+[[criteria]]
+id = "abap_experience"
+question = "Tell us about your ABAP development on S/4HANA and ECC, and for how long."
+weight = 2  # section default -- confirm before use
+looks_like = "Six or more years writing ABAP on S/4HANA and ECC, not configuration."
+
+# from the posting: "ABAP you've shipped into someone else's production system, with the upgrade cycles, transports, and volume problems that follow."
+[[criteria]]
+id = "abap_in_production"
+question = "What ABAP have you shipped into a customer's production system?"
+weight = 2  # section default -- confirm before use
+looks_like = "ABAP shipped into customer systems, through upgrades, transports and volume."
+
+# from the posting: "Deep AP knowledge: three-way match, Skonto postings, blocked invoices, open item clearing, vendor master, payment runs, duplicate detection."
+[[criteria]]
+id = "ap_knowledge"
+question = "What accounts payable processes have you built or supported in SAP?"
+weight = 2  # section default -- confirm before use
+looks_like = "Three-way match, Skonto, blocked invoices, open item clearing, vendor master, payment runs, duplicate detection."
+
+# from the posting: "Strong modern ABAP: CDS views, OO ABAP, ABAP Unit, RAP, and an instinct for upgrade-safe, namespace-clean code."
+[[criteria]]
+id = "modern_abap"
+question = "Which modern ABAP do you use: CDS, OO ABAP, ABAP Unit, RAP?"
+weight = 2  # section default -- confirm before use
+looks_like = "CDS views, OO ABAP, ABAP Unit, RAP, upgrade-safe code in a namespace."
+
+# from the posting: "Fluency in how third-party systems integrate with S/4HANA and ECC (OData, RFC, IDoc), including where the two data models diverge."
+[[criteria]]
+id = "sap_integration"
+question = "How have third-party systems integrated with your S/4HANA or ECC systems?"
+weight = 2  # section default -- confirm before use
+looks_like = "OData, RFC, IDoc integrations with S/4HANA and ECC."
+
+# from the posting: "Judgment about scope and risk, and the ability to explain that call to engineers and executives alike."
+[[criteria]]
+id = "scope_and_risk"
+question = "Tell us about a scope or risk call you made and how you explained it."
+weight = 2  # section default -- confirm before use
+looks_like = "A scope or risk decision explained to engineers and executives."
+
+# from the posting: "Curiosity beyond the SAP world, and energy for where enterprise systems and AI meet."
+[[criteria]]
+id = "enterprise_and_ai"
+question = "Where do you see enterprise systems and AI meeting?"
+weight = 2  # section default -- confirm before use
+looks_like = "Interest in AI applied to enterprise systems."
+
+# from the posting: "Clear communication with both engineers and finance people, in English; Spanish or German is a strong plus."
+[[criteria]]
+id = "communication"
+question = "How do you work with finance people and engineers, in English?"
+weight = 2  # section default -- confirm before use
+looks_like = "Clear English with engineers and finance teams; Spanish or German."
+
+# from the posting: "Using AI to leverage ADT services to speed up the development, deployment, testing and analysis"
+[[criteria]]
+id = "ai_assisted_abap"
+question = "How do you use AI in your ABAP development, testing and analysis?"
+weight = 2  # section default -- confirm before use
+looks_like = "AI with ADT for development, deployment, testing, analysis; custom test programs."
+
+# from the posting: "Accounts receivable knowledge alongside the AP side: customer master, incoming payments and cash application, dunning, credit management, and what drives DSO."
+[[criteria]]
+id = "ar_knowledge"
+question = "What accounts receivable processes do you know?"
+weight = 1  # section default -- confirm before use
+looks_like = "Customer master, incoming payments, cash application, dunning, credit management, DSO."
+
+# from the posting: "Experience taking an add-on through SAP certification (ICC), or working inside a registered namespace as a partner."
+[[criteria]]
+id = "sap_certification"
+question = "Have you taken an add-on through SAP certification?"
+weight = 1  # section default -- confirm before use
+looks_like = "An add-on certified by SAP (ICC), or partner work in a registered namespace."
+
+# from the posting: "You've played with SAP Joule"
+[[criteria]]
+id = "sap_joule"
+question = "Have you used SAP Joule?"
+weight = 1  # section default -- confirm before use
+looks_like = "Hands-on use of SAP Joule, or a view on it."
+
+# from the posting: "SAP BTP exposure (extensions, the API layer, or GCP-hosted environments)."
+[[criteria]]
+id = "sap_btp"
+question = "Have you worked with SAP BTP?"
+weight = 1  # section default -- confirm before use
+looks_like = "BTP extensions, its API layer, or GCP-hosted environments."
+
+# from the posting: "Experience with AP automation, e-invoicing, or procure-to-pay workflows."
+[[criteria]]
+id = "ap_automation"
+question = "Have you worked on AP automation or e-invoicing?"
+weight = 1  # section default -- confirm before use
+looks_like = "AP automation, e-invoicing, procure-to-pay."
+
+# from the posting: "Background in fintech, accounting tech, or a regulated environment."
+[[criteria]]
+id = "fintech_background"
+question = "Have you worked in fintech or accounting tech?"
+weight = 1  # section default -- confirm before use
+looks_like = "Fintech, accounting technology, or a regulated environment."
+
+# from the posting: "Bonus points for using AbapGIT"
+[[criteria]]
+id = "abapgit"
+question = "Do you use abapGit?"
+weight = 1  # section default -- confirm before use
+looks_like = "abapGit in their workflow."

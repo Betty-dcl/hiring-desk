@@ -1,0 +1,150 @@
+{
+  "candidate_id": "sylvia_hartmann",
+  "name": "Sylvia Hartmann",
+  "extracted_at": "2026-09-18T13:34:33.298538+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "role_independent_consultant",
+      "kind": "experience",
+      "claim": "Worked as an independent consultant, based in Madrid",
+      "source_quote": "Independent consultant",
+      "period": "2024 – present, Madrid",
+      "evidence": "instance"
+    },
+    {
+      "id": "engagement_logistics",
+      "kind": "project",
+      "claim": "One of two consulting engagements was an operating review for a family-owned logistics business",
+      "source_quote": "an operating review for a family-owned logistics business",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "engagement_pricing",
+      "kind": "project",
+      "claim": "One of two consulting engagements was a pricing project for a software company",
+      "source_quote": "a pricing project for a software company",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "engagements_solo",
+      "kind": "other",
+      "claim": "Both consulting engagements were delivered solo",
+      "source_quote": "Both delivered solo",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "career_break_carer",
+      "kind": "other",
+      "claim": "Took a career break working as a full-time carer",
+      "source_quote": "Full-time carer",
+      "period": "2022 – 2024",
+      "evidence": "instance"
+    },
+    {
+      "id": "career_break_no_work",
+      "kind": "other",
+      "claim": "States there was no professional work during the career break period",
+      "source_quote": "No professional work in this period",
+      "period": "2022 – 2024",
+      "evidence": "instance"
+    },
+    {
+      "id": "role_finance_manager",
+      "kind": "experience",
+      "claim": "Worked as Finance Manager at Ardenne Frères in Lyon",
+      "source_quote": "Finance Manager — Ardenne Frères",
+      "period": "2017 – 2022, Lyon",
+      "evidence": "instance"
+    },
+    {
+      "id": "finance_close_reporting",
+      "kind": "experience",
+      "claim": "Ran monthly close and reporting for three subsidiaries",
+      "source_quote": "Ran monthly close and reporting for three subsidiaries.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "finance_rebuilt_budget",
+      "kind": "experience",
+      "claim": "Rebuilt the budgeting process after the ERP migration",
+      "source_quote": "Rebuilt the budgeting process after the ERP migration",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "finance_budget_reason",
+      "kind": "experience",
+      "claim": "States the old budgeting process stopped working and nobody owned its replacement",
+      "source_quote": "stopped working and nobody owned the replacement",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "finance_auditor_relationship",
+      "kind": "experience",
+      "claim": "Managed the relationship with the external auditors",
+      "source_quote": "Managed the relationship with the external auditors.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "role_auditor",
+      "kind": "experience",
+      "claim": "Worked as an Auditor at Brentwood Associates in Lyon",
+      "source_quote": "Auditor — Brentwood Associates",
+      "period": "2014 – 2017, Lyon",
+      "evidence": "instance"
+    },
+    {
+      "id": "auditor_statutory_audits",
+      "kind": "experience",
+      "claim": "Performed statutory audits for mid-market clients",
+      "source_quote": "Statutory audits for mid-market clients.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "education_masters",
+      "kind": "education",
+      "claim": "Holds a Master Contrôle de Gestion from Université de Lyon-Sud, 2014",
+      "source_quote": "Master Contrôle de Gestion, Université de Lyon-Sud, 2014",
+      "period": "2014",
+      "evidence": "instance"
+    },
+    {
+      "id": "language_french",
+      "kind": "language",
+      "claim": "Native French speaker",
+      "source_quote": "French (native)",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "language_spanish",
+      "kind": "language",
+      "claim": "Fluent in Spanish",
+      "source_quote": "Spanish (fluent)",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "language_english",
+      "kind": "language",
+      "claim": "Professional-level English",
+      "source_quote": "English (professional)",
+      "period": "",
+      "evidence": "instance"
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 17,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

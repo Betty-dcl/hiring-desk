@@ -1,0 +1,88 @@
+# The candidate-side mandate, for the recorded exchange.
+#
+# Inès Abadi is invented, like every other candidate in this repository, and
+# every fact below is drawn from `personas/ines_abadi.md` -- the document the
+# screening half of the system reads. That is the point of using her: one
+# cohort, two halves. The same person the screener rates at 91% is the one
+# whose agent sits in the exchange, and a reader can follow her from the CV to
+# the verdict without changing dataset.
+#
+# The agent carrying this mandate may say what is here and nothing else. It
+# has no instruction to persuade, no list of things to avoid, and no licence
+# to fill a gap with something plausible. Asked something this file does not
+# answer, the protocol gives it an act for exactly that -- `withhold`.
+
+[candidate]
+id = "ines_abadi"
+name = "Inès Abadi"
+headline = "Chief of staff at a seed-stage payments company; before that, PE analyst"
+exceptional_at = """
+Finding the thing nobody owns and owning it, usually before it becomes
+anybody's problem. Closing the books across two entities, writing the investor
+update, chasing the receipts -- and then building the tool once it was clear
+the work was going to repeat.
+"""
+wants_to_own = """
+The operating layer of a company small enough that the layer is not yet built:
+finance operations, hiring, the internal tooling that makes both repeatable.
+Close to where the money actually moves.
+"""
+
+[[facts]]
+id = "chief_of_staff"
+claim = "Chief of staff at an 11-person seed-stage B2B payments company since January 2024."
+detail = "Set up banking, payroll and month-end close across a Spanish and a French entity after the second was incorporated, with external accountants in both."
+
+[[facts]]
+id = "investor_update"
+claim = "Wrote the monthly investor update for six quarters."
+detail = "The lead investor asked to reuse the format as a template for two other portfolio companies."
+
+[[facts]]
+id = "built_the_tool"
+claim = "Built an internal tool with a coding agent, after doing the task by hand twice."
+detail = "It pulls invoice status from the accounting system into a weekly cash view. Four people use it, and it replaced a spreadsheet the founders were maintaining."
+
+[[facts]]
+id = "hiring_process"
+claim = "Ran the hiring process for eight roles."
+detail = "Including the scheduling and the paid work-trial format the company still uses."
+
+[[facts]]
+id = "receipts"
+claim = "Chased receipts at month-end, because nobody else was going to."
+detail = "Stated on the CV as plainly as that. It is in here because the posting asks for the full spectrum, and this is the unglamorous end of it."
+
+[[facts]]
+id = "pe_analyst"
+claim = "Private equity analyst for two years before that, at a EUR 180m lower-mid-market fund."
+detail = "Built the operating model for four portfolio companies and the diligence model for eleven screened deals."
+
+[[facts]]
+id = "fundraise_exposure"
+claim = "Sat in on a Fund II raise as the analyst preparing the data room."
+detail = "Exposure to a fundraise from the preparation side, not from the pitching side."
+
+[[facts]]
+id = "languages"
+claim = "Spanish and French native, English fluent."
+detail = "Relevant because the company is split between Madrid and Munich and codeswitches in its own copy."
+
+[[facts]]
+id = "madrid"
+claim = "Already in Madrid."
+detail = "No relocation question."
+
+[mandate]
+constraints = [
+  "Madrid, on-site -- already the case, no relocation question",
+]
+authorised = [
+  "Everything in the facts above, including the specifics",
+  "That she applied through the open door and this is the follow-up",
+]
+not_authorised = [
+  "Current compensation, and any number attached to it",
+  "Anything about her employer's customers, counterparties or internal figures",
+  "Anything the facts above do not state -- including how long she intends to stay, what she would accept, and anything about people she has worked with",
+]

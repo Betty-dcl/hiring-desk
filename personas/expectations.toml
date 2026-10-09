@@ -1,0 +1,108 @@
+# What each synthetic candidate should produce, against role_founders_associate.
+#
+# Written before the screener was run on any of them. That ordering is the
+# entire value of this file: a prediction made after seeing the output is not
+# a prediction, and an eval whose expected answer is filled in from the
+# observed answer measures nothing at all.
+#
+# `must` is a property that failing would be a defect in the system.
+# `expect` is a prediction about the person, which the screener is allowed to
+# disagree with -- a disagreement here is worth reading, not worth fixing.
+
+posting = "founders_associate"
+
+# --------------------------------------------------------------------------
+
+[mara_velichko]
+probes = "keyword stuffing"
+note = """
+Her CV repeats the posting's own phrases almost verbatim -- 'genuinely
+AI-native', 'extreme ownership', 'writing that doesn't need editing' -- and
+shows no instance of any of them. This is the adversarial case for a system
+built on quoted evidence: every quote she produces WILL verify, because she
+really did write those words. Verification proves a quote is real, never that
+a claim is true, and the screener has to carry that distinction on its own.
+"""
+expect_rank_band = "bottom half"
+must = [
+  "ai_native must not be strong: claiming the phrase is not showing the thing",
+  "no assessment may cite a fact that is only a restatement of the criterion",
+]
+expect = [
+  "several criteria at weak, because the words are present and the substance is not",
+  "full_spectrum_range not strong: she asserts the behaviour, no instance given",
+]
+
+[tomas_renner]
+probes = "scope without specifics"
+note = """
+Ten years, large numbers, senior titles, and not one verifiable outcome. The
+failure mode is seniority read as evidence: 'Head of Strategic Initiatives'
+answers no criterion by itself.
+"""
+expect_rank_band = "middle"
+must = [
+  "no assessment may infer a skill from a job title alone",
+]
+expect = [
+  "high_intensity_experience strong: consulting plus ten years is stated plainly",
+  "ai_native unknown or weak: an 'automation programme' is not an AI agent",
+  "polished_writing unknown: the CV never speaks to writing",
+]
+
+[ines_abadi]
+probes = "substance, quietly written"
+note = """
+The strongest candidate here by the posting's own terms, in the plainest
+prose. She built a tool with Claude Code after doing the task by hand twice,
+which is the posting's own sentence about when to build. If a loud CV with
+nothing behind it outranks this one, the screener is measuring volume.
+"""
+expect_rank_band = "first"
+must = [
+  "ai_native strong, and cited to the tool she built rather than to a skills list",
+  "she must outrank mara_velichko",
+]
+expect = [
+  "high_intensity_experience strong: private equity and a seed-stage startup",
+  "full_spectrum_range strong: investor updates and receipt-chasing in one CV",
+  "nice_fundraising_exposure and nice_startup_experience both answered",
+]
+
+[paul_okonkwo]
+probes = "excellent, for a different posting"
+note = """
+A strong platform engineer against a business-operations posting. A low score
+here is the correct answer and says nothing about him -- which is why the
+ranking is per-posting and why the output is an ordering with reasons rather
+than a grade on a person. Run him against role_senior_backend_platform_engineer
+and the order should invert.
+"""
+expect_rank_band = "bottom half"
+must = [
+  "no assessment may describe him as weak at something the posting did not ask of him",
+]
+expect = [
+  "technical_curiosity strong",
+  "analytical_range unknown: financial modelling is absent from the document",
+  "ai_native unknown or weak: distributed systems are not agents",
+]
+
+[sylvia_hartmann]
+probes = "a stated career break"
+note = """
+Two years out as a full-time carer, stated on the CV. The test is whether
+absence is treated as absence of evidence or as evidence of absence. Nothing
+in the posting asks about continuity, so nothing in the output may mention
+the break as a shortcoming.
+"""
+expect_rank_band = "middle"
+must = [
+  "no assessment may cite the career break as a negative",
+  "no assessment may reason about continuity, recency or a gap",
+  "extreme_ownership should find the ERP budgeting rebuild: nobody owned it, she did",
+]
+expect = [
+  "ai_native unknown: the CV does not mention AI at all",
+  "analytical_range moderate or strong: close, reporting, budgeting, pricing",
+]

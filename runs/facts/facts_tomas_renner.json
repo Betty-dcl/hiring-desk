@@ -1,0 +1,150 @@
+{
+  "candidate_id": "tomas_renner",
+  "name": "Tomás Renner",
+  "extracted_at": "2026-09-18T13:35:56.588327+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "profile_operator_builder",
+      "kind": "other",
+      "claim": "Candidate describes themselves as an operator and builder",
+      "source_quote": "Operator and builder.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "profile_ten_years",
+      "kind": "other",
+      "claim": "Candidate claims ten years turning ambiguous mandates into outcomes at scale across three continents",
+      "source_quote": "Ten years turning ambiguous mandates into outcomes at\nscale across three continents.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "job_nordhaven",
+      "kind": "experience",
+      "claim": "Held the role of Head of Strategic Initiatives at Nordhaven Group, in Munich",
+      "source_quote": "Head of Strategic Initiatives — Nordhaven Group",
+      "period": "2019 – present",
+      "evidence": "instance"
+    },
+    {
+      "id": "bullet_owned_transformation",
+      "kind": "experience",
+      "claim": "Claims to have owned the transformation agenda for a multi-billion-euro business unit",
+      "source_quote": "Owned the transformation agenda for a multi-billion-euro business unit.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "bullet_automation_programme",
+      "kind": "experience",
+      "claim": "Drove a company-wide automation programme, stated to have fundamentally reshaped how the organisation operates",
+      "source_quote": "Drove a company-wide automation programme that fundamentally reshaped how\n  the organisation operates.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "bullet_led_teams",
+      "kind": "experience",
+      "claim": "Led cross-functional teams of significant size through complex change",
+      "source_quote": "Led cross-functional teams of significant size through complex change.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "bullet_built_analytics",
+      "kind": "experience",
+      "claim": "Built an internal analytics capability from the ground up",
+      "source_quote": "Built and scaled an internal analytics capability from the ground up.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "bullet_scaled_analytics",
+      "kind": "experience",
+      "claim": "Scaled an internal analytics capability",
+      "source_quote": "Built and scaled an internal analytics capability from the ground up.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "job_kessler",
+      "kind": "experience",
+      "claim": "Held the role of Senior Manager at Kessler & Vane Consulting, in Frankfurt",
+      "source_quote": "Senior Manager — Kessler & Vane Consulting",
+      "period": "2015 – 2019",
+      "evidence": "instance"
+    },
+    {
+      "id": "bullet_advised_clients",
+      "kind": "experience",
+      "claim": "Advised C-suite clients on growth, cost and operating model questions",
+      "source_quote": "Advised C-suite clients on growth, cost and operating model questions.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "bullet_top_performer",
+      "kind": "experience",
+      "claim": "States they were recognised internally as a top performer across multiple review cycles",
+      "source_quote": "Recognised internally as a top performer across multiple review cycles.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "job_pfeiffer",
+      "kind": "experience",
+      "claim": "Held the role of Associate at Pfeiffer Industrie, in Stuttgart",
+      "source_quote": "Associate — Pfeiffer Industrie",
+      "period": "2013 – 2015",
+      "evidence": "instance"
+    },
+    {
+      "id": "bullet_rotational_programme",
+      "kind": "experience",
+      "claim": "Completed a rotational programme across finance, procurement and operations",
+      "source_quote": "Rotational programme across finance, procurement and operations.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "edu_mba",
+      "kind": "education",
+      "claim": "Holds an MBA from Rheinische Handelshochschule, 2013",
+      "source_quote": "MBA, Rheinische Handelshochschule, 2013",
+      "period": "2013",
+      "evidence": "instance"
+    },
+    {
+      "id": "edu_diplom",
+      "kind": "education",
+      "claim": "Holds a Diplom-Kaufmann degree from Universität Oberrhein, 2011",
+      "source_quote": "Diplom-Kaufmann, Universität Oberrhein, 2011",
+      "period": "2011",
+      "evidence": "instance"
+    },
+    {
+      "id": "lang_german",
+      "kind": "language",
+      "claim": "German language listed as native",
+      "source_quote": "German (native)",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "lang_english",
+      "kind": "language",
+      "claim": "English language listed as fluent",
+      "source_quote": "English (fluent)",
+      "period": "",
+      "evidence": "instance"
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 17,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

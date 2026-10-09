@@ -1,0 +1,121 @@
+# Role mandate for Founders' Associate, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-09-18T12:37:06.757519+00:00 by claude-sonnet-5
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+#
+# This posting declares its own list a wishlist, not a checklist.
+# Nothing here is a gate unless the posting separately said so.
+
+[role]
+id = "founders_associate"
+title = "Founders' Associate"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+Here's what this role looks like in practice: setting up banking and financial operations across three countries, supporting fundraising efforts, modeling the strategic options for a new business line, running candidate trial days, building internal AI agents, organizing events with top-tier partners, and contributing to GTM. Not hypotheticals — all of this has actually happened in this seat.
+
+The range is the job. One hour you're framing a business-model decision for the founders; the next you're chasing a teammate for a missing receipt so the month closes. If either end of that spectrum feels beneath you or beyond you, this isn't the role. The topics change every day, and you have to like that.
+
+This is not a coordination role, and not a note-taking role. You work directly with the three co-founders, you're in the room for every critical decision, and you own the execution that follows.
+
+
+
+
+WHAT YOU'LL DO
+
+We'll iterate from here, but this is the real, current scope:
+
+ - Frame strategy before it becomes a project. You're the first one on new strategic topics - a business model option, how to approach a new market, a build-vs-partner call. You structure the question, run the first pass of analysis, and give the founders a direction to react to before anyone commits resources.
+
+ - Run financial operations. Three entities (US, Germany, Spain), external accountants in each, banking across four providers, payroll, invoicing, spend and receipt tracking, month-end coordination. Yo
+"""
+
+# from the posting: "3–4 years in a high-intensity environment. Top-tier consulting, banking, VC/PE, or an early-stage startup."
+[[criteria]]
+id = "high_intensity_experience"
+question = "Tell me about the high-intensity environment you come from — consulting, banking, VC/PE, or an early-stage startup — and how long you were in it."
+weight = 2  # section default -- confirm before use
+looks_like = "3-4 years in a demanding role (top-tier consulting, banking, VC/PE, or early-stage startup) where the candidate was the person things got thrown at."
+
+# from the posting: "Genuinely AI-native. This is a hard requirement, not a buzzword."
+# declared a gate by: "This is a hard requirement, not a buzzword."
+[[criteria]]
+id = "ai_native"
+question = "Show me a workflow you've automated or something you've built with a coding agent — how are you already using AI agents in your real work?"
+weight = 2  # section default -- confirm before use
+hard = true
+looks_like = "Concrete examples of using AI agents to do real work, automating a workflow, or building something with a coding agent, with ability to demonstrate it live."
+
+# from the posting: "You take a strategic framing session and a receipt-chasing task in the same afternoon with the same energy."
+[[criteria]]
+id = "full_spectrum_range"
+question = "How do you handle going from a high-level strategic task to a mundane operational one, like chasing a receipt, in the same day?"
+weight = 2  # section default -- confirm before use
+looks_like = "Examples of moving between strategic framing work and unglamorous operational tasks without losing energy or dropping either."
+
+# from the posting: "Extreme ownership. You see gaps, you fill them, and you don't wait to be told."
+[[criteria]]
+id = "extreme_ownership"
+question = "Describe a time you noticed a gap with no clear owner and stepped in without being asked."
+weight = 2  # section default -- confirm before use
+looks_like = "A specific instance of identifying an unowned problem and taking it on proactively, not waiting for instructions."
+
+# from the posting: "You can build a financial model, structure a market analysis, and write a compelling narrative with equal comfort."
+[[criteria]]
+id = "analytical_range"
+question = "Walk me through a time you built a financial model, structured a market analysis, and wrote up a narrative for it."
+weight = 2  # section default -- confirm before use
+looks_like = "Concrete examples spanning financial modeling, market/strategic analysis, and clear narrative writing, done by the same person."
+
+# from the posting: "Writing that doesn't need editing."
+[[criteria]]
+id = "polished_writing"
+question = "Share a piece of writing — an investor update, a candidate email, a partnership brief — that went out without needing edits."
+weight = 2  # section default -- confirm before use
+looks_like = "Writing samples (investor updates, candidate emails, partnership briefs) that are clear, direct, and required no further editing."
+
+# from the posting: "You don't need to write code, but you understand how software gets built and can engage credibly with engineers - and direct AI agents that build for you."
+[[criteria]]
+id = "technical_curiosity"
+question = "How do you engage with engineers or direct AI agents on technical work, even though you don't write code yourself?"
+weight = 2  # section default -- confirm before use
+looks_like = "Evidence of understanding how software is built well enough to hold credible technical conversations with engineers and to direct AI agents to build things."
+
+# from the posting: "Fluent English. It's our working language."
+[[criteria]]
+id = "fluent_english"
+question = "Can you confirm you're fluent in English, since that's the working language here?"
+weight = 2  # section default -- confirm before use
+looks_like = "Fluent, working-language-level English communication."
+
+# from the posting: "Experience in fintech, B2B SaaS, or the office-of-the-CFO space"
+[[criteria]]
+id = "nice_fintech_saas_cfo"
+question = "Do you have experience in fintech, B2B SaaS, or the office-of-the-CFO space?"
+weight = 1  # section default -- confirm before use
+looks_like = "Prior work experience within fintech, B2B SaaS, or an office-of-the-CFO function."
+
+# from the posting: "Prior startup experience (founding, early employee, or operator role)"
+[[criteria]]
+id = "nice_startup_experience"
+question = "Have you worked at a startup before — as a founder, early employee, or operator?"
+weight = 1  # section default -- confirm before use
+looks_like = "A background as a founder, early employee, or operator at a startup."
+
+# from the posting: "Exposure to fundraising processes. You've seen how rounds come together"
+[[criteria]]
+id = "nice_fundraising_exposure"
+question = "Have you been involved in or close to a fundraising process before?"
+weight = 1  # section default -- confirm before use
+looks_like = "Direct or close exposure to how funding rounds are put together."
+
+# from the posting: "Spanish or German"
+[[criteria]]
+id = "nice_languages"
+question = "Do you speak Spanish or German?"
+weight = 1  # section default -- confirm before use
+looks_like = "Conversational or working proficiency in Spanish or German."

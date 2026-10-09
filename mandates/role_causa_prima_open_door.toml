@@ -1,0 +1,77 @@
+# The company-side mandate.
+#
+# The agenda below is not invented. Every criterion is lifted from Causa Prima's
+# own open-door page ("who tends to thrive here") and from their published
+# hiring practice, as documented in ../dossier-recherche.md §9 and §3.
+# Weights are an interpretation and are the one thing here worth arguing about.
+
+[role]
+id = "causa_prima_open_door"
+title = "Open door -- role to be built around the person"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+Causa Prima builds the agent-to-agent network for B2B finance: agents on the
+buyer side and the supplier side settle invoices, disputes and payment terms
+directly, instead of humans chasing each other by email.
+
+This is not a posted role. Their own words: "Some of our best hires didn't come
+through a job we'd posted. They reached out, showed us how they think, and we
+built a role around them." So your job here is not to fill a slot. It is to
+find out what this person is exceptional at, and what they would own -- the two
+questions the open-door page actually asks -- and to establish whether that is
+something worth building a role around.
+
+All three founders meet everyone who joins. Everyone does a paid trial day in
+Madrid or Munich before an offer, because, in the CEO's words, anybody can
+bullshit for 45 minutes in an interview.
+"""
+
+[[criteria]]
+id = "ships_real_things"
+question = "Have they shipped something real, on their own initiative, that someone else used?"
+weight = 3.0
+looks_like = "a specific thing, shipped, with users who were not the candidate; built because they saw the gap, not because they were asked"
+
+[[criteria]]
+id = "goes_deep"
+question = "Do they go deep on a problem, or do they skim it and move on?"
+weight = 2.5
+looks_like = "one problem they took further than anyone asked them to, and what they found at the bottom of it"
+
+[[criteria]]
+id = "owns_ambiguity"
+question = "Can they operate with no scope handed to them, and no process to lean on?"
+weight = 2.5
+looks_like = "a case where nobody defined the work and they defined it themselves, including the parts that were unglamorous"
+
+[[criteria]]
+id = "finance_or_ai_conviction"
+question = "Do they genuinely care about finance, AI, or both -- beyond it being where the jobs are?"
+weight = 2.0
+looks_like = "engagement with the actual problem domain that predates this application"
+
+[[criteria]]
+id = "madrid_on_site"
+question = "Can they work on-site in Madrid?"
+weight = 1.5
+hard = true
+looks_like = "a plain yes, already there or already committed to being there"
+
+[[criteria]]
+id = "what_they_would_own"
+question = "What would they own here, in their own words, specifically?"
+weight = 2.0
+looks_like = "a claim of scope narrow enough to be real and wide enough to matter; not 'anything you need'"
+
+[mandate]
+negotiable = [
+  "The shape and title of the role -- it is explicitly built around the person",
+  "Which part of the company they start in: engineering, product, design, operations, go-to-market",
+  "Seniority framing, if the substance is there",
+]
+not_negotiable = [
+  "On-site in Madrid",
+  "A paid trial day before any offer -- no exceptions, this is how they decide",
+  "All three founders meet the person",
+]

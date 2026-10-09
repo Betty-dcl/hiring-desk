@@ -1,0 +1,22 @@
+id = "trial_gate_read_once"
+found = "2026-09-24"
+origin = "recorded"
+kind = "trial_design"
+what_broke = """
+The first trial-day design read `ai_native` -- the only gate -- once, and
+`analytical_range` five times, and slipped in a 15-minute exercise despite the
+prompt asking for substantial ones.
+"""
+guards = """
+trial.verify: a 30-minute floor per exercise, and an alert when a declared gate
+is observed fewer than 2 times. Both in Python, so a prompt that drifts cannot
+take them away.
+"""
+
+[inputs]
+agenda = "mandates/generated/role_founders_associate.provenance.json"
+design = "runs/trial/design_founders_associate_v1.json"
+
+[expect]
+rejected = [["prepare_next_prompt", "under the 30-minute floor"]]
+under_read_gates = ["ai_native"]

@@ -1,0 +1,106 @@
+# Role mandate for Executive Assistant, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-10-07T11:20:42.498829+00:00 by written by hand in a Claude Code session, 2026-10-07
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+#
+# This posting declares its own list a wishlist, not a checklist.
+# Nothing here is a gate unless the posting separately said so.
+
+[role]
+id = "executive_assistant"
+title = "Executive Assistant"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+You'll keep Causa Prima running day to day. Calendars, travel, the Madrid workspace, merch, visitors, the hundred small things that make a company feel organised or chaotic depending on who's holding them. Here, that's you.
+
+We're a growing team across Madrid and Munich with leadership that travels a lot. Your job is to keep them focused on customers and product by taking everything else off their plate. Nobody will hand you a process; you build it and then keep it running.
+
+This is an operational, day-to-day role, and we're hiring someone who wants exactly that. A well-defined job, done very well, inside a team that will notice and appreciate the difference you make.
+
+
+
+WHAT YOU'LL DO
+
+ - Own the founders' calendars. Three people, two time zones minimum, constant customer and investor meetings. You schedule, reschedule, protect focus time, and make sure nobody turns up to the wrong call or misses a flight because two things overlapped.
+
+ - Book and rebook travel. Flights, hotels, trains, ground transport across Europe and to the US and Middle East. Plans change the night before; you already have the alternative.
+
+ - Run the Madrid workspace. We're in a coworking today: supplies, access, guests, deliveries, the small frictions that add up. Within six months we move into our own office, and you'll handle the move and everything that comes with running it afterwards.
+
+ - Keep the team happy in tangible ways. Merch and new-joiner kits, team lunches, offsite logistics, birthdays,
+"""
+
+# from the posting: "Two or more years as an executive or personal assistant, ideally supporting more than one person, in an international company where the working language was English."
+[[criteria]]
+id = "ea_experience"
+question = "Tell us about the people you have supported as an executive or personal assistant, and for how long."
+weight = 2  # section default -- confirm before use
+looks_like = "Two or more years as an executive or personal assistant, ideally for several people, in an international, English-speaking company."
+
+# from the posting: "English you can work in."
+[[criteria]]
+id = "working_english"
+question = "How do you use English in your work day to day?"
+weight = 2  # section default -- confirm before use
+looks_like = "Reliable working English: emails, calls, messages."
+
+# from the posting: "Already in Madrid, with the right to work in Spain."
+[[criteria]]
+id = "madrid_right_to_work"
+question = "Are you based in Madrid, with the right to work in Spain?"
+weight = 2  # section default -- confirm before use
+looks_like = "Lives in Madrid and can work in Spain without a visa sponsorship."
+
+# from the posting: "Calm when plans change."
+[[criteria]]
+id = "calm_when_plans_change"
+question = "Tell us about a travel or schedule plan that fell apart, and what you did."
+weight = 2  # section default -- confirm before use
+looks_like = "Cancelled flights, rebooked travel, rescheduled meetings handled without drama."
+
+# from the posting: "Discretion by default."
+[[criteria]]
+id = "discretion"
+question = "How have you handled confidential calendars, contracts or personal details?"
+weight = 2  # section default -- confirm before use
+looks_like = "Trusted with confidential and personal information."
+
+# from the posting: "Curious about AI, already using it."
+[[criteria]]
+id = "ai_already_used"
+question = "What have you got done with ChatGPT, Claude or a similar tool recently?"
+weight = 2  # section default -- confirm before use
+looks_like = "Real work done with ChatGPT, Claude or similar tools: drafting, triage, comparing options, automating a routine."
+
+# from the posting: "You've supported founders or a leadership team at a startup or scale-up."
+[[criteria]]
+id = "supported_founders"
+question = "Have you supported founders or a leadership team at a startup or scale-up?"
+weight = 1  # section default -- confirm before use
+looks_like = "Assistant to founders or a leadership team in a startup or scale-up."
+
+# from the posting: "You've organised an office move or set up a new workspace from scratch."
+[[criteria]]
+id = "office_move"
+question = "Have you organised an office move or set up a workspace?"
+weight = 1  # section default -- confirm before use
+looks_like = "An office move or a new workspace set up end to end."
+
+# from the posting: "You've run team events or offsites for 20+ people end to end."
+[[criteria]]
+id = "team_events"
+question = "Have you run team events or offsites?"
+weight = 1  # section default -- confirm before use
+looks_like = "Team events or offsites for twenty or more people, end to end."
+
+# from the posting: "Spanish is a plus for dealing with local suppliers and landlords."
+[[criteria]]
+id = "spanish"
+question = "Do you speak Spanish?"
+weight = 1  # section default -- confirm before use
+looks_like = "Working Spanish."

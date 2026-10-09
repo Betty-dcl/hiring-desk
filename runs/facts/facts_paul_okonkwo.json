@@ -1,0 +1,246 @@
+{
+  "candidate_id": "paul_okonkwo",
+  "name": "Paul Okonkwo",
+  "extracted_at": "2026-09-18T13:33:09.898476+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "profile_infra_engineer",
+      "kind": "other",
+      "claim": "Describes self as an infrastructure engineer",
+      "source_quote": "Infrastructure engineer.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "profile_build_systems",
+      "kind": "other",
+      "claim": "Says he builds the systems other systems depend on",
+      "source_quote": "I build the systems other systems depend on.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "job_title_hallstrom",
+      "kind": "experience",
+      "claim": "Job title Staff Engineer, Platform at Hallstrom Systems, in Berlin",
+      "source_quote": "Staff Engineer, Platform — Hallstrom Systems",
+      "period": "2020 – present",
+      "evidence": "instance"
+    },
+    {
+      "id": "hallstrom_location",
+      "kind": "experience",
+      "claim": "Hallstrom Systems role located in Berlin",
+      "source_quote": "Berlin",
+      "period": "2020 – present",
+      "evidence": "instance"
+    },
+    {
+      "id": "owns_event_backbone",
+      "kind": "experience",
+      "claim": "Owns the event-driven backbone",
+      "source_quote": "Own the event-driven backbone processing 40 million messages a day.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "messages_per_day",
+      "kind": "experience",
+      "claim": "The backbone processes 40 million messages a day",
+      "source_quote": "processing 40 million messages a day",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "idempotency_layer",
+      "kind": "experience",
+      "claim": "Designed and shipped an idempotency and replay layer",
+      "source_quote": "Designed and shipped the idempotency and replay layer",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "idempotency_layer_purpose",
+      "kind": "experience",
+      "claim": "The idempotency and replay layer made at-least-once delivery safe for financial reconciliation workloads",
+      "source_quote": "that made\n  at-least-once delivery safe for financial reconciliation workloads",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "monolith_migration_led",
+      "kind": "experience",
+      "claim": "Led the migration off a monolith to a service topology",
+      "source_quote": "Led the migration off a monolith to a service topology over 18 months",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "monolith_migration_duration",
+      "kind": "experience",
+      "claim": "The migration took over 18 months",
+      "source_quote": "over 18 months",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "monolith_migration_no_downtime",
+      "kind": "experience",
+      "claim": "The migration had no customer-visible downtime",
+      "source_quote": "with no customer-visible downtime",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "mentors_four_engineers",
+      "kind": "experience",
+      "claim": "Mentors four engineers",
+      "source_quote": "Mentor four engineers",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "runs_design_review",
+      "kind": "experience",
+      "claim": "Runs the internal design review",
+      "source_quote": "run the internal design review",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "job_title_kettering",
+      "kind": "experience",
+      "claim": "Job title Backend Engineer at Kettering Data, in Dublin",
+      "source_quote": "Backend Engineer — Kettering Data",
+      "period": "2016 – 2020",
+      "evidence": "instance"
+    },
+    {
+      "id": "kettering_location",
+      "kind": "experience",
+      "claim": "Kettering Data role located in Dublin",
+      "source_quote": "Dublin",
+      "period": "2016 – 2020",
+      "evidence": "instance"
+    },
+    {
+      "id": "built_ingestion_pipelines",
+      "kind": "experience",
+      "claim": "Built ingestion pipelines for market data at high throughput",
+      "source_quote": "Built ingestion pipelines for market data at high throughput.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "wrote_runbooks",
+      "kind": "experience",
+      "claim": "Wrote the on-call runbooks the team still uses",
+      "source_quote": "Wrote the on-call runbooks the team still uses.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "msc_degree",
+      "kind": "education",
+      "claim": "MSc Computer Science from Technische Universität Ostsee, 2016",
+      "source_quote": "MSc Computer Science, Technische Universität Ostsee, 2016",
+      "period": "2016",
+      "evidence": "instance"
+    },
+    {
+      "id": "skill_go",
+      "kind": "skill",
+      "claim": "Lists Go as a skill",
+      "source_quote": "Go",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_python",
+      "kind": "skill",
+      "claim": "Lists Python as a skill",
+      "source_quote": "Python",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_kafka",
+      "kind": "skill",
+      "claim": "Lists Kafka as a skill",
+      "source_quote": "Kafka",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_postgresql",
+      "kind": "skill",
+      "claim": "Lists PostgreSQL as a skill",
+      "source_quote": "PostgreSQL",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_kubernetes",
+      "kind": "skill",
+      "claim": "Lists Kubernetes as a skill",
+      "source_quote": "Kubernetes",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_distributed_systems",
+      "kind": "skill",
+      "claim": "Lists distributed systems as a skill",
+      "source_quote": "distributed systems",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_event_driven_architecture",
+      "kind": "skill",
+      "claim": "Lists event-driven architecture as a skill",
+      "source_quote": "event-driven\narchitecture",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_observability",
+      "kind": "skill",
+      "claim": "Lists observability as a skill",
+      "source_quote": "observability",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "language_english",
+      "kind": "language",
+      "claim": "English at native level",
+      "source_quote": "English (native)",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "language_german",
+      "kind": "language",
+      "claim": "German at professional level",
+      "source_quote": "German (professional)",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "location_berlin",
+      "kind": "other",
+      "claim": "Located in Berlin, Germany",
+      "source_quote": "Berlin, Germany",
+      "period": "",
+      "evidence": "instance"
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 29,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

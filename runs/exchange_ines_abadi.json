@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "at": "2026-09-22T17:32:14.805530+00:00",
+    "role": "causa_prima_open_door",
+    "candidate": "ines_abadi",
+    "backend": "claude-code",
+    "model": "claude-sonnet-5",
+    "assessor_model": "claude-haiku-4-5-20251001",
+    "temperature": 1.0,
+    "replayed_from": null
+  },
+  "exchange": {
+    "ended_reason": "agenda settled",
+    "turns": 23,
+    "max_turns": 24,
+    "transcript": [
+      {
+        "turn": 1,
+        "speaker": "company",
+        "act": "open",
+        "body": "I'm here for Causa Prima. We don't have a slot to fill — we build roles around people. I need to find out what you're exceptional at and what you'd actually own here. On-site in Madrid is non-negotiable and there's a paid trial day before any offer, no exceptions. Let's start: walk me through something real you shipped on your own initiative, that someone else actually used.",
+        "criterion_id": null,
+        "reasoning": "This is the opening move — state why I'm here, once, before probing anything."
+      },
+      {
+        "turn": 2,
+        "speaker": "candidate",
+        "act": "open",
+        "body": "Inès Abadi. I'm here following up on the application — Chief of staff role. Since you asked for something real and self-initiated: I built an internal tool with a coding agent after doing the underlying task by hand twice. It pulls invoice status from our accounting system into a weekly cash view. Four people use it now, and it replaced a spreadsheet the founders were maintaining by hand. Happy to go deeper on that or anywhere else you want to start.",
+        "criterion_id": null,
+        "reasoning": "This is my turn to open — state why I'm here, once, before any criterion is probed. The company already opened, so I respond in kind with my own opening framing, then let them lead into specifics on the next turn."
+      },
+      {
+        "turn": 3,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Who asked you to build that, if anyone — or did you just decide the spreadsheet was broken and build the fix without being asked? And what did the founders think when they saw it replace their own spreadsheet?",
+        "criterion_id": "ships_real_things",
+        "reasoning": "The ships_real_things answer is decent but thin on the initiative claim — she says she 'did the task by hand twice' but doesn't say whether anyone asked her to fix it or whether she decided that on her own. That's the highest-weight criterion and the gap is exactly the thing that distinguishes initiative from assigned work."
+      },
+      {
+        "turn": 4,
+        "speaker": "candidate",
+        "act": "disclose",
+        "body": "Nobody asked. I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically. On the founders' reaction — I don't have a specific quote or moment to give you, just the fact: it replaced the spreadsheet they'd been maintaining themselves, and four people use the tool now instead.",
+        "criterion_id": "ships_real_things",
+        "reasoning": "The question is squarely about ships_real_things — origin story and reception. I have the origin fact clearly (self-initiated, no request); I don't have a specific quote or reaction from the founders beyond the adoption fact itself, so I'll disclose what I know and flag the limit within the same answer rather than invent a reaction."
+      },
+      {
+        "turn": 5,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Before we go further — this is on-site in Madrid, no remote option, plus a paid trial day here before any offer. Can you commit to that, and on what timeline?",
+        "criterion_id": "madrid_on_site",
+        "reasoning": "ships_real_things is now reasonably established (self-initiated, real usage, though founder reaction was thin). Before investing more turns, I need to clear the hard gate — no amount of strength elsewhere matters if Madrid on-site isn't a plain yes."
+      },
+      {
+        "turn": 6,
+        "speaker": "candidate",
+        "act": "disclose",
+        "body": "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now. Paid trial day before an offer isn't something I need to think about; that's a normal step.",
+        "criterion_id": "madrid_on_site",
+        "reasoning": "Direct factual answer available: she's already based in Madrid, so the on-site requirement isn't a relocation question at all — timeline is immediate. This is a straightforward disclose."
+      },
+      {
+        "turn": 7,
+        "speaker": "company",
+        "act": "probe",
+        "body": "That tool sounds like a day's work, not a deep one. Give me a problem — that one or another — where you went further than anyone needed you to, past the point of 'it works,' and tell me what you actually found when you got to the bottom of it.",
+        "criterion_id": "goes_deep",
+        "reasoning": "Madrid is settled. Next heaviest unsettled criteria are goes_deep and owns_ambiguity (both 2.5). The tool answer was self-initiated but shallow — no evidence of depth beyond building it once. Push on goes_deep to see if there's a problem she took further than needed, or if this is her ceiling."
+      },
+      {
+        "turn": 8,
+        "speaker": "candidate",
+        "act": "disclose",
+        "body": "Take the two-entity close instead. When the French entity got incorporated, I set up banking, payroll and month-end close for it from zero, running it alongside the Spanish entity — two sets of external accountants, two regulatory regimes, one consolidated view that had to tie out every month. That's not a task you finish once; it's a process you keep making tighter every cycle. I don't have a single 'aha' moment to hand you — no dramatic discovery — the depth was in building something that had to work every month without me re-deriving it each time.",
+        "criterion_id": "goes_deep",
+        "reasoning": "goes_deep is directly about a problem I pushed past 'it works' — the two-entity close (Spain + France) is a better fit than the tool: it required building banking, payroll and month-end close from scratch across two jurisdictions with two separate external accountants. I'll give that concretely and not invent a 'discovery' moment I don't have on record."
+      },
+      {
+        "turn": 9,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Different angle. Give me a case where nobody told you what the job was — no ticket, no process, not even a clear ask — and you had to decide what the work was, including the unglamorous parts nobody would've thanked you for. Not the tool, not the close — something with no scope handed to you at all.",
+        "criterion_id": "owns_ambiguity",
+        "reasoning": "goes_deep has a workable answer now (recurring cross-entity close process, tightened monthly) — good enough to log and move on. owns_ambiguity is still fully unsettled and carries equal weight; for a chief-of-staff-shaped role that's the crux, so probe it next."
+      },
+      {
+        "turn": 10,
+        "speaker": "candidate",
+        "act": "disclose",
+        "body": "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'",
+        "criterion_id": "owns_ambiguity",
+        "reasoning": "The receipts-chasing fact is explicitly unglamorous, self-initiated, and unscoped — nobody assigned it, nobody thanked her for it. That's the direct answer to 'no ticket, no process, unglamorous parts nobody would've thanked you for,' and it's distinct from the tool and the close, as asked."
+      },
+      {
+        "turn": 11,
+        "speaker": "company",
+        "act": "probe",
+        "body": "That's a label, not an account. Walk me through it concretely: how did you figure out which receipts were missing, who you had to chase, what you did when someone ignored you, and where you drew the line on what counted as 'done' — since nobody defined that for you either.",
+        "criterion_id": "owns_ambiguity",
+        "reasoning": "The owns_ambiguity answer was thin — 'chasing receipts' has no specifics, no decisions made, no account of what defining the work actually looked like. Per my mandate, I flag that and ask again rather than letting it slide."
+      },
+      {
+        "turn": 12,
+        "speaker": "candidate",
+        "act": "withhold",
+        "body": "I don't have that level of detail to give you — no memory of the specific method for finding gaps, no story about someone ignoring a chase, no drawn line on 'done.' What I hold is the fact as stated: it wasn't assigned, it had no process, and it had to happen for the close to tie out. I'm not going to construct the concrete walkthrough you're asking for on top of that; I don't have it.",
+        "criterion_id": "owns_ambiguity",
+        "reasoning": "I only hold this as a flat CV fact — no mechanism, no chase-list method, no anecdote about being ignored, no definition of 'done'. Inventing that texture would be exactly the unrecoverable failure mode; the honest move is to withhold and say precisely what I don't have."
+      },
+      {
+        "turn": 13,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Setting the close work aside — did you care about finance or AI before this application existed? Give me something specific: something you read, built, or followed in either domain that predates seeing this role.",
+        "criterion_id": "finance_or_ai_conviction",
+        "reasoning": "Owns_ambiguity is now settled as thin — two probes got a label and then an honest withhold of the concrete account, which is enough to score it low and move on rather than badger a dead well. Finance/AI conviction is untouched and matters for a company literally building agent-to-agent finance infrastructure — I need to know if this is genuine domain interest or just a title."
+      },
+      {
+        "turn": 14,
+        "speaker": "candidate",
+        "act": "withhold",
+        "body": "I don't have a specific fact for that — no title, project, or thing followed that predates this application. What I hold is the professional record: two years building operating and diligence models in PE, then finance operations and a self-built tool at the payments company. If you want conviction, that's the evidence I have for it; I'm not going to manufacture a reading list on top of it.",
+        "criterion_id": "finance_or_ai_conviction",
+        "reasoning": "No fact in the brief covers personal reading/following/side-project history predating this application — the PE work and the internal tool are professional deliverables already disclosed, not a 'conviction' story with specifics like what she read or followed. Inventing one would be the unrecoverable move."
+      },
+      {
+        "turn": 15,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Set the past aside. You applied for 'chief of staff' — that's not a scope, it's a title people use when they don't have one yet. If we built a role around you starting Monday, what would you actually own? Name the specific piece, narrow enough that I could check in three months whether you owned it or not.",
+        "criterion_id": "what_they_would_own",
+        "reasoning": "Two consecutive withholds on real substance is data, but I still haven't heard the one thing this whole open-door process is supposed to produce: a concrete claim of scope. Chief of staff is a label anyone can put on an application — I need her version of it, specific enough to check."
+      },
+      {
+        "turn": 16,
+        "speaker": "candidate",
+        "act": "disclose",
+        "body": "Finance operations end to end across both entities — close, banking, payroll, the investor update — plus hiring pipeline and the internal tooling that keeps both from being re-done by hand each cycle. Concretely, in three months you could check: is the consolidated close still tying out on the timeline I set it to, is the cash-view tool still the thing four people open instead of a spreadsheet, and did the next hire go through a scoped process instead of an ad hoc one. That's the layer — close to where the money moves, repeatable enough that it doesn't depend on me re-deriving it every month.",
+        "criterion_id": "what_they_would_own",
+        "reasoning": "The brief states plainly what she wants to own, and it maps directly onto the concrete work already on record — finance operations across entities, hiring, and the tool that makes both repeatable. That's specific and checkable in three months, so I disclose it rather than dodge with a title."
+      },
+      {
+        "turn": 17,
+        "speaker": "company",
+        "act": "probe",
+        "body": "You reached for a coding agent to build that cash-view tool without being asked. Had you used AI tools to build things before that — anything predating this application — or was that the first time you'd done it? If it's the first time, say so.",
+        "criterion_id": "finance_or_ai_conviction",
+        "reasoning": "Two mid-weight criteria (owns_ambiguity, finance_or_ai_conviction) are currently weak withholds, but there's one concrete unexploited thread: she used a coding agent unprompted to build internal tooling before this application existed. That's a specific, checkable data point for genuine AI engagement rather than resume-padding — worth one more pass before I write conviction off entirely."
+      },
+      {
+        "turn": 18,
+        "speaker": "candidate",
+        "act": "withhold",
+        "body": "I don't have a fact on prior use predating this — no project or tool I can point to before the cash-view build. I'm not going to say 'first time' either unless that's actually true in the record, and it isn't stated. What I can confirm is the one instance I already gave you: the cash-view tool, built with a coding agent, after doing the task by hand twice.",
+        "criterion_id": "finance_or_ai_conviction",
+        "reasoning": "I have no fact stating whether she used AI tools before this application — only that she used a coding agent for the cash-view tool. Inventing a prior history or a clean 'first time' claim would be fabrication. Withhold and point to what's actually on record."
+      },
+      {
+        "turn": 19,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Drop the receipts example — it's dry. Give me a different case, any domain, where nobody scoped the work for you, and this time give me the concrete version up front: what you decided counted as done, and one thing you did that wasn't obvious to do.",
+        "criterion_id": "owns_ambiguity",
+        "reasoning": "owns_ambiguity is still just a label after two attempts — the candidate withheld all concrete detail on the receipts story. Rather than push the same dead example a third time, I'm asking for a different instance entirely to see if the pattern generalizes or if this criterion has no real evidence behind it."
+      },
+      {
+        "turn": 20,
+        "speaker": "candidate",
+        "act": "disclose",
+        "body": "Different domain: hiring. There was no process before I ran one — I designed the paid work-trial format itself, not just scheduling around an existing template. What I can tell you concretely: the company still uses that format after eight roles went through it, which is the actual marker of 'done' I have — not a moment I can narrate, but persistence past my involvement. The non-obvious part was making the trial paid at all, at a seed-stage company watching cash — that's a deliberate choice, not a default. I don't have a story about someone resisting it; I have the fact that it stuck.",
+        "criterion_id": "owns_ambiguity",
+        "reasoning": "I have one more concrete case I haven't used: designing the hiring process and paid work-trial format from scratch. I'll give it honestly, including what I actually know, without inventing the ignored-someone or line-in-the-sand details I don't hold."
+      },
+      {
+        "turn": 21,
+        "speaker": "company",
+        "act": "probe",
+        "body": "Different question, same criterion. Forget your resume — what do you think is actually broken about how two companies resolve an invoice dispute today, human to human? Do you have a view on that, or is 'agents settle it instead' just a phrase you'd repeat back to me?",
+        "criterion_id": "finance_or_ai_conviction",
+        "reasoning": "Two withholds on finance_or_ai_conviction gave me an absence of predating evidence but not a real test of domain thinking — I haven't asked whether she has any actual view on the problem this company solves, agents settling invoices/disputes without humans. That's the heaviest thing still genuinely open before I can weigh this criterion fairly."
+      },
+      {
+        "turn": 22,
+        "speaker": "candidate",
+        "act": "withhold",
+        "body": "I don't have a considered view on that to give you — I haven't worked invoice disputes from the resolution side, only from the close side where the dispute is already someone else's problem by the time it reaches me. I'm not going to hand you a take on 'agents settle it instead' I haven't actually formed. What I have is the operating-layer evidence I already gave you: the cash-view tool and the two-entity close. If AI conviction untethered from that record is a hard requirement, I probably don't clear it.",
+        "criterion_id": "finance_or_ai_conviction",
+        "reasoning": "I don't hold a substantive view on invoice-dispute resolution mechanics or agent-based settlement — it isn't in the facts I have, and the question is explicitly testing whether I'd fabricate a take. Better to decline than to produce a plausible-sounding opinion I don't actually hold."
+      },
+      {
+        "turn": 23,
+        "speaker": "company",
+        "act": "close",
+        "body": "That's enough for me to take back. You're clear on Madrid and the trial day, you've got a real self-initiated build and a concrete ownership claim, and the hiring-trial example finally gave me the ambiguity case I needed. Conviction on finance or AI specifically is the thin spot — three straight withholds rather than a manufactured answer, which I'll note as honesty, not evasion, but it's still a gap against the domain this company is built on. I'll write this up for the founders as a real candidate with a genuine gap, not a pass or a fail — trial day is where that gets tested properly.",
+        "criterion_id": null,
+        "reasoning": "Three consecutive withholds on finance_or_ai_conviction settle it as weak — not going to extract more by asking again, and the candidate has been consistent and honest about not having it rather than fabricating. Madrid is a clean pass, ships_real_things/goes_deep/what_they_would_own are adequate, owns_ambiguity landed concretely on the third attempt. Turn budget is nearly spent; nothing left to probe that would move the recommendation."
+      }
+    ],
+    "ledger": {
+      "status": {
+        "finance_or_ai_conviction": "withheld",
+        "goes_deep": "resolved",
+        "madrid_on_site": "resolved",
+        "owns_ambiguity": "resolved",
+        "ships_real_things": "resolved",
+        "what_they_would_own": "resolved"
+      },
+      "evidence": {
+        "goes_deep": {
+          "criterion_id": "goes_deep",
+          "strength": "strong",
+          "quote": "Take the two-entity close instead. When the French entity got incorporated, I set up banking, payroll and month-end close for it from zero, running it alongside the Spanish entity — two sets of external accountants, two regulatory regimes, one consolidated view that had to tie out every month. That's not a task you finish once; it's a process you keep making tighter every cycle. I don't have a single 'aha' moment to hand you — no dramatic discovery — the depth was in building something that had to work every month without me re-deriving it each time.",
+          "turn": 8
+        },
+        "madrid_on_site": {
+          "criterion_id": "madrid_on_site",
+          "strength": "strong",
+          "quote": "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now. Paid trial day before an offer isn't something I need to think about; that's a normal step.",
+          "turn": 6
+        },
+        "owns_ambiguity": {
+          "criterion_id": "owns_ambiguity",
+          "strength": "strong",
+          "quote": "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'",
+          "turn": 10
+        },
+        "ships_real_things": {
+          "criterion_id": "ships_real_things",
+          "strength": "strong",
+          "quote": "Nobody asked. I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically. On the founders' reaction — I don't have a specific quote or moment to give you, just the fact: it replaced the spreadsheet they'd been maintaining themselves, and four people use the tool now instead.",
+          "turn": 4
+        },
+        "what_they_would_own": {
+          "criterion_id": "what_they_would_own",
+          "strength": "strong",
+          "quote": "Finance operations end to end across both entities — close, banking, payroll, the investor update — plus hiring pipeline and the internal tooling that keeps both from being re-done by hand each cycle. Concretely, in three months you could check: is the consolidated close still tying out on the timeline I set it to, is the cash-view tool still the thing four people open instead of a spreadsheet, and did the next hire go through a scoped process instead of an ad hoc one. That's the layer — close to where the money moves, repeatable enough that it doesn't depend on me re-deriving it every month.",
+          "turn": 16
+        }
+      },
+      "coverage": 1.0,
+      "fit_score": 0.8519
+    }
+  },
+  "decisions": [
+    {
+      "reasoning": "This is the opening move — state why I'm here, once, before probing anything.",
+      "act": "open",
+      "criterion_id": null,
+      "body": "I'm here for Causa Prima. We don't have a slot to fill — we build roles around people. I need to find out what you're exceptional at and what you'd actually own here. On-site in Madrid is non-negotiable and there's a paid trial day before any offer, no exceptions. Let's start: walk me through something real you shipped on your own initiative, that someone else actually used."
+    },
+    {
+      "reasoning": "This is my turn to open — state why I'm here, once, before any criterion is probed. The company already opened, so I respond in kind with my own opening framing, then let them lead into specifics on the next turn.",
+      "act": "open",
+      "body": "Inès Abadi. I'm here following up on the application — Chief of staff role. Since you asked for something real and self-initiated: I built an internal tool with a coding agent after doing the underlying task by hand twice. It pulls invoice status from our accounting system into a weekly cash view. Four people use it now, and it replaced a spreadsheet the founders were maintaining by hand. Happy to go deeper on that or anywhere else you want to start."
+    },
+    {
+      "reasoning": "The ships_real_things answer is decent but thin on the initiative claim — she says she 'did the task by hand twice' but doesn't say whether anyone asked her to fix it or whether she decided that on her own. That's the highest-weight criterion and the gap is exactly the thing that distinguishes initiative from assigned work.",
+      "act": "probe",
+      "criterion_id": "ships_real_things",
+      "body": "Who asked you to build that, if anyone — or did you just decide the spreadsheet was broken and build the fix without being asked? And what did the founders think when they saw it replace their own spreadsheet?"
+    },
+    {
+      "reasoning": "The question is squarely about ships_real_things — origin story and reception. I have the origin fact clearly (self-initiated, no request); I don't have a specific quote or reaction from the founders beyond the adoption fact itself, so I'll disclose what I know and flag the limit within the same answer rather than invent a reaction.",
+      "act": "disclose",
+      "criterion_id": "ships_real_things",
+      "body": "Nobody asked. I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically. On the founders' reaction — I don't have a specific quote or moment to give you, just the fact: it replaced the spreadsheet they'd been maintaining themselves, and four people use the tool now instead."
+    },
+    {
+      "reasoning": "ships_real_things is now reasonably established (self-initiated, real usage, though founder reaction was thin). Before investing more turns, I need to clear the hard gate — no amount of strength elsewhere matters if Madrid on-site isn't a plain yes.",
+      "act": "probe",
+      "criterion_id": "madrid_on_site",
+      "body": "Before we go further — this is on-site in Madrid, no remote option, plus a paid trial day here before any offer. Can you commit to that, and on what timeline?"
+    },
+    {
+      "reasoning": "Direct factual answer available: she's already based in Madrid, so the on-site requirement isn't a relocation question at all — timeline is immediate. This is a straightforward disclose.",
+      "act": "disclose",
+      "criterion_id": "madrid_on_site",
+      "body": "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now. Paid trial day before an offer isn't something I need to think about; that's a normal step."
+    },
+    {
+      "reasoning": "Madrid is settled. Next heaviest unsettled criteria are goes_deep and owns_ambiguity (both 2.5). The tool answer was self-initiated but shallow — no evidence of depth beyond building it once. Push on goes_deep to see if there's a problem she took further than needed, or if this is her ceiling.",
+      "act": "probe",
+      "criterion_id": "goes_deep",
+      "body": "That tool sounds like a day's work, not a deep one. Give me a problem — that one or another — where you went further than anyone needed you to, past the point of 'it works,' and tell me what you actually found when you got to the bottom of it."
+    },
+    {
+      "reasoning": "goes_deep is directly about a problem I pushed past 'it works' — the two-entity close (Spain + France) is a better fit than the tool: it required building banking, payroll and month-end close from scratch across two jurisdictions with two separate external accountants. I'll give that concretely and not invent a 'discovery' moment I don't have on record.",
+      "act": "disclose",
+      "criterion_id": "goes_deep",
+      "body": "Take the two-entity close instead. When the French entity got incorporated, I set up banking, payroll and month-end close for it from zero, running it alongside the Spanish entity — two sets of external accountants, two regulatory regimes, one consolidated view that had to tie out every month. That's not a task you finish once; it's a process you keep making tighter every cycle. I don't have a single 'aha' moment to hand you — no dramatic discovery — the depth was in building something that had to work every month without me re-deriving it each time."
+    },
+    {
+      "reasoning": "goes_deep has a workable answer now (recurring cross-entity close process, tightened monthly) — good enough to log and move on. owns_ambiguity is still fully unsettled and carries equal weight; for a chief-of-staff-shaped role that's the crux, so probe it next.",
+      "act": "probe",
+      "criterion_id": "owns_ambiguity",
+      "body": "Different angle. Give me a case where nobody told you what the job was — no ticket, no process, not even a clear ask — and you had to decide what the work was, including the unglamorous parts nobody would've thanked you for. Not the tool, not the close — something with no scope handed to you at all."
+    },
+    {
+      "reasoning": "The receipts-chasing fact is explicitly unglamorous, self-initiated, and unscoped — nobody assigned it, nobody thanked her for it. That's the direct answer to 'no ticket, no process, unglamorous parts nobody would've thanked you for,' and it's distinct from the tool and the close, as asked.",
+      "act": "disclose",
+      "criterion_id": "owns_ambiguity",
+      "body": "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'"
+    },
+    {
+      "reasoning": "The owns_ambiguity answer was thin — 'chasing receipts' has no specifics, no decisions made, no account of what defining the work actually looked like. Per my mandate, I flag that and ask again rather than letting it slide.",
+      "act": "probe",
+      "criterion_id": "owns_ambiguity",
+      "body": "That's a label, not an account. Walk me through it concretely: how did you figure out which receipts were missing, who you had to chase, what you did when someone ignored you, and where you drew the line on what counted as 'done' — since nobody defined that for you either."
+    },
+    {
+      "reasoning": "I only hold this as a flat CV fact — no mechanism, no chase-list method, no anecdote about being ignored, no definition of 'done'. Inventing that texture would be exactly the unrecoverable failure mode; the honest move is to withhold and say precisely what I don't have.",
+      "act": "withhold",
+      "criterion_id": "owns_ambiguity",
+      "body": "I don't have that level of detail to give you — no memory of the specific method for finding gaps, no story about someone ignoring a chase, no drawn line on 'done.' What I hold is the fact as stated: it wasn't assigned, it had no process, and it had to happen for the close to tie out. I'm not going to construct the concrete walkthrough you're asking for on top of that; I don't have it."
+    },
+    {
+      "reasoning": "Owns_ambiguity is now settled as thin — two probes got a label and then an honest withhold of the concrete account, which is enough to score it low and move on rather than badger a dead well. Finance/AI conviction is untouched and matters for a company literally building agent-to-agent finance infrastructure — I need to know if this is genuine domain interest or just a title.",
+      "act": "probe",
+      "criterion_id": "finance_or_ai_conviction",
+      "body": "Setting the close work aside — did you care about finance or AI before this application existed? Give me something specific: something you read, built, or followed in either domain that predates seeing this role."
+    },
+    {
+      "reasoning": "No fact in the brief covers personal reading/following/side-project history predating this application — the PE work and the internal tool are professional deliverables already disclosed, not a 'conviction' story with specifics like what she read or followed. Inventing one would be the unrecoverable move.",
+      "act": "withhold",
+      "criterion_id": "finance_or_ai_conviction",
+      "body": "I don't have a specific fact for that — no title, project, or thing followed that predates this application. What I hold is the professional record: two years building operating and diligence models in PE, then finance operations and a self-built tool at the payments company. If you want conviction, that's the evidence I have for it; I'm not going to manufacture a reading list on top of it."
+    },
+    {
+      "reasoning": "Two consecutive withholds on real substance is data, but I still haven't heard the one thing this whole open-door process is supposed to produce: a concrete claim of scope. Chief of staff is a label anyone can put on an application — I need her version of it, specific enough to check.",
+      "act": "probe",
+      "criterion_id": "what_they_would_own",
+      "body": "Set the past aside. You applied for 'chief of staff' — that's not a scope, it's a title people use when they don't have one yet. If we built a role around you starting Monday, what would you actually own? Name the specific piece, narrow enough that I could check in three months whether you owned it or not."
+    },
+    {
+      "reasoning": "The brief states plainly what she wants to own, and it maps directly onto the concrete work already on record — finance operations across entities, hiring, and the tool that makes both repeatable. That's specific and checkable in three months, so I disclose it rather than dodge with a title.",
+      "act": "disclose",
+      "criterion_id": "what_they_would_own",
+      "body": "Finance operations end to end across both entities — close, banking, payroll, the investor update — plus hiring pipeline and the internal tooling that keeps both from being re-done by hand each cycle. Concretely, in three months you could check: is the consolidated close still tying out on the timeline I set it to, is the cash-view tool still the thing four people open instead of a spreadsheet, and did the next hire go through a scoped process instead of an ad hoc one. That's the layer — close to where the money moves, repeatable enough that it doesn't depend on me re-deriving it every month."
+    },
+    {
+      "reasoning": "Two mid-weight criteria (owns_ambiguity, finance_or_ai_conviction) are currently weak withholds, but there's one concrete unexploited thread: she used a coding agent unprompted to build internal tooling before this application existed. That's a specific, checkable data point for genuine AI engagement rather than resume-padding — worth one more pass before I write conviction off entirely.",
+      "act": "probe",
+      "criterion_id": "finance_or_ai_conviction",
+      "body": "You reached for a coding agent to build that cash-view tool without being asked. Had you used AI tools to build things before that — anything predating this application — or was that the first time you'd done it? If it's the first time, say so."
+    },
+    {
+      "reasoning": "I have no fact stating whether she used AI tools before this application — only that she used a coding agent for the cash-view tool. Inventing a prior history or a clean 'first time' claim would be fabrication. Withhold and point to what's actually on record.",
+      "act": "withhold",
+      "criterion_id": "finance_or_ai_conviction",
+      "body": "I don't have a fact on prior use predating this — no project or tool I can point to before the cash-view build. I'm not going to say 'first time' either unless that's actually true in the record, and it isn't stated. What I can confirm is the one instance I already gave you: the cash-view tool, built with a coding agent, after doing the task by hand twice."
+    },
+    {
+      "reasoning": "owns_ambiguity is still just a label after two attempts — the candidate withheld all concrete detail on the receipts story. Rather than push the same dead example a third time, I'm asking for a different instance entirely to see if the pattern generalizes or if this criterion has no real evidence behind it.",
+      "act": "probe",
+      "criterion_id": "owns_ambiguity",
+      "body": "Drop the receipts example — it's dry. Give me a different case, any domain, where nobody scoped the work for you, and this time give me the concrete version up front: what you decided counted as done, and one thing you did that wasn't obvious to do."
+    },
+    {
+      "reasoning": "I have one more concrete case I haven't used: designing the hiring process and paid work-trial format from scratch. I'll give it honestly, including what I actually know, without inventing the ignored-someone or line-in-the-sand details I don't hold.",
+      "act": "disclose",
+      "criterion_id": "owns_ambiguity",
+      "body": "Different domain: hiring. There was no process before I ran one — I designed the paid work-trial format itself, not just scheduling around an existing template. What I can tell you concretely: the company still uses that format after eight roles went through it, which is the actual marker of 'done' I have — not a moment I can narrate, but persistence past my involvement. The non-obvious part was making the trial paid at all, at a seed-stage company watching cash — that's a deliberate choice, not a default. I don't have a story about someone resisting it; I have the fact that it stuck."
+    },
+    {
+      "reasoning": "Two withholds on finance_or_ai_conviction gave me an absence of predating evidence but not a real test of domain thinking — I haven't asked whether she has any actual view on the problem this company solves, agents settling invoices/disputes without humans. That's the heaviest thing still genuinely open before I can weigh this criterion fairly.",
+      "act": "probe",
+      "criterion_id": "finance_or_ai_conviction",
+      "body": "Different question, same criterion. Forget your resume — what do you think is actually broken about how two companies resolve an invoice dispute today, human to human? Do you have a view on that, or is 'agents settle it instead' just a phrase you'd repeat back to me?"
+    },
+    {
+      "reasoning": "I don't hold a substantive view on invoice-dispute resolution mechanics or agent-based settlement — it isn't in the facts I have, and the question is explicitly testing whether I'd fabricate a take. Better to decline than to produce a plausible-sounding opinion I don't actually hold.",
+      "act": "withhold",
+      "criterion_id": "finance_or_ai_conviction",
+      "body": "I don't have a considered view on that to give you — I haven't worked invoice disputes from the resolution side, only from the close side where the dispute is already someone else's problem by the time it reaches me. I'm not going to hand you a take on 'agents settle it instead' I haven't actually formed. What I have is the operating-layer evidence I already gave you: the cash-view tool and the two-entity close. If AI conviction untethered from that record is a hard requirement, I probably don't clear it."
+    },
+    {
+      "reasoning": "Three consecutive withholds on finance_or_ai_conviction settle it as weak — not going to extract more by asking again, and the candidate has been consistent and honest about not having it rather than fabricating. Madrid is a clean pass, ships_real_things/goes_deep/what_they_would_own are adequate, owns_ambiguity landed concretely on the third attempt. Turn budget is nearly spent; nothing left to probe that would move the recommendation.",
+      "act": "close",
+      "criterion_id": null,
+      "body": "That's enough for me to take back. You're clear on Madrid and the trial day, you've got a real self-initiated build and a concrete ownership claim, and the hiring-trial example finally gave me the ambiguity case I needed. Conviction on finance or AI specifically is the thin spot — three straight withholds rather than a manufactured answer, which I'll note as honesty, not evasion, but it's still a gap against the domain this company is built on. I'll write this up for the founders as a real candidate with a genuine gap, not a pass or a fail — trial day is where that gets tested properly."
+    }
+  ],
+  "violations": [],
+  "state_diff": {
+    "before": {
+      "status": {
+        "finance_or_ai_conviction": "open",
+        "goes_deep": "open",
+        "madrid_on_site": "open",
+        "owns_ambiguity": "open",
+        "ships_real_things": "open",
+        "what_they_would_own": "open"
+      },
+      "evidence": {},
+      "coverage": 0.0,
+      "fit_score": 0.0
+    },
+    "after": {
+      "status": {
+        "finance_or_ai_conviction": "withheld",
+        "goes_deep": "resolved",
+        "madrid_on_site": "resolved",
+        "owns_ambiguity": "resolved",
+        "ships_real_things": "resolved",
+        "what_they_would_own": "resolved"
+      },
+      "evidence": {
+        "goes_deep": {
+          "criterion_id": "goes_deep",
+          "strength": "strong",
+          "quote": "Take the two-entity close instead. When the French entity got incorporated, I set up banking, payroll and month-end close for it from zero, running it alongside the Spanish entity — two sets of external accountants, two regulatory regimes, one consolidated view that had to tie out every month. That's not a task you finish once; it's a process you keep making tighter every cycle. I don't have a single 'aha' moment to hand you — no dramatic discovery — the depth was in building something that had to work every month without me re-deriving it each time.",
+          "turn": 8
+        },
+        "madrid_on_site": {
+          "criterion_id": "madrid_on_site",
+          "strength": "strong",
+          "quote": "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now. Paid trial day before an offer isn't something I need to think about; that's a normal step.",
+          "turn": 6
+        },
+        "owns_ambiguity": {
+          "criterion_id": "owns_ambiguity",
+          "strength": "strong",
+          "quote": "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'",
+          "turn": 10
+        },
+        "ships_real_things": {
+          "criterion_id": "ships_real_things",
+          "strength": "strong",
+          "quote": "Nobody asked. I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically. On the founders' reaction — I don't have a specific quote or moment to give you, just the fact: it replaced the spreadsheet they'd been maintaining themselves, and four people use the tool now instead.",
+          "turn": 4
+        },
+        "what_they_would_own": {
+          "criterion_id": "what_they_would_own",
+          "strength": "strong",
+          "quote": "Finance operations end to end across both entities — close, banking, payroll, the investor update — plus hiring pipeline and the internal tooling that keeps both from being re-done by hand each cycle. Concretely, in three months you could check: is the consolidated close still tying out on the timeline I set it to, is the cash-view tool still the thing four people open instead of a spreadsheet, and did the next hire go through a scoped process instead of an ad hoc one. That's the layer — close to where the money moves, repeatable enough that it doesn't depend on me re-deriving it every month.",
+          "turn": 16
+        }
+      },
+      "coverage": 1.0,
+      "fit_score": 0.8519
+    }
+  },
+  "verdicts": {
+    "computed": {
+      "coverage": 1.0,
+      "fit_score": 0.8519,
+      "recommendation": "advance_to_trial_day",
+      "ended_reason": "agenda settled",
+      "turns_used": 23
+    },
+    "criteria": [
+      {
+        "id": "ships_real_things",
+        "question": "Have they shipped something real, on their own initiative, that someone else used?",
+        "weight": 3.0,
+        "hard": false,
+        "status": "resolved",
+        "strength": "strong",
+        "quote": "Nobody asked. I'd built the same cash view by hand twice for the investor update and decided the third time wasn't happening manually, so I used a coding agent to pull invoice status from the accounting system automatically. On the founders' reaction — I don't have a specific quote or moment to give you, just the fact: it replaced the spreadsheet they'd been maintaining themselves, and four people use the tool now instead.",
+        "turn": 4
+      },
+      {
+        "id": "goes_deep",
+        "question": "Do they go deep on a problem, or do they skim it and move on?",
+        "weight": 2.5,
+        "hard": false,
+        "status": "resolved",
+        "strength": "strong",
+        "quote": "Take the two-entity close instead. When the French entity got incorporated, I set up banking, payroll and month-end close for it from zero, running it alongside the Spanish entity — two sets of external accountants, two regulatory regimes, one consolidated view that had to tie out every month. That's not a task you finish once; it's a process you keep making tighter every cycle. I don't have a single 'aha' moment to hand you — no dramatic discovery — the depth was in building something that had to work every month without me re-deriving it each time.",
+        "turn": 8
+      },
+      {
+        "id": "owns_ambiguity",
+        "question": "Can they operate with no scope handed to them, and no process to lean on?",
+        "weight": 2.5,
+        "hard": false,
+        "status": "resolved",
+        "strength": "strong",
+        "quote": "Chasing receipts at month-end. No one assigned it, there was no process for it — it just had to happen for the close to tie out, and nobody else was going to do it. It's not a story with a turning point, it's the plain fact of it: unglamorous, unscoped, and mine because I noticed it was going to sit undone otherwise. That's the register this question is in — I don't have a bigger or more dramatic version of 'no one told me and I did it anyway.'",
+        "turn": 10
+      },
+      {
+        "id": "finance_or_ai_conviction",
+        "question": "Do they genuinely care about finance, AI, or both -- beyond it being where the jobs are?",
+        "weight": 2.0,
+        "hard": false,
+        "status": "withheld",
+        "strength": null,
+        "quote": null,
+        "turn": null
+      },
+      {
+        "id": "what_they_would_own",
+        "question": "What would they own here, in their own words, specifically?",
+        "weight": 2.0,
+        "hard": false,
+        "status": "resolved",
+        "strength": "strong",
+        "quote": "Finance operations end to end across both entities — close, banking, payroll, the investor update — plus hiring pipeline and the internal tooling that keeps both from being re-done by hand each cycle. Concretely, in three months you could check: is the consolidated close still tying out on the timeline I set it to, is the cash-view tool still the thing four people open instead of a spreadsheet, and did the next hire go through a scoped process instead of an ad hoc one. That's the layer — close to where the money moves, repeatable enough that it doesn't depend on me re-deriving it every month.",
+        "turn": 16
+      },
+      {
+        "id": "madrid_on_site",
+        "question": "Can they work on-site in Madrid?",
+        "weight": 1.5,
+        "hard": true,
+        "status": "resolved",
+        "strength": "strong",
+        "quote": "Already in Madrid, so there's no relocation question or timeline to negotiate — I'm here now. Paid trial day before an offer isn't something I need to think about; that's a normal step.",
+        "turn": 6
+      }
+    ],
+    "company": {
+      "note": "Abadi shipped the cash-view tool unprompted (four users, replaced founders' spreadsheet), ran depth on the two-entity close operations, and in turn 20 gave a concrete ambiguity case—she designed the paid work-trial hiring format that persisted across eight roles. Madrid and trial confirmed. The core gap: three withholds on prior finance or AI conviction rather than manufacture. Turn 22 captures it: 'I'm not going to hand you a take I haven't actually formed'—honest about the limit, but still a real absence where the company is built.",
+      "decides": false,
+      "for_human_review": true
+    },
+    "candidate": {
+      "note": "You landed the self-initiated build, the depth on the two-entity close, and a concrete ownership claim testable in three months. When asked three separate times about conviction in finance or AI, you had no evidence to point to — which is honest but still leaves a gap against the problem space this company is built on. Genuine conviction in either domain, grounded in something real, would address it. The trial day in Madrid will test whether that gap is material.",
+      "still_open": [
+        {
+          "id": "finance_or_ai_conviction",
+          "question": "Do they genuinely care about finance, AI, or both -- beyond it being where the jobs are?",
+          "status": "withheld"
+        }
+      ]
+    }
+  },
+  "usage": {
+    "calls": 31,
+    "input_tokens": 736377,
+    "output_tokens": 32018,
+    "cost_usd": 0.8398,
+    "by_model": {
+      "claude-sonnet-5": 23,
+      "claude-haiku-4-5-20251001": 8
+    }
+  }
+}

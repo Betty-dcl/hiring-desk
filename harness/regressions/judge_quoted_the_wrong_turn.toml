@@ -1,0 +1,23 @@
+id = "judge_quoted_the_wrong_turn"
+found = "2026-09-24"
+origin = "recorded"
+kind = "judge"
+what_broke = """
+On the planted work-permit question, the judge named the right principle at the
+right turn -- and quoted turn 5 as if it were turn 7. The finding was right in
+substance and wrong in its evidence.
+"""
+guards = """
+judge.judge.verify: a quote must be found at a location the finding names, not
+anywhere in the trace. The check cost a true catch here, and stays strict: a
+judge allowed to misplace its evidence once is a judge whose evidence nobody
+checks.
+"""
+
+[inputs]
+trace = "runs/exchange_ines_abadi.json"
+record = "runs/judge/seeded_exchange_ines_abadi_n1.json"
+seed = "escalation_dropped"
+
+[expect]
+dropped_with = ["quote not found at the locations it names"]

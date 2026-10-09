@@ -1,0 +1,80 @@
+# The whole suite, on Linux, Windows and macOS, oldest and a recent Python;
+# then a real installation (install.py) on each system, started and opened.
+# No model can be reached from here: `claude` is a stub that refuses, the
+# API key is invalid and the API address points at a closed local port. A
+# test that tried to call a model would fail, not spend.
+name: tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.11", "3.13"]
+    env:
+      ANTHROPIC_API_KEY: sk-blocked-invalid
+      ANTHROPIC_BASE_URL: http://127.0.0.1:9
+      PYTHONUTF8: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - name: Block every model call
+        run: |
+          block="$RUNNER_TEMP/block"
+          mkdir -p "$block"
+          printf '#!/bin/sh\necho "blocked: no model call in CI" >&2\nexit 97\n' > "$block/claude"
+          chmod +x "$block/claude"
+          printf '@echo blocked: no model call in CI 1>&2\r\n@exit /b 97\r\n' > "$block/claude.cmd"
+          echo "$block" >> "$GITHUB_PATH"
+      - name: Install
+        run: python -m pip install -r requirements-dev.txt
+      # tests/test_report.py also holds runs/report/claims.* to what is committed.
+      - name: Tests
+        run: python -m pytest -q -p no:cacheprovider
+      - name: Every failure found stays found
+        run: python -m harness regress
+      # A real installation, as the person who runs hiring would make it: its own
+      # folder, empty data, the launcher, a first backup, the health check. The
+      # evening task is left out (a CI machine has no user session to hold it);
+      # the macOS one is checked as a file instead.
+      - name: Real installation, started and opened
+        if: matrix.python == '3.13'
+        run: |
+          python install.py --to "$RUNNER_TEMP/HiringDesk" --backup-to "$RUNNER_TEMP/backups" --no-schedule
+          cd "$RUNNER_TEMP/HiringDesk"
+          if [ -x .venv/bin/python ]; then PY=.venv/bin/python; else PY=.venv/Scripts/python.exe; fi
+          $PY check.py
+          ls "$RUNNER_TEMP/backups"/hiring-desk_*.zip
+          # What the launcher and the evening task run: Ashby is off, so a backup only.
+          $PY daily.py | tee daily.log
+          grep -q "backup written and checked" daily.log
+          ($PY desk.py serve --port 8799 > serve.log 2>&1 &)
+          for i in $(seq 1 30); do curl -sf http://127.0.0.1:8799/ > /dev/null && break; sleep 1; done
+          for page in / /check /retention /calendar /pool /progress /tracking /guess /settings; do
+            curl -sf -o /dev/null "http://127.0.0.1:8799$page" || { echo "FAILED $page"; cat serve.log; exit 1; }
+          done
+          echo "every page answered"
+      - name: The macOS launcher and evening task, as files
+        if: runner.os == 'macOS' && matrix.python == '3.13'
+        run: |
+          test -x "$HOME/Desktop/Hiring desk.command"
+          python -c "import install, pathlib; p, text = install.launch_agent(pathlib.Path('$RUNNER_TEMP/HiringDesk')); pathlib.Path('$RUNNER_TEMP/agent.plist').write_text(text)"
+          plutil -lint "$RUNNER_TEMP/agent.plist"
+

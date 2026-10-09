@@ -1,0 +1,164 @@
+{
+  "posting_id": "founders_associate",
+  "stale_after_days": 7.0,
+  "events": [
+    {
+      "candidate_id": "ines_abadi",
+      "kind": "received",
+      "at": "2026-09-18T13:41:34.524596+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {}
+    },
+    {
+      "candidate_id": "ines_abadi",
+      "kind": "screened",
+      "at": "2026-09-18T13:41:34.524596+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.92,
+        "coverage": 1.0,
+        "spread": 0.04
+      }
+    },
+    {
+      "candidate_id": "mara_velichko",
+      "kind": "received",
+      "at": "2026-09-18T13:42:13.386599+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {}
+    },
+    {
+      "candidate_id": "mara_velichko",
+      "kind": "screened",
+      "at": "2026-09-18T13:42:13.386599+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.35,
+        "coverage": 0.95,
+        "spread": 0.005
+      }
+    },
+    {
+      "candidate_id": "paul_okonkwo",
+      "kind": "received",
+      "at": "2026-09-18T13:42:42.216081+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {}
+    },
+    {
+      "candidate_id": "paul_okonkwo",
+      "kind": "screened",
+      "at": "2026-09-18T13:42:42.216081+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.33,
+        "coverage": 0.5,
+        "spread": 0.04
+      }
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "kind": "received",
+      "at": "2026-09-18T13:43:09.421617+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {}
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "kind": "screened",
+      "at": "2026-09-18T13:43:09.421617+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.29,
+        "coverage": 0.5,
+        "spread": 0.03
+      }
+    },
+    {
+      "candidate_id": "tomas_renner",
+      "kind": "received",
+      "at": "2026-09-18T13:43:41.376015+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {}
+    },
+    {
+      "candidate_id": "tomas_renner",
+      "kind": "screened",
+      "at": "2026-09-18T13:43:41.376015+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.32,
+        "coverage": 0.55,
+        "spread": 0.05
+      }
+    },
+    {
+      "candidate_id": "paul_okonkwo",
+      "kind": "tagged",
+      "at": "2026-09-19T13:57:25.286087+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "adjacent-domain",
+      "detail": {}
+    },
+    {
+      "candidate_id": "mara_velichko",
+      "kind": "screened",
+      "at": "2026-09-21T19:15:17.957977+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.35,
+        "coverage": 0.95,
+        "spread": 0.005
+      }
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "kind": "screened",
+      "at": "2026-09-21T19:15:19.507791+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.315,
+        "coverage": 0.6,
+        "spread": 0.03
+      }
+    },
+    {
+      "candidate_id": "ines_abadi",
+      "kind": "screened",
+      "at": "2026-09-21T19:15:45.507157+00:00",
+      "by": "",
+      "reason": "",
+      "tag": "",
+      "detail": {
+        "score": 0.88,
+        "coverage": 1.0,
+        "spread": 0.04
+      }
+    }
+  ]
+}

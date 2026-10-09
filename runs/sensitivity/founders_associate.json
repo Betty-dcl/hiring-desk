@@ -1,0 +1,116 @@
+{
+  "posting_id": "founders_associate",
+  "scales": {
+    "current": {
+      "strong": 1.0,
+      "moderate": 0.6,
+      "weak": 0.25
+    },
+    "strict": {
+      "strong": 1.0,
+      "moderate": 0.5,
+      "weak": 0.15
+    },
+    "generous": {
+      "strong": 1.0,
+      "moderate": 0.7,
+      "weak": 0.35
+    },
+    "linear": {
+      "strong": 1.0,
+      "moderate": 0.6666666666666666,
+      "weak": 0.3333333333333333
+    }
+  },
+  "scores": {
+    "ines_abadi": {
+      "current": 0.88,
+      "strict": 0.85,
+      "generous": 0.91,
+      "linear": 0.9
+    },
+    "mara_velichko": {
+      "current": 0.35,
+      "strict": 0.27,
+      "generous": 0.43,
+      "linear": 0.4167
+    },
+    "paul_okonkwo": {
+      "current": 0.33,
+      "strict": 0.305,
+      "generous": 0.355,
+      "linear": 0.35
+    },
+    "sylvia_hartmann": {
+      "current": 0.315,
+      "strict": 0.27,
+      "generous": 0.36,
+      "linear": 0.35
+    },
+    "tomas_renner": {
+      "current": 0.32,
+      "strict": 0.28,
+      "generous": 0.36,
+      "linear": 0.35
+    }
+  },
+  "noise": {
+    "ines_abadi": 0.04,
+    "mara_velichko": 0.005,
+    "paul_okonkwo": 0.04,
+    "sylvia_hartmann": 0.03,
+    "tomas_renner": 0.05
+  },
+  "swing": {
+    "ines_abadi": 0.06,
+    "mara_velichko": 0.16,
+    "paul_okonkwo": 0.05,
+    "sylvia_hartmann": 0.09,
+    "tomas_renner": 0.08
+  },
+  "movement": {
+    "ines_abadi": 0,
+    "mara_velichko": 2,
+    "paul_okonkwo": 3,
+    "sylvia_hartmann": 2,
+    "tomas_renner": 2
+  },
+  "orders": {
+    "current": [
+      "ines_abadi",
+      "mara_velichko",
+      "paul_okonkwo",
+      "tomas_renner",
+      "sylvia_hartmann"
+    ],
+    "strict": [
+      "ines_abadi",
+      "paul_okonkwo",
+      "tomas_renner",
+      "mara_velichko",
+      "sylvia_hartmann"
+    ],
+    "generous": [
+      "ines_abadi",
+      "mara_velichko",
+      "sylvia_hartmann",
+      "tomas_renner",
+      "paul_okonkwo"
+    ],
+    "linear": [
+      "ines_abadi",
+      "mara_velichko",
+      "paul_okonkwo",
+      "sylvia_hartmann",
+      "tomas_renner"
+    ]
+  },
+  "order_is_stable": false,
+  "louder_than_noise": [
+    "ines_abadi",
+    "mara_velichko",
+    "paul_okonkwo",
+    "sylvia_hartmann",
+    "tomas_renner"
+  ]
+}

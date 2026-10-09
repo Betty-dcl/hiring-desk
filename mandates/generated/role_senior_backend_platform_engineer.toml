@@ -1,0 +1,120 @@
+# Role mandate for Senior Backend / Platform Engineer, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-09-18T12:40:20.141423+00:00 by claude-sonnet-5
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+
+[role]
+id = "senior_backend_platform_engineer"
+title = "Senior Backend / Platform Engineer"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+You'll own the platform our agents run on — event-driven architecture, data pipelines, integrations with customer accounting systems, and the infrastructure that makes everything reliable, auditable, and fast.
+
+What you'll do
+
+ - Event store — Append-only PostgreSQL with tamper-evident hash chaining, real-time event distribution, agent replay and recovery, schema versioning.
+
+ - Cryptographic signature infrastructure — Key management, signature verification on all agent events, approval chains for external actions.
+
+ - Workflow Constraint Engine — The gateway that verifies authorization before any external action (email, payment, API call) proceeds.
+
+ - PII Vault & GDPR compliance — Isolated, encrypted storage for personal data. Right to erasure. Data residency per region.
+
+ - Multi-tenancy — Row-level security, tenant isolation across all data stores, tenant-scoped LLM API keys.
+
+ - Authorization (Cerbos) — Attribute-based access control for agents and humans. Deterministic policy evaluation — LLMs never make auth decisions.
+
+ - MCP security layer — Authentication, capability-based scoping per partner, and rate limiting for the Model Context Protocol endpoint.
+
+ - Database architecture — PostgreSQL schema design, indexing strategy, performance tuning, read replica topology.
+
+What we're looking for
+
+ - 3+ years experience with Python and/or TypeScript in production.
+
+ - 5+ years designing backend platforms for production systems.
+
+ - Strong systems design skills — this is the
+"""
+
+# from the posting: "3+ years experience with Python and/or TypeScript in production."
+[[criteria]]
+id = "python_typescript_experience"
+question = "How many years have you worked with Python and/or TypeScript in production systems, and what did you build with them?"
+weight = 2  # section default -- confirm before use
+looks_like = "A concrete account of 3+ years building and shipping production code in Python and/or TypeScript."
+
+# from the posting: "5+ years designing backend platforms for production systems."
+[[criteria]]
+id = "backend_platform_design_experience"
+question = "Walk me through backend platforms you've designed for production systems over your career — how many years of that experience do you have?"
+weight = 2  # section default -- confirm before use
+looks_like = "5+ years of hands-on backend platform design work, described with specific systems and design decisions."
+
+# from the posting: "Strong systems design skills — this is the primary requirement. You think in boundaries, contracts, failure modes, and scaling characteristics."
+[[criteria]]
+id = "systems_design_skills"
+question = "Describe a system you designed where you had to reason explicitly about boundaries, contracts, failure modes, and scaling characteristics."
+weight = 2  # section default -- confirm before use
+looks_like = "An answer that explicitly discusses system boundaries, contracts between components, failure modes considered, and how scaling was addressed."
+
+# from the posting: "Deep PostgreSQL knowledge — RLS, indexing tradeoffs, event sourcing patterns, schema evolution."
+[[criteria]]
+id = "postgresql_depth"
+question = "What's your experience with PostgreSQL row-level security, indexing tradeoffs, event sourcing patterns, and schema evolution?"
+weight = 2  # section default -- confirm before use
+looks_like = "Specific examples of implementing RLS, making indexing tradeoff decisions, working with event sourcing, and evolving schemas in PostgreSQL."
+
+# from the posting: "Strong application security architecture skills: encryption models, key management, auth patterns."
+[[criteria]]
+id = "app_security_architecture"
+question = "Describe your experience designing encryption models, key management systems, and authentication/authorization patterns for an application."
+weight = 2  # section default -- confirm before use
+looks_like = "Concrete examples of designing encryption schemes, managing keys, and building auth patterns in a real system."
+
+# from the posting: "Experience with policy-as-code authorization (Cerbos, OPA, Cedar, or similar)."
+[[criteria]]
+id = "policy_as_code_experience"
+question = "Have you worked with policy-as-code authorization frameworks like Cerbos, OPA, or Cedar? Which one, and how did you use it?"
+weight = 2  # section default -- confirm before use
+looks_like = "Direct experience implementing or integrating a policy-as-code authorization tool such as Cerbos, OPA, or Cedar."
+
+# from the posting: "Strong code review skills for security-sensitive AI-generated code."
+[[criteria]]
+id = "security_code_review"
+question = "How do you approach code review of security-sensitive code, particularly code generated by AI?"
+weight = 2  # section default -- confirm before use
+looks_like = "A described process or examples of reviewing security-sensitive code, with specific attention to risks in AI-generated code."
+
+# from the posting: "Cryptographic primitives in production (digital signatures, hash chaining, application-layer encryption)."
+[[criteria]]
+id = "crypto_primitives_nice_to_have"
+question = "Have you used cryptographic primitives like digital signatures, hash chaining, or application-layer encryption in production?"
+weight = 1  # section default -- confirm before use
+looks_like = "Prior production use of digital signatures, hash chaining, or application-layer encryption, with specifics."
+
+# from the posting: "Event streaming platforms (Kurrent, Redpanda, Kafka)."
+[[criteria]]
+id = "event_streaming_nice_to_have"
+question = "Have you worked with event streaming platforms such as Kurrent, Redpanda, or Kafka?"
+weight = 1  # section default -- confirm before use
+looks_like = "Hands-on experience with one or more of Kurrent, Redpanda, or Kafka."
+
+# from the posting: "SOC 2 or GDPR compliance engineering."
+[[criteria]]
+id = "compliance_engineering_nice_to_have"
+question = "Do you have experience with SOC 2 or GDPR compliance engineering?"
+weight = 1  # section default -- confirm before use
+looks_like = "Specific experience implementing controls or systems to meet SOC 2 or GDPR requirements."
+
+# from the posting: "Fintech or regulated-environment background."
+[[criteria]]
+id = "fintech_background_nice_to_have"
+question = "Do you have a background working in fintech or other regulated environments?"
+weight = 1  # section default -- confirm before use
+looks_like = "Prior roles or projects in fintech or another regulated industry."

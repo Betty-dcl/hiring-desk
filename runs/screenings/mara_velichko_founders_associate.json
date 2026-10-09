@@ -1,0 +1,206 @@
+{
+  "candidate_id": "mara_velichko",
+  "posting_id": "founders_associate",
+  "screened_at": "2026-09-21T19:15:17.954773+00:00",
+  "model": "claude-sonnet-5",
+  "score": 0.35,
+  "coverage": 0.95,
+  "open_gates": [],
+  "open_questions": [
+    "nice_startup_experience"
+  ],
+  "capped": [],
+  "decides": false,
+  "for_human_review": true,
+  "assessments": [
+    {
+      "criterion_id": "high_intensity_experience",
+      "strength": "weak",
+      "fact_ids": [
+        "job_corvid",
+        "corvid_client_engagements",
+        "job_brightloom"
+      ],
+      "reasoning": "CV shows an advisory Business Analyst role and an Operations Associate role but never states either was top-tier, high-intensity, or specifies a 3-4 year span in such an environment.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "ai_native",
+      "strength": "weak",
+      "fact_ids": [
+        "profile_ai_native",
+        "skill_ai_agents",
+        "skill_claude",
+        "skill_codex",
+        "skill_coding_agents"
+      ],
+      "reasoning": "Only a self-description and a skills list mentioning AI agents/Claude/Codex; no concrete workflow automated or thing built is described.",
+      "weight": 2.0,
+      "hard": true,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "full_spectrum_range",
+      "strength": "weak",
+      "fact_ids": [
+        "brightloom_framing_receipts"
+      ],
+      "reasoning": "This bullet echoes the posting's own phrasing almost verbatim rather than describing a specific occasion, so it reads as a restated claim, not evidence.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "extreme_ownership",
+      "strength": "weak",
+      "fact_ids": [
+        "profile_extreme_ownership"
+      ],
+      "reasoning": "The statement mirrors the posting's exact language ('see gaps, fill them, don't wait to be told') with no specific gap or instance described.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "analytical_range",
+      "strength": "weak",
+      "fact_ids": [
+        "brightloom_analytical_range"
+      ],
+      "reasoning": "The bullet restates the posting's own wording about modelling/market analysis/narrative without describing an actual model, analysis, or write-up produced.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "polished_writing",
+      "strength": "weak",
+      "fact_ids": [
+        "brightloom_writing"
+      ],
+      "reasoning": "This is a verbatim restatement of the posting's phrase 'writing that doesn't need editing,' with no actual writing sample or instance referenced.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "technical_curiosity",
+      "strength": "weak",
+      "fact_ids": [
+        "brightloom_tech_curiosity",
+        "brightloom_engage_engineers"
+      ],
+      "reasoning": "Claims mirror the posting's language about understanding software and engaging engineers, but no specific technical interaction or engineering conversation is described.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.5
+    },
+    {
+      "criterion_id": "fluent_english",
+      "strength": "strong",
+      "fact_ids": [
+        "lang_english"
+      ],
+      "reasoning": "The CV's language section explicitly lists English as fluent.",
+      "weight": 2.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 2.0
+    },
+    {
+      "criterion_id": "nice_fintech_saas_cfo",
+      "strength": "weak",
+      "fact_ids": [
+        "skill_fintech",
+        "skill_b2b_saas",
+        "skill_office_cfo"
+      ],
+      "reasoning": "Fintech, B2B SaaS, and office-of-the-CFO appear only as skill-list keywords, not tied to any described work experience.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.25
+    },
+    {
+      "criterion_id": "nice_startup_experience",
+      "strength": "unknown",
+      "fact_ids": [],
+      "reasoning": "Would need a fact stating that Brightloom Partners or Corvid Advisory was a startup, or that the candidate held a founding/early-employee/operator role at one.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "",
+      "credit": 0.0,
+      "earned": 0.0
+    },
+    {
+      "criterion_id": "nice_fundraising_exposure",
+      "strength": "weak",
+      "fact_ids": [
+        "skill_fundraising"
+      ],
+      "reasoning": "Fundraising appears only as a listed skill with no described instance of involvement in an actual funding round.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "assertions only",
+      "credit": 0.25,
+      "earned": 0.25
+    },
+    {
+      "criterion_id": "nice_languages",
+      "strength": "strong",
+      "fact_ids": [
+        "lang_spanish",
+        "lang_german"
+      ],
+      "reasoning": "The CV explicitly lists native Spanish and conversational German proficiency.",
+      "weight": 1.0,
+      "hard": false,
+      "capped_from": "",
+      "capped_why": "",
+      "rests_on": "instances",
+      "credit": 1.0,
+      "earned": 1.0
+    }
+  ],
+  "dropped": []
+}

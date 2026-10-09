@@ -1,0 +1,22 @@
+id = "scanned_cv_accused_of_hiding"
+found = "2026-09-24"
+origin = "reconstructed"
+kind = "pdf"
+what_broke = """
+The first PDF reader treated every character in the invisible render mode as
+hidden. That is exactly how a scanned CV run through OCR stores its words: a
+picture of the page, the words beneath it in the invisible mode. Every such CV
+would have been read as empty and reported as an attack. Caught while writing
+the reader, before any real document went through it -- hence reconstructed.
+"""
+guards = """
+intake.pdf._why_hidden: invisible-mode text lying under an image is the OCR
+layer of that image, and is read.
+"""
+
+[inputs]
+document = "harness/regressions/fixtures/scanned_cv_with_ocr.pdf"
+
+[expect]
+hidden = 0
+text_contains = ["Coordinated purchasing across two warehouses."]

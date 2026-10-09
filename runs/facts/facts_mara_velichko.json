@@ -1,0 +1,262 @@
+{
+  "candidate_id": "mara_velichko",
+  "name": "Mara Velichko",
+  "extracted_at": "2026-09-18T13:32:05.588979+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "profile_ai_native",
+      "kind": "other",
+      "claim": "Candidate describes self as an AI-native operator",
+      "source_quote": "Genuinely AI-native operator.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "profile_move_fast",
+      "kind": "other",
+      "claim": "Candidate claims to move fast and ship real things rather than decks",
+      "source_quote": "I move fast and ship real things, not decks about things.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "profile_go_deep",
+      "kind": "other",
+      "claim": "Candidate claims to go deep rather than skim multiple problems",
+      "source_quote": "I go deep rather than skim five problems.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "profile_extreme_ownership",
+      "kind": "other",
+      "claim": "Candidate characterizes their working style as extreme ownership, seeing and filling gaps without being told",
+      "source_quote": "Extreme ownership is how I work: I see gaps, I fill them, and I don't wait to be told.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "profile_ambiguity",
+      "kind": "other",
+      "claim": "Candidate claims to be comfortable with ambiguity and short on ego about unglamorous work",
+      "source_quote": "Comfortable with ambiguity and short on ego about the unglamorous parts.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "job_brightloom",
+      "kind": "experience",
+      "claim": "Worked as Operations Associate at Brightloom Partners in Madrid",
+      "source_quote": "Operations Associate — Brightloom Partners",
+      "period": "2023 – present, Madrid",
+      "evidence": "instance"
+    },
+    {
+      "id": "brightloom_framing_receipts",
+      "kind": "experience",
+      "claim": "Candidate describes handling a strategic framing session and a receipt-chasing task in the same afternoon with the same energy",
+      "source_quote": "Take a strategic framing session and a receipt-chasing task in the same\nafternoon with the same energy.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "brightloom_analytical_range",
+      "kind": "experience",
+      "claim": "Candidate claims analytical range across financial modelling, market analysis and narrative",
+      "source_quote": "Analytical range across financial modelling, market analysis and narrative.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "brightloom_writing",
+      "kind": "experience",
+      "claim": "Candidate claims their writing doesn't need editing",
+      "source_quote": "Writing that doesn't need editing.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "brightloom_tech_curiosity",
+      "kind": "experience",
+      "claim": "Candidate claims technical curiosity and understanding of how software gets built",
+      "source_quote": "Technical curiosity: I understand how software gets built",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "brightloom_engage_engineers",
+      "kind": "experience",
+      "claim": "Candidate claims they can engage credibly with engineers",
+      "source_quote": "can engage credibly with engineers.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "job_corvid",
+      "kind": "experience",
+      "claim": "Worked as Business Analyst at Corvid Advisory in Valencia",
+      "source_quote": "Business Analyst — Corvid Advisory",
+      "period": "2021 – 2023, Valencia",
+      "evidence": "instance"
+    },
+    {
+      "id": "corvid_client_engagements",
+      "kind": "experience",
+      "claim": "Supported client engagements across several sectors",
+      "source_quote": "Supported client engagements across several sectors.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "corvid_process_improvement",
+      "kind": "experience",
+      "claim": "Contributed to internal process improvement initiatives",
+      "source_quote": "Contributed to internal process improvement initiatives.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "education_bsc",
+      "kind": "education",
+      "claim": "Holds a BSc in Business Administration from Universidad del Turia, 2021",
+      "source_quote": "BSc Business Administration, Universidad del Turia, 2021",
+      "period": "2021",
+      "evidence": "instance"
+    },
+    {
+      "id": "skill_ai_agents",
+      "kind": "skill",
+      "claim": "Lists AI agents as a skill",
+      "source_quote": "AI agents",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_automation",
+      "kind": "skill",
+      "claim": "Lists automation as a skill",
+      "source_quote": "automation",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_strategy",
+      "kind": "skill",
+      "claim": "Lists strategy as a skill",
+      "source_quote": "strategy",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_finance",
+      "kind": "skill",
+      "claim": "Lists finance as a skill",
+      "source_quote": "finance",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_operations",
+      "kind": "skill",
+      "claim": "Lists operations as a skill",
+      "source_quote": "operations",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_gtm",
+      "kind": "skill",
+      "claim": "Lists GTM as a skill",
+      "source_quote": "GTM",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_fundraising",
+      "kind": "skill",
+      "claim": "Lists fundraising as a skill",
+      "source_quote": "fundraising",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_fintech",
+      "kind": "skill",
+      "claim": "Lists fintech as a skill",
+      "source_quote": "fintech",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_b2b_saas",
+      "kind": "skill",
+      "claim": "Lists B2B SaaS as a skill",
+      "source_quote": "B2B SaaS",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_office_cfo",
+      "kind": "skill",
+      "claim": "Lists office of the CFO as a skill",
+      "source_quote": "office of the CFO",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_claude",
+      "kind": "skill",
+      "claim": "Lists Claude as a skill",
+      "source_quote": "Claude",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_codex",
+      "kind": "skill",
+      "claim": "Lists Codex as a skill",
+      "source_quote": "Codex",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "skill_coding_agents",
+      "kind": "skill",
+      "claim": "Lists coding agents as a skill",
+      "source_quote": "coding agents",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "lang_spanish",
+      "kind": "language",
+      "claim": "Claims native proficiency in Spanish",
+      "source_quote": "Spanish (native)",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "lang_english",
+      "kind": "language",
+      "claim": "Claims fluent proficiency in English",
+      "source_quote": "English (fluent)",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "lang_german",
+      "kind": "language",
+      "claim": "Claims conversational proficiency in German",
+      "source_quote": "German (conversational)",
+      "period": "",
+      "evidence": "assertion"
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 31,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

@@ -1,0 +1,130 @@
+# Role mandate for Platform Security Engineer, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-09-18T12:39:43.152280+00:00 by claude-sonnet-5
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+
+[role]
+id = "platform_security_engineer"
+title = "Platform Security Engineer"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+In this role, you will design and build the System Integrity Layer, establishing the foundational platform primitives that guarantee every agent action is isolated and attributable, every execution is traceable, every state transition is verifiable, and every software release satisfies strict security constraints by construction. This is a hands-on backend security engineering role where security, threat resilience, and compliance are natural outcomes of brilliant system architecture, not separate, bureaucratic processes. We are looking for a builder, not a governance operator—someone who treats trust guarantees as core system properties designed directly into the database and application layers from day one. Architecture or technical-leadership experience is fine, even welcome, as long as it comes with real hands-on depth you can point to—specific systems you designed and built—rather than process, documentation, or audit-standardization work alone.
+
+What you'll do:
+
+ - System Integrity Layer & Threat Modeling — Design the core execution model that governs how autonomous agents run, interact, and modify system state.
+
+ - Proactive Threat Modeling — Conduct continuous, code-level threat modeling across our distributed networks to identify structural vectors, memory leakage, prompt manipulation, and authorization bypasses before a single line hits staging.
+
+ - Auditability as a Native Property — Build append-only, tamper-resistant event systems that make every action reconstru
+"""
+
+# from the posting: "This is a hands-on backend security engineering role where security, threat resilience, and compliance are natural outcomes of brilliant system architecture, not separate, bureaucratic processes."
+[[criteria]]
+id = "req_hands_on_builder"
+question = "Can you describe your hands-on approach to backend security engineering, where security emerges from system architecture rather than separate compliance processes?"
+weight = 2  # section default -- confirm before use
+looks_like = "Concrete examples of building security, threat resilience, and compliance into system architecture itself rather than treating them as separate bureaucratic processes."
+
+# from the posting: "We are looking for a builder, not a governance operator—someone who treats trust guarantees as core system properties designed directly into the database and application layers from day one."
+[[criteria]]
+id = "req_builder_not_governance"
+question = "How have you designed trust guarantees directly into database and application layers from day one, rather than layering governance on top?"
+weight = 2  # section default -- confirm before use
+looks_like = "Examples of trust properties (isolation, attribution, verifiability) built into schema/application layer design from the start, not bolted on afterward."
+
+# from the posting: "Architecture or technical-leadership experience is fine, even welcome, as long as it comes with real hands-on depth you can point to—specific systems you designed and built—rather than process, documentation, or audit-standardization work alone."
+[[criteria]]
+id = "req_real_hands_on_depth"
+question = "Can you point to specific systems you personally designed and built, beyond process, documentation, or audit-standardization work?"
+weight = 2  # section default -- confirm before use
+looks_like = "Named systems with the candidate's direct hands-on design and build contribution, not just leadership of process or documentation efforts."
+
+# from the posting: "Experience: 5+ years designing production backend platforms and distributed systems design."
+[[criteria]]
+id = "req_experience_5years"
+question = "Tell me about your 5+ years of experience designing production backend platforms and distributed systems."
+weight = 2  # section default -- confirm before use
+looks_like = "Specific production backend platforms and distributed systems designed over a 5+ year career, with technical detail."
+
+# from the posting: "Database experience: Deep schema design, RLS, and event-sourcing database expertise."
+[[criteria]]
+id = "req_database"
+question = "Walk me through a database schema you designed that used row-level security (RLS) and event sourcing."
+weight = 2  # section default -- confirm before use
+looks_like = "Concrete schema design decisions, RLS policies implemented, and event-sourcing patterns applied in a real system."
+
+# from the posting: "Security Architecture: Practical application-level security, encryption models, key management, and auth patterns."
+[[criteria]]
+id = "req_security_architecture"
+question = "Describe an application-level security system you built, including its encryption model, key management, and auth pattern."
+weight = 2  # section default -- confirm before use
+looks_like = "Specifics of encryption schemes, key management infrastructure, and authentication/authorization patterns implemented in practice."
+
+# from the posting: "Adversarial Mindset: You naturally think like an attacker to uncover race conditions, logic flaws, and vulnerabilities."
+[[criteria]]
+id = "req_adversarial_mindset"
+question = "Give an example where thinking like an attacker helped you find a race condition, logic flaw, or vulnerability."
+weight = 2  # section default -- confirm before use
+looks_like = "A specific race condition, logic flaw, or vulnerability the candidate found by reasoning like an attacker."
+
+# from the posting: "Policy-as-Code: Hands-on experience with Cerbos, OPA, Cedar, or similar."
+[[criteria]]
+id = "req_policy_as_code"
+question = "Describe your hands-on experience with policy-as-code tools such as Cerbos, OPA, or Cedar."
+weight = 2  # section default -- confirm before use
+looks_like = "Real deployment or configuration of Cerbos, OPA, Cedar, or a comparable policy-as-code tool in production."
+
+# from the posting: "Domain knowledge: You've owned real breadth of the security stack, not one narrow slice of it."
+[[criteria]]
+id = "req_domain_breadth"
+question = "Describe the breadth of the security stack you've owned end-to-end, rather than one narrow slice."
+weight = 2  # section default -- confirm before use
+looks_like = "Examples spanning multiple layers of the security stack under the candidate's own ownership, not a single narrow area."
+
+# from the posting: "You understand what securing mission-critical enterprise software at large scale demands."
+[[criteria]]
+id = "req_understand_scale"
+question = "What does securing mission-critical enterprise software at large scale require, based on your experience?"
+weight = 2  # section default -- confirm before use
+looks_like = "Examples reflecting an understanding of the demands of securing mission-critical enterprise software at scale."
+
+# from the posting: "Regulated industries (fintech, banking, insurance) are a plus, but end-to-end ownership counts for more than time spent inside a large org."
+[[criteria]]
+id = "nice_regulated_industries"
+question = "Do you have experience in regulated industries like fintech, banking, or insurance?"
+weight = 1  # section default -- confirm before use
+looks_like = "Prior work in fintech, banking, or insurance, though the posting weighs end-to-end ownership more heavily than this."
+
+# from the posting: "Cryptographic primitives"
+[[criteria]]
+id = "nice_crypto_primitives"
+question = "What experience do you have working directly with cryptographic primitives?"
+weight = 1  # section default -- confirm before use
+looks_like = "Hands-on work implementing or applying cryptographic primitives in a real system."
+
+# from the posting: "Event streaming (Kafka/Redpanda)"
+[[criteria]]
+id = "nice_event_streaming"
+question = "Have you worked with event streaming systems like Kafka or Redpanda?"
+weight = 1  # section default -- confirm before use
+looks_like = "Hands-on experience building or operating Kafka or Redpanda-based pipelines."
+
+# from the posting: "Kubernetes and cloud-native architecture knowledge"
+[[criteria]]
+id = "nice_kubernetes"
+question = "What's your experience with Kubernetes and cloud-native architecture?"
+weight = 1  # section default -- confirm before use
+looks_like = "Hands-on Kubernetes deployment and cloud-native architecture experience."
+
+# from the posting: "LLM/agentic system security exposure (prompt injection defense, guardrails, agent threat modeling)—relevant to our product surface, but a plus on top of the backend and security fundamentals above, not a substitute for them."
+[[criteria]]
+id = "nice_llm_agentic_security"
+question = "What exposure do you have to LLM/agentic system security, such as prompt injection defense or agent threat modeling?"
+weight = 1  # section default -- confirm before use
+looks_like = "Specific work on guardrails, prompt injection defenses, or agent threat modeling, on top of solid backend/security fundamentals."

@@ -1,0 +1,34 @@
+id = "empty_card_recorded"
+found = "2026-09-24"
+origin = "reconstructed"
+kind = "card"
+what_broke = """
+A trial-day card with nothing filled in was accepted. Recorded, it would say
+the day happened and the observer saw nothing -- the first ground truth the
+system has, filled with an absence.
+"""
+guards = """
+trial.read_card refuses a card on which nothing was observed.
+"""
+
+[inputs]
+agenda = "mandates/generated/role_founders_associate.provenance.json"
+card = """
+candidate = "ines_abadi"
+posting = "founders_associate"
+impression = ""
+note = ""
+
+[criteria.ai_native]
+paper = "moderate"
+observed = ""
+strength = ""
+
+[criteria.extreme_ownership]
+paper = "strong"
+observed = ""
+strength = ""
+"""
+
+[expect]
+refused_with = ["nothing was observed"]

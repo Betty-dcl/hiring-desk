@@ -1,0 +1,125 @@
+# Role mandate for Marketing Lead, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-09-18T12:38:05.553880+00:00 by claude-sonnet-5
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+#
+# This posting declares its own list a wishlist, not a checklist.
+# Nothing here is a gate unless the posting separately said so.
+
+[role]
+id = "marketing_lead"
+title = "Marketing Lead"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+The role
+
+Every finance team now knows agentic AI is coming. Most of the market is racing to put an agent on one side of the deal — the buyer's or the supplier's. We built the next stage: the network where both sides run agents that negotiate with each other.
+
+Right now, no CFO is asking to buy this. Not because they don't have the problem, but because the category doesn't have a name yet.
+
+That's the job.
+
+We're looking for the person who will name the category and build the brand that makes it feel inevitable — the one who turns agent-to-agent finance from a technical claim into something every finance leader in Europe recognises on sight and has an opinion about. Brand here is not a logo and a tone-of-voice deck. It's the whole surface area: what we stand for, how we look, how we sound, what it feels like to encounter us on a website, on a stage, in an inbox, at a dinner. You'll be the first marketer here, working shoulder-to-shoulder with the founders, from Madrid.
+
+Built by the team behind multiple unicorns and companies like Taulia and Finoa, we've built and scaled companies from San Francisco to Berlin. We're backed by Creandum and an angel network of founders and operators from Qonto, SoFi, SAP, ING, and DeepMind. We've just launched our visual identity. Everything that turns it into a brand is yours to build.
+
+What you'll do
+
+ - Name and win the category. The positioning, the narrative, the vocabulary the market ends up using. Make agent-to-agent finance look obvious
+"""
+
+# from the posting: "You've built a brand, not just run marketing."
+[[criteria]]
+id = "build_brand_experience"
+question = "Can you describe a brand you built from the ground up, not just a marketing function you ran?"
+weight = 2  # section default -- confirm before use
+looks_like = "A specific example of a brand shaped from identity through execution, showing what it looked and sounded like before and after."
+
+# from the posting: "Taste, and the nerve to defend it."
+[[criteria]]
+id = "taste_and_judgment"
+question = "How do you exercise and defend your taste and creative judgment on brand decisions?"
+weight = 2  # section default -- confirm before use
+looks_like = "Examples of visual/verbal judgment calls, distinguishing good from nearly-good, and choosing a strong point of view over a safe option."
+
+# from the posting: "You've taught a market something new."
+[[criteria]]
+id = "category_creation"
+question = "Tell us about a time you created a category or taught a market something new — what did the market believe before, and after?"
+weight = 2  # section default -- confirm before use
+looks_like = "A narrative, launch, or campaign with receipts showing a shift in market belief, not just competitive displacement."
+
+# from the posting: "You write well enough to carry the idea."
+[[criteria]]
+id = "writing_ability"
+question = "Can you show writing where you translated a hard technical concept into something a CFO would feel in a few sentences?"
+weight = 2  # section default -- confirm before use
+looks_like = "Writing samples that make a technical concept emotionally resonant for a senior finance audience in just a few sentences."
+
+# from the posting: "Enterprise B2B instinct."
+[[criteria]]
+id = "enterprise_b2b_instinct"
+question = "What's your experience with multi-stakeholder enterprise buying and long sales cycles?"
+weight = 2  # section default -- confirm before use
+looks_like = "Demonstrated understanding of multi-stakeholder buying, long cycles, and how a finance org decides, including familiarity with procurement review."
+
+# from the posting: "A builder who ships."
+[[criteria]]
+id = "builder_who_ships"
+question = "Give an example of shipping something yourself quickly rather than briefing an agency and waiting."
+weight = 2  # section default -- confirm before use
+looks_like = "A concrete example of shipping fast independently, e.g., a landing page live by Friday, without waiting on an agency."
+
+# from the posting: "AI-native by default."
+[[criteria]]
+id = "ai_native"
+question = "How do you use AI tools and agents in your own workflow to multiply your craft?"
+weight = 2  # section default -- confirm before use
+looks_like = "A described roster of tools/agents used for research, design, and production to multiply personal output, not to replace thinking."
+
+# from the posting: "Direct, low-ego, high-ownership."
+[[criteria]]
+id = "direct_low_ego_ownership"
+question = "How do you take a problem from definition to shipped outcome without being directed, and how do you handle disagreement?"
+weight = 2  # section default -- confirm before use
+looks_like = "Examples of taking full ownership of a problem end-to-end and constructively challenging ideas without ego."
+
+# from the posting: "working shoulder-to-shoulder with the founders, from Madrid"
+[[criteria]]
+id = "madrid_location"
+question = "Are you able to work from Madrid alongside the founders?"
+weight = 2  # section default -- confirm before use
+looks_like = "Confirmation of willingness/ability to be based in Madrid working closely with the founding team."
+
+# from the posting: "Experience marketing to finance leaders, or in the office-of-the-CFO / fintech space"
+[[criteria]]
+id = "finance_marketing_experience"
+question = "Do you have experience marketing to finance leaders or in the CFO/fintech space?"
+weight = 1  # section default -- confirm before use
+looks_like = "Prior campaigns or roles targeting finance leaders, office-of-the-CFO, or fintech buyers."
+
+# from the posting: "Design fluency — you can work in Figma and Webflow yourself, and brief a designer properly when you can't"
+[[criteria]]
+id = "design_fluency"
+question = "Can you work hands-on in Figma and Webflow, and brief a designer when needed?"
+weight = 1  # section default -- confirm before use
+looks_like = "Direct hands-on examples of working in Figma/Webflow plus experience writing clear creative briefs."
+
+# from the posting: "A track record in PR and analyst relations (in-house or agency-side), and founder/executive communications"
+[[criteria]]
+id = "pr_analyst_relations"
+question = "What's your track record in PR, analyst relations, and founder/executive communications?"
+weight = 1  # section default -- confirm before use
+looks_like = "Concrete examples of securing press/analyst coverage and managing founder or executive communications."
+
+# from the posting: "Spanish or German"
+[[criteria]]
+id = "languages"
+question = "Do you speak Spanish or German?"
+weight = 1  # section default -- confirm before use
+looks_like = "Working proficiency in Spanish or German."

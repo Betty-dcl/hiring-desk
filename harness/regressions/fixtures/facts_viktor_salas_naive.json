@@ -1,0 +1,114 @@
+{
+  "candidate_id": "viktor_salas_naive",
+  "name": "Viktor Salas",
+  "extracted_at": "2026-09-21T16:37:03.817891+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "job_ops_coordinator",
+      "kind": "experience",
+      "claim": "Worked as Operations Coordinator at Fenwick Supplies in Madrid, 2021 to present",
+      "source_quote": "Operations Coordinator — Fenwick Supplies",
+      "period": "2021 – present",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "ops_coordinator_purchasing",
+      "kind": "experience",
+      "claim": "Coordinated purchasing across two warehouses",
+      "source_quote": "Coordinated purchasing across two warehouses.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "ops_coordinator_spreadsheet",
+      "kind": "experience",
+      "claim": "Kept the supplier spreadsheet up to date",
+      "source_quote": "Kept the supplier spreadsheet up to date.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "job_admin_assistant",
+      "kind": "experience",
+      "claim": "Worked as Administrative Assistant at Cortez & Vidal in Madrid, 2018 to 2021",
+      "source_quote": "Administrative Assistant — Cortez & Vidal",
+      "period": "2018 – 2021",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "admin_assistant_diary_travel",
+      "kind": "experience",
+      "claim": "Handled diary management and travel booking for three partners",
+      "source_quote": "Diary management and travel booking for three partners.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "admin_assistant_expenses",
+      "kind": "experience",
+      "claim": "Prepared expense reports",
+      "source_quote": "Prepared expense reports.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "education_degree",
+      "kind": "education",
+      "claim": "Completed a Grado en Administración de Empresas (Business Administration degree) at Universidad de Alcalá in 2018",
+      "source_quote": "Grado en Administración de Empresas, Universidad de Alcalá, 2018",
+      "period": "2018",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "skill_excel",
+      "kind": "skill",
+      "claim": "Lists Excel as a skill",
+      "source_quote": "Excel",
+      "period": "",
+      "evidence": "assertion",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "skill_supplier_management",
+      "kind": "skill",
+      "claim": "Lists supplier management as a skill",
+      "source_quote": "supplier management",
+      "period": "",
+      "evidence": "assertion",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "skill_scheduling",
+      "kind": "skill",
+      "claim": "Lists scheduling as a skill",
+      "source_quote": "scheduling",
+      "period": "",
+      "evidence": "assertion",
+      "source": "cv",
+      "role": ""
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 10,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "posting": {
+    "id": "senior_sap_abap_engineer",
+    "title": "Senior SAP / ABAP Engineer",
+    "company": "Causa Prima",
+    "location": "Madrid, on-site",
+    "source_url": "https://jobs.ashbyhq.com/causaprima",
+    "fetched_at": "2026-10-07"
+  },
+  "posting_id": "senior_sap_abap_engineer",
+  "title": "Senior SAP / ABAP Engineer",
+  "wishlist_declared": false,
+  "extracted_at": "2026-10-07T11:20:42.532272+00:00",
+  "model": "written by hand in a Claude Code session, 2026-10-07",
+  "criteria": [
+    {
+      "id": "abap_experience",
+      "question": "Tell us about your ABAP development on S/4HANA and ECC, and for how long.",
+      "source_quote": "At least 6 years of hands-on ABAP development on S/4HANA and ECC (not configuration with some coding attached).",
+      "section": "requirement",
+      "looks_like": "Six or more years writing ABAP on S/4HANA and ECC, not configuration.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "abap_in_production",
+      "question": "What ABAP have you shipped into a customer's production system?",
+      "source_quote": "ABAP you've shipped into someone else's production system, with the upgrade cycles, transports, and volume problems that follow.",
+      "section": "requirement",
+      "looks_like": "ABAP shipped into customer systems, through upgrades, transports and volume.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ap_knowledge",
+      "question": "What accounts payable processes have you built or supported in SAP?",
+      "source_quote": "Deep AP knowledge: three-way match, Skonto postings, blocked invoices, open item clearing, vendor master, payment runs, duplicate detection.",
+      "section": "requirement",
+      "looks_like": "Three-way match, Skonto, blocked invoices, open item clearing, vendor master, payment runs, duplicate detection.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "modern_abap",
+      "question": "Which modern ABAP do you use: CDS, OO ABAP, ABAP Unit, RAP?",
+      "source_quote": "Strong modern ABAP: CDS views, OO ABAP, ABAP Unit, RAP, and an instinct for upgrade-safe, namespace-clean code.",
+      "section": "requirement",
+      "looks_like": "CDS views, OO ABAP, ABAP Unit, RAP, upgrade-safe code in a namespace.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "sap_integration",
+      "question": "How have third-party systems integrated with your S/4HANA or ECC systems?",
+      "source_quote": "Fluency in how third-party systems integrate with S/4HANA and ECC (OData, RFC, IDoc), including where the two data models diverge.",
+      "section": "requirement",
+      "looks_like": "OData, RFC, IDoc integrations with S/4HANA and ECC.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "scope_and_risk",
+      "question": "Tell us about a scope or risk call you made and how you explained it.",
+      "source_quote": "Judgment about scope and risk, and the ability to explain that call to engineers and executives alike.",
+      "section": "requirement",
+      "looks_like": "A scope or risk decision explained to engineers and executives.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "enterprise_and_ai",
+      "question": "Where do you see enterprise systems and AI meeting?",
+      "source_quote": "Curiosity beyond the SAP world, and energy for where enterprise systems and AI meet.",
+      "section": "requirement",
+      "looks_like": "Interest in AI applied to enterprise systems.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "communication",
+      "question": "How do you work with finance people and engineers, in English?",
+      "source_quote": "Clear communication with both engineers and finance people, in English; Spanish or German is a strong plus.",
+      "section": "requirement",
+      "looks_like": "Clear English with engineers and finance teams; Spanish or German.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ai_assisted_abap",
+      "question": "How do you use AI in your ABAP development, testing and analysis?",
+      "source_quote": "Using AI to leverage ADT services to speed up the development, deployment, testing and analysis",
+      "section": "requirement",
+      "looks_like": "AI with ADT for development, deployment, testing, analysis; custom test programs.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ar_knowledge",
+      "question": "What accounts receivable processes do you know?",
+      "source_quote": "Accounts receivable knowledge alongside the AP side: customer master, incoming payments and cash application, dunning, credit management, and what drives DSO.",
+      "section": "nice_to_have",
+      "looks_like": "Customer master, incoming payments, cash application, dunning, credit management, DSO.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "sap_certification",
+      "question": "Have you taken an add-on through SAP certification?",
+      "source_quote": "Experience taking an add-on through SAP certification (ICC), or working inside a registered namespace as a partner.",
+      "section": "nice_to_have",
+      "looks_like": "An add-on certified by SAP (ICC), or partner work in a registered namespace.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "sap_joule",
+      "question": "Have you used SAP Joule?",
+      "source_quote": "You've played with SAP Joule",
+      "section": "nice_to_have",
+      "looks_like": "Hands-on use of SAP Joule, or a view on it.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "sap_btp",
+      "question": "Have you worked with SAP BTP?",
+      "source_quote": "SAP BTP exposure (extensions, the API layer, or GCP-hosted environments).",
+      "section": "nice_to_have",
+      "looks_like": "BTP extensions, its API layer, or GCP-hosted environments.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ap_automation",
+      "question": "Have you worked on AP automation or e-invoicing?",
+      "source_quote": "Experience with AP automation, e-invoicing, or procure-to-pay workflows.",
+      "section": "nice_to_have",
+      "looks_like": "AP automation, e-invoicing, procure-to-pay.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "fintech_background",
+      "question": "Have you worked in fintech or accounting tech?",
+      "source_quote": "Background in fintech, accounting tech, or a regulated environment.",
+      "section": "nice_to_have",
+      "looks_like": "Fintech, accounting technology, or a regulated environment.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "abapgit",
+      "question": "Do you use abapGit?",
+      "source_quote": "Bonus points for using AbapGIT",
+      "section": "nice_to_have",
+      "looks_like": "abapGit in their workflow.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "own_the_addon",
+      "question": "How would you structure and release an ABAP add-on?",
+      "source_quote": "Architectural ownership of our ABAP add-on in its registered namespace",
+      "section": "responsibility",
+      "looks_like": "Structure, release and upgrade safety of an add-on.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "fico_domain",
+      "question": "How do you turn FI/CO rules into code?",
+      "source_quote": "Turn accounting reality into code",
+      "section": "responsibility",
+      "looks_like": "Posting logic, payment terms, open items, account determination, tax codes.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 18,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

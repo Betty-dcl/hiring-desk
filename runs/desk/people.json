@@ -1,0 +1,165 @@
+{
+  "people": [
+    {
+      "person_id": "ines_abadi",
+      "name": "Inès Abadi",
+      "email": "",
+      "link": "",
+      "links": [],
+      "applications": [
+        {
+          "posting_id": "founders_associate",
+          "candidate_id": "ines_abadi"
+        }
+      ],
+      "documents": [
+        {
+          "posting_id": "founders_associate",
+          "kind": "cv",
+          "stored": "ines_abadi/founders_associate_cv_1.md",
+          "original": "ines_abadi.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        },
+        {
+          "posting_id": "founders_associate",
+          "kind": "letter",
+          "stored": "ines_abadi/founders_associate_letter_1.md",
+          "original": "ines_abadi_note.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        }
+      ]
+    },
+    {
+      "person_id": "mara_velichko",
+      "name": "Mara Velichko",
+      "email": "",
+      "link": "",
+      "links": [],
+      "applications": [
+        {
+          "posting_id": "founders_associate",
+          "candidate_id": "mara_velichko"
+        }
+      ],
+      "documents": [
+        {
+          "posting_id": "founders_associate",
+          "kind": "cv",
+          "stored": "mara_velichko/founders_associate_cv_1.md",
+          "original": "mara_velichko.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        },
+        {
+          "posting_id": "founders_associate",
+          "kind": "letter",
+          "stored": "mara_velichko/founders_associate_letter_1.md",
+          "original": "mara_velichko_note.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        }
+      ]
+    },
+    {
+      "person_id": "paul_okonkwo",
+      "name": "Paul Okonkwo",
+      "email": "",
+      "link": "",
+      "links": [],
+      "applications": [
+        {
+          "posting_id": "founders_associate",
+          "candidate_id": "paul_okonkwo"
+        },
+        {
+          "posting_id": "senior_backend_platform_engineer",
+          "candidate_id": "paul_okonkwo"
+        }
+      ],
+      "documents": [
+        {
+          "posting_id": "founders_associate",
+          "kind": "cv",
+          "stored": "paul_okonkwo/founders_associate_cv_1.md",
+          "original": "paul_okonkwo.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        },
+        {
+          "posting_id": "founders_associate",
+          "kind": "letter",
+          "stored": "paul_okonkwo/founders_associate_letter_1.md",
+          "original": "paul_okonkwo_note.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        },
+        {
+          "posting_id": "senior_backend_platform_engineer",
+          "kind": "letter",
+          "stored": "paul_okonkwo/senior_backend_platform_engineer_letter_1.md",
+          "original": "paul_okonkwo_backend.md",
+          "added_by": "",
+          "at": "2026-09-26T10:12:00+00:00"
+        }
+      ]
+    },
+    {
+      "person_id": "sylvia_hartmann",
+      "name": "Sylvia Hartmann",
+      "email": "",
+      "link": "",
+      "links": [],
+      "applications": [
+        {
+          "posting_id": "founders_associate",
+          "candidate_id": "sylvia_hartmann"
+        }
+      ],
+      "documents": [
+        {
+          "posting_id": "founders_associate",
+          "kind": "cv",
+          "stored": "sylvia_hartmann/founders_associate_cv_1.md",
+          "original": "sylvia_hartmann.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        },
+        {
+          "posting_id": "founders_associate",
+          "kind": "letter",
+          "stored": "sylvia_hartmann/founders_associate_letter_1.md",
+          "original": "sylvia_hartmann_letter.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        }
+      ]
+    },
+    {
+      "person_id": "tomas_renner",
+      "name": "Tomás Renner",
+      "email": "",
+      "link": "",
+      "links": [],
+      "applications": [
+        {
+          "posting_id": "founders_associate",
+          "candidate_id": "tomas_renner"
+        }
+      ],
+      "documents": [
+        {
+          "posting_id": "founders_associate",
+          "kind": "cv",
+          "stored": "tomas_renner/founders_associate_cv_1.md",
+          "original": "tomas_renner.md",
+          "added_by": "",
+          "at": "2026-09-18T13:41:34.524596+00:00"
+        }
+      ]
+    }
+  ],
+  "possible_duplicates": [],
+  "merges": []
+}

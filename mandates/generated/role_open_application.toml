@@ -1,0 +1,87 @@
+# Role mandate for Open Application, extracted from the posting.
+#
+# Source: https://jobs.ashbyhq.com/causaprima
+# Extracted: 2026-09-18T12:38:34.288297+00:00 by claude-sonnet-5
+#
+# Every criterion below quotes the posting, and every quote was checked
+# against it. Weights are NOT from the posting -- they are section
+# defaults, and they are wrong until a human sets them. See intake/setup.py.
+
+[role]
+id = "open_application"
+title = "Open Application"
+company = "Causa Prima"
+location = "Madrid, on-site"
+summary = """
+About Causa Prima
+
+We're building autonomous finance operations for the CFO office. Think accounts payable, accounts receivable, cash management and treasury, run by agentic AI rather than spreadsheets and manual review. It's early, the problems are hard, and the people who join now shape what the company becomes.
+
+We work between Madrid (our primary hub) and Munich, in-person.
+
+Why you're here
+
+You've looked at our open roles and nothing fits, but something about what we're doing stuck with you. Good. Some of our best hires didn't come through a job we'd posted. They reached out, showed us how they think, and we built a role around them.
+
+This is that door. Tell us what you're exceptional at and where you'd want to make a dent, and we'll keep you close for when the right thing opens up (or create it).
+
+Who tends to thrive here
+
+ - You move fast and ship real things, not decks about things.
+
+ - You go deep. You'd rather understand a problem properly than skim five.
+
+ - You have strong instincts in your domain and the judgment to know when to trust them.
+
+ - You're comfortable with ambiguity and short on ego about owning the unglamorous parts.
+
+ - You actually care about finance, AI, or both.
+
+We hire across engineering, product, design, operations, and go-to-market. If you're great at something we haven't named, surprise us.
+
+How we work
+
+Small team, high ownership, very little process for its own sake. We value original thinking over polish, output over activity, and honest 
+"""
+
+# from the posting: "We work between Madrid (our primary hub) and Munich, in-person."
+[[criteria]]
+id = "in_person_madrid_munich"
+question = "Are you able to work in-person between Madrid and Munich?"
+weight = 2  # section default -- confirm before use
+looks_like = "Confirmation of willingness and ability to work in-person, based between Madrid and Munich."
+
+# from the posting: "You move fast and ship real things, not decks about things."
+[[criteria]]
+id = "ships_real_things"
+question = "Can you give an example of shipping a real thing quickly, rather than producing plans or decks about it?"
+weight = 2  # section default -- confirm before use
+looks_like = "A concrete example of moving quickly to produce a real, shipped outcome rather than planning documents or presentations."
+
+# from the posting: "You go deep. You'd rather understand a problem properly than skim five."
+[[criteria]]
+id = "goes_deep"
+question = "Tell me about a time you went deep on a single problem rather than skimming across several."
+weight = 2  # section default -- confirm before use
+looks_like = "An example showing thorough, deep understanding of one problem rather than shallow coverage of many."
+
+# from the posting: "You have strong instincts in your domain and the judgment to know when to trust them."
+[[criteria]]
+id = "strong_instincts_judgment"
+question = "How do you apply strong instincts in your domain, and how do you judge when to trust them versus verify further?"
+weight = 2  # section default -- confirm before use
+looks_like = "An example pairing domain instinct with the judgment to know when that instinct is reliable enough to act on."
+
+# from the posting: "You're comfortable with ambiguity and short on ego about owning the unglamorous parts."
+[[criteria]]
+id = "comfortable_ambiguity_unglamorous"
+question = "Describe a time you took on ambiguous or unglamorous work without it being assigned to you."
+weight = 2  # section default -- confirm before use
+looks_like = "An example of stepping into unclear situations and owning undesirable tasks without ego getting in the way."
+
+# from the posting: "You actually care about finance, AI, or both."
+[[criteria]]
+id = "cares_about_finance_ai"
+question = "What draws you to finance, AI, or both?"
+weight = 2  # section default -- confirm before use
+looks_like = "Genuine, specific interest or experience in finance and/or AI, not just general enthusiasm."

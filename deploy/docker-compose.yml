@@ -1,0 +1,82 @@
+# The hiring desk on a small server, behind the company's Google sign-in.
+# An option for later: the desk runs fine on one laptop (install.py). Read
+# deploy/README.md first. Never run against real data before it was tested.
+#
+#   Internet --443--> caddy (HTTPS) --> oauth2-proxy (Google sign-in) --> desk
+#
+# Only caddy publishes ports. The desk is reachable from oauth2-proxy alone,
+# on a private network whose addresses desk.toml trusts (trusted_proxies).
+
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    environment:
+      DESK_DOMAIN: ${DESK_DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+    networks: [edge]
+
+  oauth2-proxy:
+    image: quay.io/oauth2-proxy/oauth2-proxy:v7.6.0
+    restart: unless-stopped
+    command:
+      - --provider=google
+      - --http-address=0.0.0.0:4180
+      - --upstream=http://desk:8765
+      - --reverse-proxy=true
+      # Only the addresses listed in emails.txt get in, whatever their domain.
+      - --authenticated-emails-file=/etc/oauth2-proxy/emails.txt
+      # Sends X-Forwarded-Email, overwriting any a browser sent.
+      - --pass-user-headers=true
+      - --redirect-url=https://${DESK_DOMAIN}/oauth2/callback
+      - --cookie-secure=true
+      # Ashby's webhook has no Google account: it is checked by its signature.
+      - --skip-auth-route=POST=^/webhook/ashby$
+    environment:
+      OAUTH2_PROXY_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      OAUTH2_PROXY_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      OAUTH2_PROXY_COOKIE_SECRET: ${COOKIE_SECRET}
+    volumes:
+      - ./emails.txt:/etc/oauth2-proxy/emails.txt:ro
+    networks: [edge, inside]
+
+  desk:
+    build: ..
+    restart: unless-stopped
+    environment:
+      NBH_LINK_SECRET: ${NBH_LINK_SECRET}
+      ASHBY_API_KEY: ${ASHBY_API_KEY:-}
+      ASHBY_WEBHOOK_SECRET: ${ASHBY_WEBHOOK_SECRET:-}
+      PYTHONUTF8: "1"
+    volumes:
+      - ./data:/app/runs
+      - ./desk.toml:/app/desk.toml:ro
+    # No ports: nothing reaches the desk but oauth2-proxy.
+    networks:
+      inside:
+        ipv4_address: 172.28.0.10
+
+  backup:
+    build: ..
+    restart: unless-stopped
+    # A dated zip every 24 hours into ./backups, the 30 newest kept. Copy that
+    # folder off the server too (see README).
+    entrypoint: ["sh", "-c", "while true; do python backup.py --to /backups --keep 30; sleep 86400; done"]
+    volumes:
+      - ./data:/app/runs
+      - ./desk.toml:/app/desk.toml:ro
+      - ./backups:/backups
+    networks: [inside]
+
+networks:
+  edge: {}
+  inside:
+    ipam:
+      config:
+        - subnet: 172.28.0.0/24
+
+volumes:
+  caddy-data: {}

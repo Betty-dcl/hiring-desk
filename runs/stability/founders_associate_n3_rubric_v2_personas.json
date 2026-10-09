@@ -1,0 +1,685 @@
+{
+  "posting_id": "founders_associate",
+  "n": 3,
+  "at": "2026-09-19T16:30:14.471693+00:00",
+  "order_is_stable": false,
+  "orders": [
+    [
+      "ines_abadi",
+      "mara_velichko",
+      "paul_okonkwo",
+      "sylvia_hartmann",
+      "tomas_renner"
+    ],
+    [
+      "ines_abadi",
+      "mara_velichko",
+      "paul_okonkwo",
+      "tomas_renner",
+      "sylvia_hartmann"
+    ],
+    [
+      "ines_abadi",
+      "mara_velichko",
+      "paul_okonkwo",
+      "tomas_renner",
+      "sylvia_hartmann"
+    ]
+  ],
+  "rank_movement": {
+    "ines_abadi": 0,
+    "mara_velichko": 0,
+    "paul_okonkwo": 0,
+    "sylvia_hartmann": 1,
+    "tomas_renner": 1
+  },
+  "resolution": 0.0825,
+  "places_worth_reading": 1,
+  "separation": [
+    {
+      "above": "ines_abadi",
+      "below": "mara_velichko",
+      "gap": 0.4466,
+      "noise": 0.075,
+      "separated": true
+    },
+    {
+      "above": "mara_velichko",
+      "below": "paul_okonkwo",
+      "gap": 0.0267,
+      "noise": 0.06,
+      "separated": false
+    },
+    {
+      "above": "paul_okonkwo",
+      "below": "tomas_renner",
+      "gap": 0.03,
+      "noise": 0.0,
+      "separated": true
+    },
+    {
+      "above": "tomas_renner",
+      "below": "sylvia_hartmann",
+      "gap": 0.0233,
+      "noise": 0.0825,
+      "separated": false
+    }
+  ],
+  "unstable_criteria": [
+    {
+      "candidate_id": "ines_abadi",
+      "criterion_id": "technical_curiosity",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "ines_abadi",
+      "criterion_id": "fluent_english",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "mara_velichko",
+      "criterion_id": "fluent_english",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "mara_velichko",
+      "criterion_id": "nice_languages",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "criterion_id": "full_spectrum_range",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "criterion_id": "extreme_ownership",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "criterion_id": "analytical_range",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "criterion_id": "fluent_english",
+      "agreement": 0.667
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "criterion_id": "nice_fintech_saas_cfo",
+      "agreement": 0.667
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "ines_abadi",
+      "runs": 3,
+      "scores": [
+        0.725,
+        0.765,
+        0.8
+      ],
+      "mean": 0.7633,
+      "spread": 0.075,
+      "stdev": 0.0375,
+      "per_criterion": {
+        "high_intensity_experience": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "ai_native": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "full_spectrum_range": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "extreme_ownership": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "analytical_range": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "polished_writing": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "technical_curiosity": {
+          "modal": "strong",
+          "agreement": 0.667,
+          "seen": {
+            "moderate": 1,
+            "strong": 2
+          },
+          "stable": false
+        },
+        "fluent_english": {
+          "modal": "weak",
+          "agreement": 0.667,
+          "seen": {
+            "weak": 2,
+            "moderate": 1
+          },
+          "stable": false
+        },
+        "nice_fintech_saas_cfo": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "nice_startup_experience": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "nice_fundraising_exposure": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "nice_languages": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        }
+      },
+      "errors": []
+    },
+    {
+      "candidate_id": "mara_velichko",
+      "runs": 3,
+      "scores": [
+        0.35,
+        0.31,
+        0.29
+      ],
+      "mean": 0.3167,
+      "spread": 0.06,
+      "stdev": 0.0306,
+      "per_criterion": {
+        "high_intensity_experience": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "ai_native": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "full_spectrum_range": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "extreme_ownership": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "analytical_range": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "polished_writing": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "technical_curiosity": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "fluent_english": {
+          "modal": "moderate",
+          "agreement": 0.667,
+          "seen": {
+            "strong": 1,
+            "moderate": 2
+          },
+          "stable": false
+        },
+        "nice_fintech_saas_cfo": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "nice_startup_experience": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_fundraising_exposure": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "nice_languages": {
+          "modal": "strong",
+          "agreement": 0.667,
+          "seen": {
+            "strong": 2,
+            "moderate": 1
+          },
+          "stable": false
+        }
+      },
+      "errors": []
+    },
+    {
+      "candidate_id": "paul_okonkwo",
+      "runs": 3,
+      "scores": [
+        0.29,
+        0.29,
+        0.29
+      ],
+      "mean": 0.29,
+      "spread": 0.0,
+      "stdev": 0.0,
+      "per_criterion": {
+        "high_intensity_experience": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "ai_native": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "full_spectrum_range": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "extreme_ownership": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "analytical_range": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "polished_writing": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "technical_curiosity": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "fluent_english": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "nice_fintech_saas_cfo": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "nice_startup_experience": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_fundraising_exposure": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_languages": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        }
+      },
+      "errors": []
+    },
+    {
+      "candidate_id": "sylvia_hartmann",
+      "runs": 3,
+      "scores": [
+        0.2725,
+        0.2475,
+        0.19
+      ],
+      "mean": 0.2367,
+      "spread": 0.0825,
+      "stdev": 0.0423,
+      "per_criterion": {
+        "high_intensity_experience": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "ai_native": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "full_spectrum_range": {
+          "modal": "weak",
+          "agreement": 0.667,
+          "seen": {
+            "weak": 2,
+            "unknown": 1
+          },
+          "stable": false
+        },
+        "extreme_ownership": {
+          "modal": "strong",
+          "agreement": 0.667,
+          "seen": {
+            "strong": 2,
+            "moderate": 1
+          },
+          "stable": false
+        },
+        "analytical_range": {
+          "modal": "weak",
+          "agreement": 0.667,
+          "seen": {
+            "weak": 2,
+            "unknown": 1
+          },
+          "stable": false
+        },
+        "polished_writing": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "technical_curiosity": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "fluent_english": {
+          "modal": "moderate",
+          "agreement": 0.667,
+          "seen": {
+            "moderate": 2,
+            "weak": 1
+          },
+          "stable": false
+        },
+        "nice_fintech_saas_cfo": {
+          "modal": "weak",
+          "agreement": 0.667,
+          "seen": {
+            "weak": 2,
+            "moderate": 1
+          },
+          "stable": false
+        },
+        "nice_startup_experience": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_fundraising_exposure": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_languages": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        }
+      },
+      "errors": []
+    },
+    {
+      "candidate_id": "tomas_renner",
+      "runs": 3,
+      "scores": [
+        0.26,
+        0.26,
+        0.26
+      ],
+      "mean": 0.26,
+      "spread": 0.0,
+      "stdev": 0.0,
+      "per_criterion": {
+        "high_intensity_experience": {
+          "modal": "moderate",
+          "agreement": 1.0,
+          "seen": {
+            "moderate": 3
+          },
+          "stable": true
+        },
+        "ai_native": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "full_spectrum_range": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "extreme_ownership": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "analytical_range": {
+          "modal": "weak",
+          "agreement": 1.0,
+          "seen": {
+            "weak": 3
+          },
+          "stable": true
+        },
+        "polished_writing": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "technical_curiosity": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "fluent_english": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        },
+        "nice_fintech_saas_cfo": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_startup_experience": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_fundraising_exposure": {
+          "modal": "unknown",
+          "agreement": 1.0,
+          "seen": {
+            "unknown": 3
+          },
+          "stable": true
+        },
+        "nice_languages": {
+          "modal": "strong",
+          "agreement": 1.0,
+          "seen": {
+            "strong": 3
+          },
+          "stable": true
+        }
+      },
+      "errors": []
+    }
+  ],
+  "derived_from": "founders_associate_n3_rubric_v2.json",
+  "dropped": 1,
+  "derivation_note": "per-run scores copied unchanged; cohort-level figures recomputed for the remaining candidates",
+  "dropped_reason": "the repository author, whose own application is not published here; per-run scores of the rest are unchanged"
+}

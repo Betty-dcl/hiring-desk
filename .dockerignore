@@ -1,0 +1,14 @@
+# Never in the image: live or invented data (mounted as a volume instead),
+# real personal files, secrets, history and caches.
+runs/
+local/
+.git/
+.venv/
+venv/
+**/__pycache__/
+.pytest_cache/
+deploy/.env
+deploy/emails.txt
+deploy/desk.toml
+deploy/data/
+deploy/backups/

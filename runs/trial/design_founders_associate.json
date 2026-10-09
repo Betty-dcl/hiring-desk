@@ -1,0 +1,399 @@
+{
+  "posting_id": "founders_associate",
+  "designed_at": "2026-09-24T10:00:14.379126+00:00",
+  "model": "claude-sonnet-5",
+  "sees_candidates": false,
+  "same_for_every_candidate": true,
+  "day_minutes": 360,
+  "slot_minutes": 30,
+  "exercise_minutes": 330,
+  "exercises": [
+    {
+      "id": "frame_market_expansion",
+      "title": "Frame the EU Expansion Question",
+      "responsibility_id": "resp_frame_strategy",
+      "minutes": 45,
+      "material": "A one-page brief on a fictional AI hardware startup, 'Solace Robotics' (invented, 45 employees, US-based). Founders are debating whether to launch a EUR-denominated subscription tier for European customers next quarter. The candidate receives three paragraphs of founder context, a spreadsheet of 40 fictional customer records (deal size, region, churn flag), and a note that 'nobody has looked at this yet.' No further guidance is given. Deliverable: a direction memo founders could react to.",
+      "observes": [
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Runs an actual first-pass cut of the customer data (e.g., segments EU-adjacent revenue, estimates addressable uplift) before writing anything, and the memo's numbers trace back to that cut.",
+          "thin": "Writes an opinion memo with no reference to the data provided, or misreads the spreadsheet columns."
+        },
+        {
+          "criterion_id": "polished_writing",
+          "strong": "Delivers a memo under one page that a founder could forward as-is: clear recommended direction, key tradeoffs, and what would change the answer -- no typos, no hedging paragraphs.",
+          "thin": "Memo is long, buries the recommendation, or needs a pass of edits to be usable."
+        },
+        {
+          "criterion_id": "fluent_english",
+          "strong": "Memo and any verbal framing are fluent, idiomatic, and require no re-reading to parse.",
+          "thin": "Sentences are grammatically labored or ambiguous enough that a reader has to guess intent."
+        }
+      ],
+      "from_posting": "Frame strategy before it becomes a project."
+    },
+    {
+      "id": "month_end_close_three_entities",
+      "title": "Month-End Close Across Three Entities",
+      "responsibility_id": "resp_financial_ops",
+      "minutes": 60,
+      "material": "A fictional company 'Fintra Labs' with three entities (US, Germany, Spain). The candidate receives a mock bank export from four providers with 25 transactions, a folder of 10 receipt descriptions, a spreadsheet with 3 unpaid invoices, and one email in German from a fictional external accountant, Herr Bauer, asking a clarifying question about a booked expense. Task: reconcile the month, flag anything that doesn't tie out, build a one-page 3-entity cash runway snapshot, and reply to Herr Bauer.",
+      "observes": [
+        {
+          "criterion_id": "full_spectrum_range",
+          "strong": "Moves from the receipt-by-receipt reconciliation to the runway snapshot to the accountant email without visibly downshifting effort on any of the three.",
+          "thin": "Reconciliation is thorough but the runway snapshot or the email is rushed or skipped."
+        },
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "Catches an invoice with no clear entity or owner in the data and resolves or escalates it with a proposed answer, instead of leaving it flagged with no next step.",
+          "thin": "Lists the unassigned invoice as an open question and moves on."
+        },
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Builds a simple, correct 3-entity cash runway figure from the transaction and invoice data, with the logic visible.",
+          "thin": "Skips the runway snapshot or produces a number with no visible method."
+        },
+        {
+          "criterion_id": "nice_languages",
+          "strong": "Replies to Herr Bauer in clear working German, or explicitly and efficiently handles the exchange despite it being in German.",
+          "thin": "Cannot engage with the German email at all and has no fallback plan for it."
+        }
+      ],
+      "from_posting": "Three entities (US, Germany, Spain), external accountants in each, banking across four providers, payroll, invoicing, spend and receipt tracking, month-end coordination."
+    },
+    {
+      "id": "build_receipt_agent",
+      "title": "Automate the Receipt-Chasing Loop",
+      "responsibility_id": "resp_build_ai_agents",
+      "minutes": 60,
+      "material": "A written description of a repeated task at fictional 'Fintra Labs': every week someone manually opens ~15 receipt emails, extracts vendor/amount/date, and logs them into a spreadsheet in a specific format. The candidate is given a laptop with a coding agent available and 10 sample receipt emails (text), and asked to build something that does this task, live, narrating their approach.",
+      "observes": [
+        {
+          "criterion_id": "ai_native",
+          "strong": "Builds a working agent/script live that takes the sample receipts and produces correctly formatted spreadsheet rows, and can explain what it would do with the next 15 receipts unattended.",
+          "thin": "Talks about how AI could do this in theory, or produces something that only works on one hand-picked example."
+        },
+        {
+          "criterion_id": "technical_curiosity",
+          "strong": "Makes deliberate choices about how the agent handles an edge case (e.g., a receipt with no amount) and can explain the tradeoff to a technical listener.",
+          "thin": "Treats the agent as a black box and can't explain why an output was wrong when it is."
+        },
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "Notices the task description leaves the output format ambiguous and either asks or picks a sensible default and states it, rather than stalling.",
+          "thin": "Waits for an exact spec before starting."
+        }
+      ],
+      "from_posting": "Build with AI agents, not just spreadsheets."
+    },
+    {
+      "id": "trial_day_and_outreach",
+      "title": "Screen, Design, and Reach Out",
+      "responsibility_id": "resp_recruiting",
+      "minutes": 45,
+      "material": "A fictional open role at Fintra Labs, 'GTM Associate,' with its posting text, and three fictional candidate profiles (one paragraph each, varying fit). The candidate is asked to rank the three, write one sentence on why for each, design one 30-45 minute trial-day exercise for this role, and draft an outreach email to the top-ranked profile inviting them to the next step.",
+      "observes": [
+        {
+          "criterion_id": "polished_writing",
+          "strong": "Outreach email is warm, specific to the fictional candidate's profile, and needs no further editing to send.",
+          "thin": "Email is generic/templated or would need line edits before going out."
+        },
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Ranking rationale references specific, comparable evidence across the three profiles, not just gut feel.",
+          "thin": "Ranking is asserted without pointing to what in the profiles drove it."
+        }
+      ],
+      "from_posting": "Source, screen, and coordinate candidates across business roles. Prepare and run our structured trial days, and help close top talent."
+    },
+    {
+      "id": "gtm_data_and_research",
+      "title": "Clean the Pipeline, Then Work It",
+      "responsibility_id": "resp_gtm_support",
+      "minutes": 45,
+      "material": "A fictional CRM export (60 rows) for Fintra Labs with duplicate contacts, inconsistent company names, and missing fields, plus a target list of 15 fictional B2B companies for an upcoming 'CFO dinner' event. A coding agent is available. Task: get the CRM data usable, then produce short research notes on the top 5 target accounts for the event, plus a one-line outreach hook for each.",
+      "observes": [
+        {
+          "criterion_id": "ai_native",
+          "strong": "Uses or builds a small script/agent to dedupe and standardize the CRM rows rather than doing it by hand, and can show the before/after.",
+          "thin": "Cleans a handful of rows manually and calls it done, with no attempt to automate the repeatable part."
+        },
+        {
+          "criterion_id": "full_spectrum_range",
+          "strong": "Gives the CRM cleanup and the account research equally real effort -- the research notes are specific, not generic filler, once the 'boring' half is done.",
+          "thin": "CRM cleanup is solid but the research notes are thin or copy-pasted-feeling, or vice versa."
+        },
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "Notices the target list has no clear reason two of the accounts belong there and flags a better substitute or a reason to keep them, unprompted.",
+          "thin": "Works through the list as given without questioning any of it."
+        },
+        {
+          "criterion_id": "technical_curiosity",
+          "strong": "Can explain what the dedupe logic does and why, and where it would break on messier real data.",
+          "thin": "Runs a tool without being able to say what it actually did to the data."
+        }
+      ],
+      "from_posting": "Target account research, outbound infrastructure, CRM hygiene, event operations... from CFO dinners and conference sponsorships to hackathons we co-organize with top-tier partners."
+    },
+    {
+      "id": "founder_leverage_sprint",
+      "title": "Clear the Founder's Desk",
+      "responsibility_id": "resp_founder_leverage",
+      "minutes": 45,
+      "material": "A set of fictional founder inputs for Fintra Labs: messy bullet notes from three meetings this week, a half-written investor-update paragraph, and a conference's speaker-submission call for entries. The candidate produces three crisp all-hands deck bullets, a finished investor-update paragraph, one meeting follow-up email, and a decision on whether to submit to the conference with one line of reasoning.",
+      "observes": [
+        {
+          "criterion_id": "polished_writing",
+          "strong": "All four outputs read as done -- correct register for each (deck bullets terse, investor update narrative, email direct) -- and none need a rewrite.",
+          "thin": "Outputs blur together in tone, or the investor update reads like meeting notes rather than a finished paragraph."
+        },
+        {
+          "criterion_id": "full_spectrum_range",
+          "strong": "Deck bullets, investor paragraph, follow-up email, and conference decision all get finished with comparable care in the time given.",
+          "thin": "One or two of the four are visibly rushed or skipped to spend more time on a favorite."
+        },
+        {
+          "criterion_id": "fluent_english",
+          "strong": "Every output, across four different registers, reads as native-level fluent with no awkward phrasing.",
+          "thin": "At least one output has phrasing a native reader would stumble on."
+        }
+      ],
+      "from_posting": "The weekly all-hands deck, investor updates, briefing materials, speaker submissions, meeting follow-ups."
+    },
+    {
+      "id": "own_the_new_entity",
+      "title": "Nobody Owns This Yet",
+      "responsibility_id": "resp_prepare_next",
+      "minutes": 30,
+      "material": "A three-sentence prompt: Fintra Labs' founders just decided, in a meeting the candidate wasn't in, to open a fourth entity in the UK next quarter. No one has been assigned to figure out what that requires. The candidate has 30 minutes to produce a first-pass plan: open questions, what to research, who to loop in, and a rough timeline.",
+      "observes": [
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "Produces a genuine first-pass plan with concrete next steps and owners, treating the ambiguity as normal rather than a blocker, using the full 30 minutes.",
+          "thin": "Plan is a list of questions with no attempt at answers or next steps."
+        },
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Structures the unknown problem into clear workstreams (legal/entity setup, banking, payroll, tax) rather than a flat list.",
+          "thin": "Output is an unstructured brain-dump with no grouping or prioritization."
+        }
+      ],
+      "from_posting": "Prepare for what's next."
+    }
+  ],
+  "not_observable": {
+    "high_intensity_experience": "Whether a past role was genuinely high-intensity is a fact about years already lived, not something a single day of invented exercises can produce or verify -- it belongs to the conversation and references, not a work sample.",
+    "nice_fintech_saas_cfo": "Prior work history in fintech, B2B SaaS, or an office-of-the-CFO function is a fact about past employers; no exercise on an invented company can confirm or substitute for it.",
+    "nice_startup_experience": "Having been a founder or early employee is a historical fact about a specific past company; a fictional trial day cannot manufacture or verify that history.",
+    "nice_fundraising_exposure": "Seeing how a funding round actually comes together happens over months around a real cap table and real investors; a day cannot create that exposure or a reliable proxy for having had it."
+  },
+  "uncovered": [],
+  "readings": {
+    "analytical_range": 4,
+    "polished_writing": 3,
+    "fluent_english": 2,
+    "full_spectrum_range": 3,
+    "extreme_ownership": 4,
+    "nice_languages": 1,
+    "ai_native": 2,
+    "technical_curiosity": 2
+  },
+  "gates": [
+    "ai_native"
+  ],
+  "under_read_gates": [],
+  "rejected": [],
+  "answer": {
+    "exercises": [
+      {
+        "id": "frame_market_expansion",
+        "title": "Frame the EU Expansion Question",
+        "responsibility_id": "resp_frame_strategy",
+        "minutes": 45,
+        "material": "A one-page brief on a fictional AI hardware startup, 'Solace Robotics' (invented, 45 employees, US-based). Founders are debating whether to launch a EUR-denominated subscription tier for European customers next quarter. The candidate receives three paragraphs of founder context, a spreadsheet of 40 fictional customer records (deal size, region, churn flag), and a note that 'nobody has looked at this yet.' No further guidance is given. Deliverable: a direction memo founders could react to.",
+        "observes": [
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Runs an actual first-pass cut of the customer data (e.g., segments EU-adjacent revenue, estimates addressable uplift) before writing anything, and the memo's numbers trace back to that cut.",
+            "thin": "Writes an opinion memo with no reference to the data provided, or misreads the spreadsheet columns."
+          },
+          {
+            "criterion_id": "polished_writing",
+            "strong": "Delivers a memo under one page that a founder could forward as-is: clear recommended direction, key tradeoffs, and what would change the answer -- no typos, no hedging paragraphs.",
+            "thin": "Memo is long, buries the recommendation, or needs a pass of edits to be usable."
+          },
+          {
+            "criterion_id": "fluent_english",
+            "strong": "Memo and any verbal framing are fluent, idiomatic, and require no re-reading to parse.",
+            "thin": "Sentences are grammatically labored or ambiguous enough that a reader has to guess intent."
+          }
+        ]
+      },
+      {
+        "id": "month_end_close_three_entities",
+        "title": "Month-End Close Across Three Entities",
+        "responsibility_id": "resp_financial_ops",
+        "minutes": 60,
+        "material": "A fictional company 'Fintra Labs' with three entities (US, Germany, Spain). The candidate receives a mock bank export from four providers with 25 transactions, a folder of 10 receipt descriptions, a spreadsheet with 3 unpaid invoices, and one email in German from a fictional external accountant, Herr Bauer, asking a clarifying question about a booked expense. Task: reconcile the month, flag anything that doesn't tie out, build a one-page 3-entity cash runway snapshot, and reply to Herr Bauer.",
+        "observes": [
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Moves from the receipt-by-receipt reconciliation to the runway snapshot to the accountant email without visibly downshifting effort on any of the three.",
+            "thin": "Reconciliation is thorough but the runway snapshot or the email is rushed or skipped."
+          },
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Catches an invoice with no clear entity or owner in the data and resolves or escalates it with a proposed answer, instead of leaving it flagged with no next step.",
+            "thin": "Lists the unassigned invoice as an open question and moves on."
+          },
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Builds a simple, correct 3-entity cash runway figure from the transaction and invoice data, with the logic visible.",
+            "thin": "Skips the runway snapshot or produces a number with no visible method."
+          },
+          {
+            "criterion_id": "nice_languages",
+            "strong": "Replies to Herr Bauer in clear working German, or explicitly and efficiently handles the exchange despite it being in German.",
+            "thin": "Cannot engage with the German email at all and has no fallback plan for it."
+          }
+        ]
+      },
+      {
+        "id": "build_receipt_agent",
+        "title": "Automate the Receipt-Chasing Loop",
+        "responsibility_id": "resp_build_ai_agents",
+        "minutes": 60,
+        "material": "A written description of a repeated task at fictional 'Fintra Labs': every week someone manually opens ~15 receipt emails, extracts vendor/amount/date, and logs them into a spreadsheet in a specific format. The candidate is given a laptop with a coding agent available and 10 sample receipt emails (text), and asked to build something that does this task, live, narrating their approach.",
+        "observes": [
+          {
+            "criterion_id": "ai_native",
+            "strong": "Builds a working agent/script live that takes the sample receipts and produces correctly formatted spreadsheet rows, and can explain what it would do with the next 15 receipts unattended.",
+            "thin": "Talks about how AI could do this in theory, or produces something that only works on one hand-picked example."
+          },
+          {
+            "criterion_id": "technical_curiosity",
+            "strong": "Makes deliberate choices about how the agent handles an edge case (e.g., a receipt with no amount) and can explain the tradeoff to a technical listener.",
+            "thin": "Treats the agent as a black box and can't explain why an output was wrong when it is."
+          },
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Notices the task description leaves the output format ambiguous and either asks or picks a sensible default and states it, rather than stalling.",
+            "thin": "Waits for an exact spec before starting."
+          }
+        ]
+      },
+      {
+        "id": "trial_day_and_outreach",
+        "title": "Screen, Design, and Reach Out",
+        "responsibility_id": "resp_recruiting",
+        "minutes": 45,
+        "material": "A fictional open role at Fintra Labs, 'GTM Associate,' with its posting text, and three fictional candidate profiles (one paragraph each, varying fit). The candidate is asked to rank the three, write one sentence on why for each, design one 30-45 minute trial-day exercise for this role, and draft an outreach email to the top-ranked profile inviting them to the next step.",
+        "observes": [
+          {
+            "criterion_id": "polished_writing",
+            "strong": "Outreach email is warm, specific to the fictional candidate's profile, and needs no further editing to send.",
+            "thin": "Email is generic/templated or would need line edits before going out."
+          },
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Ranking rationale references specific, comparable evidence across the three profiles, not just gut feel.",
+            "thin": "Ranking is asserted without pointing to what in the profiles drove it."
+          }
+        ]
+      },
+      {
+        "id": "gtm_data_and_research",
+        "title": "Clean the Pipeline, Then Work It",
+        "responsibility_id": "resp_gtm_support",
+        "minutes": 45,
+        "material": "A fictional CRM export (60 rows) for Fintra Labs with duplicate contacts, inconsistent company names, and missing fields, plus a target list of 15 fictional B2B companies for an upcoming 'CFO dinner' event. A coding agent is available. Task: get the CRM data usable, then produce short research notes on the top 5 target accounts for the event, plus a one-line outreach hook for each.",
+        "observes": [
+          {
+            "criterion_id": "ai_native",
+            "strong": "Uses or builds a small script/agent to dedupe and standardize the CRM rows rather than doing it by hand, and can show the before/after.",
+            "thin": "Cleans a handful of rows manually and calls it done, with no attempt to automate the repeatable part."
+          },
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Gives the CRM cleanup and the account research equally real effort -- the research notes are specific, not generic filler, once the 'boring' half is done.",
+            "thin": "CRM cleanup is solid but the research notes are thin or copy-pasted-feeling, or vice versa."
+          },
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Notices the target list has no clear reason two of the accounts belong there and flags a better substitute or a reason to keep them, unprompted.",
+            "thin": "Works through the list as given without questioning any of it."
+          },
+          {
+            "criterion_id": "technical_curiosity",
+            "strong": "Can explain what the dedupe logic does and why, and where it would break on messier real data.",
+            "thin": "Runs a tool without being able to say what it actually did to the data."
+          }
+        ]
+      },
+      {
+        "id": "founder_leverage_sprint",
+        "title": "Clear the Founder's Desk",
+        "responsibility_id": "resp_founder_leverage",
+        "minutes": 45,
+        "material": "A set of fictional founder inputs for Fintra Labs: messy bullet notes from three meetings this week, a half-written investor-update paragraph, and a conference's speaker-submission call for entries. The candidate produces three crisp all-hands deck bullets, a finished investor-update paragraph, one meeting follow-up email, and a decision on whether to submit to the conference with one line of reasoning.",
+        "observes": [
+          {
+            "criterion_id": "polished_writing",
+            "strong": "All four outputs read as done -- correct register for each (deck bullets terse, investor update narrative, email direct) -- and none need a rewrite.",
+            "thin": "Outputs blur together in tone, or the investor update reads like meeting notes rather than a finished paragraph."
+          },
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Deck bullets, investor paragraph, follow-up email, and conference decision all get finished with comparable care in the time given.",
+            "thin": "One or two of the four are visibly rushed or skipped to spend more time on a favorite."
+          },
+          {
+            "criterion_id": "fluent_english",
+            "strong": "Every output, across four different registers, reads as native-level fluent with no awkward phrasing.",
+            "thin": "At least one output has phrasing a native reader would stumble on."
+          }
+        ]
+      },
+      {
+        "id": "own_the_new_entity",
+        "title": "Nobody Owns This Yet",
+        "responsibility_id": "resp_prepare_next",
+        "minutes": 30,
+        "material": "A three-sentence prompt: Fintra Labs' founders just decided, in a meeting the candidate wasn't in, to open a fourth entity in the UK next quarter. No one has been assigned to figure out what that requires. The candidate has 30 minutes to produce a first-pass plan: open questions, what to research, who to loop in, and a rough timeline.",
+        "observes": [
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Produces a genuine first-pass plan with concrete next steps and owners, treating the ambiguity as normal rather than a blocker, using the full 30 minutes.",
+            "thin": "Plan is a list of questions with no attempt at answers or next steps."
+          },
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Structures the unknown problem into clear workstreams (legal/entity setup, banking, payroll, tax) rather than a flat list.",
+            "thin": "Output is an unstructured brain-dump with no grouping or prioritization."
+          }
+        ]
+      }
+    ],
+    "not_observable": [
+      {
+        "criterion_id": "high_intensity_experience",
+        "why": "Whether a past role was genuinely high-intensity is a fact about years already lived, not something a single day of invented exercises can produce or verify -- it belongs to the conversation and references, not a work sample."
+      },
+      {
+        "criterion_id": "nice_fintech_saas_cfo",
+        "why": "Prior work history in fintech, B2B SaaS, or an office-of-the-CFO function is a fact about past employers; no exercise on an invented company can confirm or substitute for it."
+      },
+      {
+        "criterion_id": "nice_startup_experience",
+        "why": "Having been a founder or early employee is a historical fact about a specific past company; a fictional trial day cannot manufacture or verify that history."
+      },
+      {
+        "criterion_id": "nice_fundraising_exposure",
+        "why": "Seeing how a funding round actually comes together happens over months around a real cap table and real investors; a day cannot create that exposure or a reliable proxy for having had it."
+      }
+    ]
+  }
+}

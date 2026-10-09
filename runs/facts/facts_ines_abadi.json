@@ -1,0 +1,214 @@
+{
+  "candidate_id": "ines_abadi",
+  "name": "Inès Abadi",
+  "extracted_at": "2026-09-18T13:30:47.894637+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "chief_of_staff_title",
+      "kind": "experience",
+      "claim": "Held the title Chief of Staff at Talvera",
+      "source_quote": "Chief of Staff — Talvera",
+      "period": "Jan 2024 – present, Madrid",
+      "evidence": "instance"
+    },
+    {
+      "id": "talvera_company_type",
+      "kind": "other",
+      "claim": "Talvera is described as a seed-stage B2B payments company",
+      "source_quote": "Seed-stage B2B payments company",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "talvera_headcount",
+      "kind": "other",
+      "claim": "Talvera has 11 people",
+      "source_quote": "11 people",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "banking_payroll_setup",
+      "kind": "experience",
+      "claim": "Set up banking, payroll and month-end close across the Spanish and French entities after the second entity was incorporated",
+      "source_quote": "Set up banking, payroll and month-end close across the Spanish and French\n  entities after the second entity was incorporated",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "external_accountants",
+      "kind": "experience",
+      "claim": "There are external accountants in both entities",
+      "source_quote": "external accountants in\n  both.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "investor_update_frequency",
+      "kind": "experience",
+      "claim": "Wrote the investor update every month for six quarters",
+      "source_quote": "Wrote the investor update every month for six quarters.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "investor_template_reuse",
+      "kind": "experience",
+      "claim": "The lead investor asked to use the format as a template for two other portfolio companies",
+      "source_quote": "The lead investor\n  asked to use the format as a template for two other portfolio companies.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "internal_tool_built",
+      "kind": "project",
+      "claim": "Built an internal tool with Claude Code that pulls invoice status from the accounting system into a weekly cash view",
+      "source_quote": "Built an internal tool with Claude Code that pulls invoice status from the\n  accounting system into a weekly cash view",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "internal_tool_motivation",
+      "kind": "project",
+      "claim": "Built the tool after doing the task by hand twice",
+      "source_quote": "after doing it by hand twice.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "internal_tool_users",
+      "kind": "project",
+      "claim": "Four people use the tool",
+      "source_quote": "Four people use it",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "internal_tool_replaced_spreadsheet",
+      "kind": "project",
+      "claim": "The tool replaced a spreadsheet the founders maintained",
+      "source_quote": "it replaced a spreadsheet the founders maintained.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "hiring_process_roles",
+      "kind": "experience",
+      "claim": "Ran the hiring process for eight roles",
+      "source_quote": "Ran the hiring process for eight roles",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "hiring_work_trial",
+      "kind": "experience",
+      "claim": "Set up scheduling and the paid work-trial format the company still uses",
+      "source_quote": "including scheduling and the\n  paid work-trial format the company still uses.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "chased_receipts",
+      "kind": "experience",
+      "claim": "Chased receipts at month-end",
+      "source_quote": "Chased receipts at month-end.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "nobody_else_assertion",
+      "kind": "other",
+      "claim": "Characterizes themselves as the one who would do the task because no one else would",
+      "source_quote": "Nobody else was going to.",
+      "period": "",
+      "evidence": "assertion"
+    },
+    {
+      "id": "analyst_title",
+      "kind": "experience",
+      "claim": "Held the title Analyst at Miravel Capital",
+      "source_quote": "Analyst — Miravel Capital",
+      "period": "Sep 2021 – Dec 2023, Madrid",
+      "evidence": "instance"
+    },
+    {
+      "id": "miravel_fund_type",
+      "kind": "other",
+      "claim": "Miravel Capital is a lower-mid-market private equity firm",
+      "source_quote": "Lower-mid-market private equity",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "miravel_fund_size",
+      "kind": "other",
+      "claim": "Miravel Capital's fund is €180m",
+      "source_quote": "€180m fund",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "operating_model_built",
+      "kind": "experience",
+      "claim": "Built the operating model for four portfolio companies",
+      "source_quote": "Built the operating model for four portfolio companies",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "diligence_model_built",
+      "kind": "experience",
+      "claim": "Built the diligence model for eleven screened deals",
+      "source_quote": "the diligence\n  model for eleven screened deals.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "fundraise_data_room",
+      "kind": "experience",
+      "claim": "Sat in on the fundraise for Fund II as the analyst preparing the data room",
+      "source_quote": "Sat in on the fundraise for Fund II as the analyst preparing the data room.",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "education_degree",
+      "kind": "education",
+      "claim": "Holds a BSc in Economics from Universidad Autónoma de Madrid, 2021",
+      "source_quote": "BSc Economics, Universidad Autónoma de Madrid, 2021",
+      "period": "2021",
+      "evidence": "instance"
+    },
+    {
+      "id": "language_spanish",
+      "kind": "language",
+      "claim": "Spanish, native",
+      "source_quote": "Spanish (native)",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "language_french",
+      "kind": "language",
+      "claim": "French, native",
+      "source_quote": "French (native)",
+      "period": "",
+      "evidence": "instance"
+    },
+    {
+      "id": "language_english",
+      "kind": "language",
+      "claim": "English, fluent",
+      "source_quote": "English (fluent)",
+      "period": "",
+      "evidence": "instance"
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 25,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

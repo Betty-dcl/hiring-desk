@@ -1,0 +1,14 @@
+{
+  "trace": "exchange_ines_abadi",
+  "seed": "",
+  "judged_at": "2026-09-24T14:47:43.792329+00:00",
+  "model": "claude-haiku-4-5-20251001",
+  "principles": "882208fe6147",
+  "decides": false,
+  "is_a_quality_score": false,
+  "findings": [],
+  "dropped": [],
+  "answer": {
+    "findings": []
+  }
+}

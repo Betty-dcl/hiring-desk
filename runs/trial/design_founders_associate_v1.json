@@ -1,0 +1,411 @@
+{
+  "posting_id": "founders_associate",
+  "designed_at": "2026-09-24T09:54:12.978405+00:00",
+  "model": "claude-sonnet-5",
+  "sees_candidates": false,
+  "same_for_every_candidate": true,
+  "day_minutes": 360,
+  "slot_minutes": 30,
+  "exercise_minutes": 315,
+  "exercises": [
+    {
+      "id": "frame_strategy_memo",
+      "title": "Vertical Expansion Framing Memo",
+      "responsibility_id": "resp_frame_strategy",
+      "minutes": 60,
+      "material": "Arborly (fictional): B2B SaaS selling procurement software to mid-size construction firms, $6.2M ARR, 140 customers. Packet handed to candidate: (1) a churn table showing 18% annual churn concentrated in the smallest-tier customers, (2) three anonymized customer quotes — two praising the product, one complaining it doesn't handle multi-site inventory, (3) a one-paragraph snapshot on rival 'BuildFlow,' which just raised a Series A to expand into adjacent 'facilities management' software, (4) the founders' one-line question: 'Should we go deeper into construction procurement or follow BuildFlow into facilities management?' Candidate has 60 minutes to structure the question, run a first-pass analysis from the packet, and produce a one-page memo with a recommended direction and the three open questions they'd bring back to the founders.",
+      "observes": [
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Memo separates the market read from the churn diagnosis and uses the churn table and the quotes to build an actual argument for one direction (e.g. ties the multi-site complaint to a specific option) rather than restating the packet.",
+          "thin": "Memo lists generic pros and cons for each option without connecting the churn data or quotes to either, or ignores part of the packet."
+        },
+        {
+          "criterion_id": "polished_writing",
+          "strong": "One-page memo reads cleanly on a single pass, states the recommendation in the first two sentences, no filler or hedging.",
+          "thin": "Memo needs a second read to find the recommendation, buries the ask, or has sloppy sentences."
+        },
+        {
+          "criterion_id": "full_spectrum_range",
+          "strong": "Candidate brings the same visible engagement and pace to this framing session as they do to the financial-ops inbox sprint later the same day.",
+          "thin": "Candidate is animated here but visibly flattens or checks out once handed the later operational task."
+        },
+        {
+          "criterion_id": "fluent_english",
+          "strong": "Talks through the framing out loud in clear, idiomatic working English and handles follow-up questions without groping for words.",
+          "thin": "Frequent grammatical breakdowns, or the observer has to rephrase questions to be understood."
+        }
+      ],
+      "from_posting": "Frame strategy before it becomes a project."
+    },
+    {
+      "id": "financial_ops_inbox_sprint",
+      "title": "Three-Entity Inbox Triage",
+      "responsibility_id": "resp_financial_ops",
+      "minutes": 60,
+      "material": "Arborly runs three entities: Arborly Inc (US), Arborly GmbH (Berlin), Arborly SL (Madrid), with banking split across four providers. Candidate is handed a simulated inbox of 8 items: a US vendor invoice missing a PO number, a payroll flag showing a German contractor paid twice, a receipt-less $340 client-dinner expense claim, an email in Spanish from the Madrid accountant ('Necesitamos aclaración sobre el asiento de nómina de agosto antes del cierre'), an email in German from the Berlin accountant flagging a VAT question, a Wise transfer uncategorized for six weeks, and two low-priority admin notes. In 60 minutes: (1) produce a priority order with one line of reasoning per item, (2) draft replies to the Madrid and Berlin accountants (bonus, not required, if written in Spanish/German), (3) note which one item they'd automate so it never lands in this inbox again.",
+      "observes": [
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "Flags the double-paid contractor and the receipt-less expense as needing resolution before month-end without being told, and proposes who should own the fix.",
+          "thin": "Files both as 'low priority' or defers entirely to 'ask the accountant,' treating them as someone else's problem."
+        },
+        {
+          "criterion_id": "nice_languages",
+          "strong": "Drafts the Madrid and/or Berlin reply directly in Spanish or German, correct enough to send as-is.",
+          "thin": "Replies only in English, or the Spanish/German attempt has errors that would confuse the recipient."
+        },
+        {
+          "criterion_id": "full_spectrum_range",
+          "strong": "Gives this receipt-level, detail-heavy task the same care shown in the earlier strategy memo, down to the reasoning column on every item.",
+          "thin": "Visible drop in effort — rushes through items, skips reasoning, treats the task as beneath the earlier work."
+        },
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Priority order is backed by a specific stated consequence per item (e.g. 'blocks August close' vs. 'cosmetic'), not a gut-feel ranking.",
+          "thin": "Priority order given with no reasoning, or reasoning is generic ('this seems important')."
+        }
+      ],
+      "from_posting": "Three entities (US, Germany, Spain), external accountants in each, banking across four providers, payroll, invoicing, spend and receipt tracking, month-end coordination."
+    },
+    {
+      "id": "recruiting_screen_and_close",
+      "title": "GTM Associate Screen & Trial Day Sketch",
+      "responsibility_id": "resp_recruiting",
+      "minutes": 45,
+      "material": "Arborly is hiring a fictional 'GTM Associate.' Candidate is handed the job posting plus three anonymized one-page candidate packets: one strong on outbound experience but thin writing, one a strong writer with no SaaS background, one with an inflated title and vague accomplishments. In 45 minutes: (1) rank the three with one paragraph of reasoning each, (2) write the actual email to move the #1 candidate forward and the actual email to decline the #3 candidate, (3) sketch two exercises, one sentence each, they'd add to that role's own trial day.",
+      "observes": [
+        {
+          "criterion_id": "polished_writing",
+          "strong": "Decline email is warm, specific, and short enough to send as-is; advance email gives a clear, concrete next step.",
+          "thin": "Decline email is generic/templated, or the advance email is vague about what happens next."
+        },
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Ranking reasoning names the actual signal in each packet (e.g. inflated title vs. verifiable outbound numbers) rather than a vibe-based ranking.",
+          "thin": "Ranking is given with no reference to specific content in the packets."
+        },
+        {
+          "criterion_id": "fluent_english",
+          "strong": "All three write-ups are grammatically clean and read as something produced fluently under time pressure.",
+          "thin": "Noticeable grammar or phrasing issues a hiring manager would need to fix before sending."
+        }
+      ],
+      "from_posting": "Source, screen, and coordinate candidates across business roles. Prepare and run our structured trial days, and help close top talent."
+    },
+    {
+      "id": "build_agent_live",
+      "title": "Automate the Receipt Log",
+      "responsibility_id": "resp_build_ai_agents",
+      "minutes": 60,
+      "material": "Arborly's ops team spends about two hours a week manually copying vendor names, amounts, and dates out of forwarded receipt emails into a shared spreadsheet. Candidate is given a sandboxed folder of 12 sample receipt emails (fictional, plain text) and access to a coding agent tool. In 60 minutes, build or extend a small script/agent that extracts the fields into a CSV, narrating the approach out loud to an engineer sitting in, with working output on at least a subset of the sample emails by the end.",
+      "observes": [
+        {
+          "criterion_id": "ai_native",
+          "strong": "Directs the coding agent with specific, iterative instructions, catches and corrects a wrong extraction, and has working output on real sample data by the end.",
+          "thin": "Can only describe what such an agent would do in theory, or the agent produces no working output despite the hour."
+        },
+        {
+          "criterion_id": "technical_curiosity",
+          "strong": "Asks the sitting-in engineer a substantive question about how the output will be consumed downstream, or explains a real tradeoff (e.g. regex vs. LLM extraction) in terms the engineer treats as credible.",
+          "thin": "Treats the engineer as a passive observer, asks no technical questions, can't explain why the approach works."
+        },
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "With time left, expands scope on their own initiative — e.g. adds handling for a malformed receipt — without being asked.",
+          "thin": "Stops the moment the minimum extraction works and waits to be told what's next."
+        }
+      ],
+      "from_posting": "Build with AI agents, not just spreadsheets."
+    },
+    {
+      "id": "gtm_ops_block",
+      "title": "CFO Dinner & CRM Cleanup",
+      "responsibility_id": "resp_gtm_support",
+      "minutes": 45,
+      "material": "Arborly is co-hosting a CFO dinner with fictional partner 'Ledgerline Capital' and a hackathon with fictional partner 'TechForge.' Candidate is handed a list of 15 target-account contacts (fictional), a CRM export of 20 rows with planted hygiene problems (duplicate contacts, a closed-lost deal marked 'open,' three contacts with no last-touch date), and a one-line hackathon logistics prompt. In 45 minutes: (1) pick and justify 5 of the 15 contacts for the dinner invite list, (2) list the CRM fixes as a to-do a teammate could execute without further explanation, (3) draft a 3-line outbound message inviting one chosen contact to the hackathon.",
+      "observes": [
+        {
+          "criterion_id": "analytical_range",
+          "strong": "Invite-list picks are justified against a stated criterion (e.g. company stage, prior engagement) applied consistently across all five.",
+          "thin": "Picks are given with no stated criterion, or the criterion shifts from pick to pick."
+        },
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "CRM to-do list catches all three planted hygiene problems and is written so a teammate could execute it without a clarifying question.",
+          "thin": "Misses more than one planted problem, or writes fixes vague enough someone would have to ask what was meant."
+        },
+        {
+          "criterion_id": "polished_writing",
+          "strong": "Outbound message is short, specific to the recipient, and needs no edit before sending.",
+          "thin": "Message is generic enough to send to anyone on the list, or is too long or hedgy."
+        },
+        {
+          "criterion_id": "full_spectrum_range",
+          "strong": "Moves fluidly between the strategic pick-5 reasoning and the mechanical row-by-row CRM cleanup without a visible dip in energy.",
+          "thin": "Handles the strategic pick well but visibly rushes or disengages from the CRM cleanup."
+        }
+      ],
+      "from_posting": "Target account research, outbound infrastructure, CRM hygiene, event operations... from CFO dinners and conference sponsorships to hackathons we co-organize with top-tier partners."
+    },
+    {
+      "id": "founder_leverage_pack",
+      "title": "All-Hands Deck & Investor Update Draft",
+      "responsibility_id": "resp_founder_leverage",
+      "minutes": 45,
+      "material": "Candidate is given: raw bullet notes from Arborly's weekly all-hands ('shipped v2 of onboarding flow,' 'lost the Meridian Construction deal,' 'hired 2 SDRs,' 'runway update: 14 months'), a messy metrics table (MRR, churn, headcount), and an inbox of 6 follow-up items from founder meetings (e.g. 'send NDA to potential partner,' 'founder promised a VC intro,' 'someone needs to confirm the office lease renewal'). In 45 minutes: (1) draft a one-page investor update paragraph from the notes and metrics, (2) outline a 3-slide all-hands section from the same notes, (3) sort the 6 follow-ups into 'I'd just do this myself' vs. 'needs the founder's actual voice,' with one line of reasoning each.",
+      "observes": [
+        {
+          "criterion_id": "polished_writing",
+          "strong": "Investor update paragraph is ready to send with no further editing — states the number, the reason, and the implication in plain sentences.",
+          "thin": "Paragraph needs restructuring, buries the runway number, or reads like a bullet list stitched together."
+        },
+        {
+          "criterion_id": "extreme_ownership",
+          "strong": "Sorts an ambiguous follow-up like the lease renewal into 'I'd just do this' with a clear reason, rather than defaulting everything to the founder.",
+          "thin": "Routes most or all follow-ups back to the founder, including ones with no real need for founder involvement."
+        },
+        {
+          "criterion_id": "analytical_range",
+          "strong": "The investor update and the all-hands outline both use the same metrics table but in different registers — investor concerns (runway, churn) versus team-facing framing — showing control over register, not reuse of one sentence.",
+          "thin": "The all-hands outline and investor update are near-identical in framing, suggesting only one register is available."
+        }
+      ],
+      "from_posting": "The weekly all-hands deck, investor updates, briefing materials, speaker submissions, meeting follow-ups."
+    }
+  ],
+  "not_observable": {
+    "high_intensity_experience": "Whether the candidate actually spent 3-4 years being the person things got thrown at in a high-intensity role is a fact about their work history; a single fictional day can test whether they perform under pressure now, not whether that pressure was sustained for years elsewhere.",
+    "nice_fintech_saas_cfo": "Prior employment in fintech, B2B SaaS, or an office-of-the-CFO function is a resume fact about where the candidate has worked; the day's fictional exercises can exercise the same skills without revealing whether that specific background exists.",
+    "nice_startup_experience": "Having been a founder, early employee, or operator elsewhere is a fact about the candidate's past roles, not something a trial day at a different, fictional company can produce or verify.",
+    "nice_fundraising_exposure": "Having watched a real fundraising round come together is direct exposure to an actual past process; no invented exercise substitutes for having been in that room."
+  },
+  "uncovered": [],
+  "readings": {
+    "analytical_range": 5,
+    "polished_writing": 4,
+    "full_spectrum_range": 3,
+    "fluent_english": 2,
+    "extreme_ownership": 4,
+    "nice_languages": 1,
+    "ai_native": 1,
+    "technical_curiosity": 1
+  },
+  "gates": [
+    "ai_native"
+  ],
+  "under_read_gates": [
+    "ai_native"
+  ],
+  "rejected": [
+    {
+      "id": "prepare_next_prompt",
+      "reason": "15 minutes is under the 30-minute floor"
+    }
+  ],
+  "answer": {
+    "exercises": [
+      {
+        "id": "frame_strategy_memo",
+        "title": "Vertical Expansion Framing Memo",
+        "responsibility_id": "resp_frame_strategy",
+        "minutes": 60,
+        "material": "Arborly (fictional): B2B SaaS selling procurement software to mid-size construction firms, $6.2M ARR, 140 customers. Packet handed to candidate: (1) a churn table showing 18% annual churn concentrated in the smallest-tier customers, (2) three anonymized customer quotes — two praising the product, one complaining it doesn't handle multi-site inventory, (3) a one-paragraph snapshot on rival 'BuildFlow,' which just raised a Series A to expand into adjacent 'facilities management' software, (4) the founders' one-line question: 'Should we go deeper into construction procurement or follow BuildFlow into facilities management?' Candidate has 60 minutes to structure the question, run a first-pass analysis from the packet, and produce a one-page memo with a recommended direction and the three open questions they'd bring back to the founders.",
+        "observes": [
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Memo separates the market read from the churn diagnosis and uses the churn table and the quotes to build an actual argument for one direction (e.g. ties the multi-site complaint to a specific option) rather than restating the packet.",
+            "thin": "Memo lists generic pros and cons for each option without connecting the churn data or quotes to either, or ignores part of the packet."
+          },
+          {
+            "criterion_id": "polished_writing",
+            "strong": "One-page memo reads cleanly on a single pass, states the recommendation in the first two sentences, no filler or hedging.",
+            "thin": "Memo needs a second read to find the recommendation, buries the ask, or has sloppy sentences."
+          },
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Candidate brings the same visible engagement and pace to this framing session as they do to the financial-ops inbox sprint later the same day.",
+            "thin": "Candidate is animated here but visibly flattens or checks out once handed the later operational task."
+          },
+          {
+            "criterion_id": "fluent_english",
+            "strong": "Talks through the framing out loud in clear, idiomatic working English and handles follow-up questions without groping for words.",
+            "thin": "Frequent grammatical breakdowns, or the observer has to rephrase questions to be understood."
+          }
+        ]
+      },
+      {
+        "id": "financial_ops_inbox_sprint",
+        "title": "Three-Entity Inbox Triage",
+        "responsibility_id": "resp_financial_ops",
+        "minutes": 60,
+        "material": "Arborly runs three entities: Arborly Inc (US), Arborly GmbH (Berlin), Arborly SL (Madrid), with banking split across four providers. Candidate is handed a simulated inbox of 8 items: a US vendor invoice missing a PO number, a payroll flag showing a German contractor paid twice, a receipt-less $340 client-dinner expense claim, an email in Spanish from the Madrid accountant ('Necesitamos aclaración sobre el asiento de nómina de agosto antes del cierre'), an email in German from the Berlin accountant flagging a VAT question, a Wise transfer uncategorized for six weeks, and two low-priority admin notes. In 60 minutes: (1) produce a priority order with one line of reasoning per item, (2) draft replies to the Madrid and Berlin accountants (bonus, not required, if written in Spanish/German), (3) note which one item they'd automate so it never lands in this inbox again.",
+        "observes": [
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Flags the double-paid contractor and the receipt-less expense as needing resolution before month-end without being told, and proposes who should own the fix.",
+            "thin": "Files both as 'low priority' or defers entirely to 'ask the accountant,' treating them as someone else's problem."
+          },
+          {
+            "criterion_id": "nice_languages",
+            "strong": "Drafts the Madrid and/or Berlin reply directly in Spanish or German, correct enough to send as-is.",
+            "thin": "Replies only in English, or the Spanish/German attempt has errors that would confuse the recipient."
+          },
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Gives this receipt-level, detail-heavy task the same care shown in the earlier strategy memo, down to the reasoning column on every item.",
+            "thin": "Visible drop in effort — rushes through items, skips reasoning, treats the task as beneath the earlier work."
+          },
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Priority order is backed by a specific stated consequence per item (e.g. 'blocks August close' vs. 'cosmetic'), not a gut-feel ranking.",
+            "thin": "Priority order given with no reasoning, or reasoning is generic ('this seems important')."
+          }
+        ]
+      },
+      {
+        "id": "recruiting_screen_and_close",
+        "title": "GTM Associate Screen & Trial Day Sketch",
+        "responsibility_id": "resp_recruiting",
+        "minutes": 45,
+        "material": "Arborly is hiring a fictional 'GTM Associate.' Candidate is handed the job posting plus three anonymized one-page candidate packets: one strong on outbound experience but thin writing, one a strong writer with no SaaS background, one with an inflated title and vague accomplishments. In 45 minutes: (1) rank the three with one paragraph of reasoning each, (2) write the actual email to move the #1 candidate forward and the actual email to decline the #3 candidate, (3) sketch two exercises, one sentence each, they'd add to that role's own trial day.",
+        "observes": [
+          {
+            "criterion_id": "polished_writing",
+            "strong": "Decline email is warm, specific, and short enough to send as-is; advance email gives a clear, concrete next step.",
+            "thin": "Decline email is generic/templated, or the advance email is vague about what happens next."
+          },
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Ranking reasoning names the actual signal in each packet (e.g. inflated title vs. verifiable outbound numbers) rather than a vibe-based ranking.",
+            "thin": "Ranking is given with no reference to specific content in the packets."
+          },
+          {
+            "criterion_id": "fluent_english",
+            "strong": "All three write-ups are grammatically clean and read as something produced fluently under time pressure.",
+            "thin": "Noticeable grammar or phrasing issues a hiring manager would need to fix before sending."
+          }
+        ]
+      },
+      {
+        "id": "build_agent_live",
+        "title": "Automate the Receipt Log",
+        "responsibility_id": "resp_build_ai_agents",
+        "minutes": 60,
+        "material": "Arborly's ops team spends about two hours a week manually copying vendor names, amounts, and dates out of forwarded receipt emails into a shared spreadsheet. Candidate is given a sandboxed folder of 12 sample receipt emails (fictional, plain text) and access to a coding agent tool. In 60 minutes, build or extend a small script/agent that extracts the fields into a CSV, narrating the approach out loud to an engineer sitting in, with working output on at least a subset of the sample emails by the end.",
+        "observes": [
+          {
+            "criterion_id": "ai_native",
+            "strong": "Directs the coding agent with specific, iterative instructions, catches and corrects a wrong extraction, and has working output on real sample data by the end.",
+            "thin": "Can only describe what such an agent would do in theory, or the agent produces no working output despite the hour."
+          },
+          {
+            "criterion_id": "technical_curiosity",
+            "strong": "Asks the sitting-in engineer a substantive question about how the output will be consumed downstream, or explains a real tradeoff (e.g. regex vs. LLM extraction) in terms the engineer treats as credible.",
+            "thin": "Treats the engineer as a passive observer, asks no technical questions, can't explain why the approach works."
+          },
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "With time left, expands scope on their own initiative — e.g. adds handling for a malformed receipt — without being asked.",
+            "thin": "Stops the moment the minimum extraction works and waits to be told what's next."
+          }
+        ]
+      },
+      {
+        "id": "gtm_ops_block",
+        "title": "CFO Dinner & CRM Cleanup",
+        "responsibility_id": "resp_gtm_support",
+        "minutes": 45,
+        "material": "Arborly is co-hosting a CFO dinner with fictional partner 'Ledgerline Capital' and a hackathon with fictional partner 'TechForge.' Candidate is handed a list of 15 target-account contacts (fictional), a CRM export of 20 rows with planted hygiene problems (duplicate contacts, a closed-lost deal marked 'open,' three contacts with no last-touch date), and a one-line hackathon logistics prompt. In 45 minutes: (1) pick and justify 5 of the 15 contacts for the dinner invite list, (2) list the CRM fixes as a to-do a teammate could execute without further explanation, (3) draft a 3-line outbound message inviting one chosen contact to the hackathon.",
+        "observes": [
+          {
+            "criterion_id": "analytical_range",
+            "strong": "Invite-list picks are justified against a stated criterion (e.g. company stage, prior engagement) applied consistently across all five.",
+            "thin": "Picks are given with no stated criterion, or the criterion shifts from pick to pick."
+          },
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "CRM to-do list catches all three planted hygiene problems and is written so a teammate could execute it without a clarifying question.",
+            "thin": "Misses more than one planted problem, or writes fixes vague enough someone would have to ask what was meant."
+          },
+          {
+            "criterion_id": "polished_writing",
+            "strong": "Outbound message is short, specific to the recipient, and needs no edit before sending.",
+            "thin": "Message is generic enough to send to anyone on the list, or is too long or hedgy."
+          },
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Moves fluidly between the strategic pick-5 reasoning and the mechanical row-by-row CRM cleanup without a visible dip in energy.",
+            "thin": "Handles the strategic pick well but visibly rushes or disengages from the CRM cleanup."
+          }
+        ]
+      },
+      {
+        "id": "founder_leverage_pack",
+        "title": "All-Hands Deck & Investor Update Draft",
+        "responsibility_id": "resp_founder_leverage",
+        "minutes": 45,
+        "material": "Candidate is given: raw bullet notes from Arborly's weekly all-hands ('shipped v2 of onboarding flow,' 'lost the Meridian Construction deal,' 'hired 2 SDRs,' 'runway update: 14 months'), a messy metrics table (MRR, churn, headcount), and an inbox of 6 follow-up items from founder meetings (e.g. 'send NDA to potential partner,' 'founder promised a VC intro,' 'someone needs to confirm the office lease renewal'). In 45 minutes: (1) draft a one-page investor update paragraph from the notes and metrics, (2) outline a 3-slide all-hands section from the same notes, (3) sort the 6 follow-ups into 'I'd just do this myself' vs. 'needs the founder's actual voice,' with one line of reasoning each.",
+        "observes": [
+          {
+            "criterion_id": "polished_writing",
+            "strong": "Investor update paragraph is ready to send with no further editing — states the number, the reason, and the implication in plain sentences.",
+            "thin": "Paragraph needs restructuring, buries the runway number, or reads like a bullet list stitched together."
+          },
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Sorts an ambiguous follow-up like the lease renewal into 'I'd just do this' with a clear reason, rather than defaulting everything to the founder.",
+            "thin": "Routes most or all follow-ups back to the founder, including ones with no real need for founder involvement."
+          },
+          {
+            "criterion_id": "analytical_range",
+            "strong": "The investor update and the all-hands outline both use the same metrics table but in different registers — investor concerns (runway, churn) versus team-facing framing — showing control over register, not reuse of one sentence.",
+            "thin": "The all-hands outline and investor update are near-identical in framing, suggesting only one register is available."
+          }
+        ]
+      },
+      {
+        "id": "prepare_next_prompt",
+        "title": "The UK Entity Question",
+        "responsibility_id": "resp_prepare_next",
+        "minutes": 15,
+        "material": "One-line prompt handed cold, no packet, no prep: 'Arborly is opening a 4th legal entity in the UK next quarter — first time going outside the US/EU. You have 15 minutes: what do you want to know first, who do you go talk to, and what's your rough day-1 plan?' Candidate responds in writing or out loud.",
+        "observes": [
+          {
+            "criterion_id": "extreme_ownership",
+            "strong": "Proposes a concrete first move (e.g. 'check what the German/Spanish entity setups took longest on, replicate that path') rather than asking the observer to supply the answer.",
+            "thin": "Asks the observer what they should do, or gives only generic hedges ('I'd need to research this more') with no concrete first step."
+          },
+          {
+            "criterion_id": "full_spectrum_range",
+            "strong": "Mixes a structural question (entity/tax setup) with a practical one (who signs the first contract) in the same short answer, echoing the strategic-plus-operational mix shown earlier in the day.",
+            "thin": "Response stays at one level only — all strategic abstraction, or all logistics."
+          },
+          {
+            "criterion_id": "fluent_english",
+            "strong": "Responds fluently and concretely under a cold, unprepped 15-minute prompt.",
+            "thin": "Struggles to produce a coherent response in English within the time, independent of content quality."
+          }
+        ]
+      }
+    ],
+    "not_observable": [
+      {
+        "criterion_id": "high_intensity_experience",
+        "why": "Whether the candidate actually spent 3-4 years being the person things got thrown at in a high-intensity role is a fact about their work history; a single fictional day can test whether they perform under pressure now, not whether that pressure was sustained for years elsewhere."
+      },
+      {
+        "criterion_id": "nice_fintech_saas_cfo",
+        "why": "Prior employment in fintech, B2B SaaS, or an office-of-the-CFO function is a resume fact about where the candidate has worked; the day's fictional exercises can exercise the same skills without revealing whether that specific background exists."
+      },
+      {
+        "criterion_id": "nice_startup_experience",
+        "why": "Having been a founder, early employee, or operator elsewhere is a fact about the candidate's past roles, not something a trial day at a different, fictional company can produce or verify."
+      },
+      {
+        "criterion_id": "nice_fundraising_exposure",
+        "why": "Having watched a real fundraising round come together is direct exposure to an actual past process; no invented exercise substitutes for having been in that room."
+      }
+    ]
+  }
+}

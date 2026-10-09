@@ -1,0 +1,47 @@
+{
+  "verdict": "a region satisfies them",
+  "tried": 462,
+  "passing": 58,
+  "bounds": {
+    "moderate": [
+      0.6667,
+      1.0
+    ],
+    "weak": [
+      0.0,
+      0.3333
+    ],
+    "weak/moderate": [
+      0.0,
+      0.3333
+    ]
+  },
+  "recommended": {
+    "strong": 1.0,
+    "moderate": 0.8571,
+    "weak": 0.1224,
+    "order": [
+      "ines_abadi",
+      "tomas_renner",
+      "paul_okonkwo",
+      "sylvia_hartmann",
+      "mara_velichko"
+    ],
+    "scores": {
+      "ines_abadi": 0.95713,
+      "mara_velichko": 0.24792,
+      "paul_okonkwo": 0.317335,
+      "sylvia_hartmann": 0.315285,
+      "tomas_renner": 0.3459
+    },
+    "margin": 0.002
+  },
+  "noise": {
+    "ines_abadi": 0.04,
+    "mara_velichko": 0.005,
+    "paul_okonkwo": 0.04,
+    "sylvia_hartmann": 0.03,
+    "tomas_renner": 0.05
+  },
+  "always_failing": []
+}

@@ -1,0 +1,11 @@
+# Runtime. Everything else is the standard library. Python 3.11 or later.
+# Each is bounded below by what the code uses and, where there is one, above
+# by the next major version. Last installed and tested fresh on 2026-10-09:
+# pdfminer.six 20260107.
+#
+# The desk calls no model, so the model SDK is not here: it is in
+# requirements-model.txt, for the optional API backend only.
+#
+# Reading PDFs with each character's colour, size, position and render mode.
+# Calendar-versioned, so there is no major version to stop at. MIT.
+pdfminer.six>=20250324

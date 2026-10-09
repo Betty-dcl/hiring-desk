@@ -1,0 +1,232 @@
+{
+  "posting": {
+    "id": "founders_associate",
+    "title": "Founders' Associate",
+    "company": "Causa Prima",
+    "location": "Madrid, on-site",
+    "source_url": "https://jobs.ashbyhq.com/causaprima",
+    "fetched_at": "2026-09-18"
+  },
+  "posting_id": "founders_associate",
+  "title": "Founders' Associate",
+  "wishlist_declared": true,
+  "extracted_at": "2026-09-18T12:37:06.757519+00:00",
+  "model": "claude-sonnet-5",
+  "criteria": [
+    {
+      "id": "high_intensity_experience",
+      "question": "Tell me about the high-intensity environment you come from — consulting, banking, VC/PE, or an early-stage startup — and how long you were in it.",
+      "source_quote": "3–4 years in a high-intensity environment. Top-tier consulting, banking, VC/PE, or an early-stage startup.",
+      "section": "requirement",
+      "looks_like": "3-4 years in a demanding role (top-tier consulting, banking, VC/PE, or early-stage startup) where the candidate was the person things got thrown at.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "ai_native",
+      "question": "Show me a workflow you've automated or something you've built with a coding agent — how are you already using AI agents in your real work?",
+      "source_quote": "Genuinely AI-native. This is a hard requirement, not a buzzword.",
+      "section": "requirement",
+      "looks_like": "Concrete examples of using AI agents to do real work, automating a workflow, or building something with a coding agent, with ability to demonstrate it live.",
+      "hard": true,
+      "hard_quote": "This is a hard requirement, not a buzzword.",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "full_spectrum_range",
+      "question": "How do you handle going from a high-level strategic task to a mundane operational one, like chasing a receipt, in the same day?",
+      "source_quote": "You take a strategic framing session and a receipt-chasing task in the same afternoon with the same energy.",
+      "section": "requirement",
+      "looks_like": "Examples of moving between strategic framing work and unglamorous operational tasks without losing energy or dropping either.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "extreme_ownership",
+      "question": "Describe a time you noticed a gap with no clear owner and stepped in without being asked.",
+      "source_quote": "Extreme ownership. You see gaps, you fill them, and you don't wait to be told.",
+      "section": "requirement",
+      "looks_like": "A specific instance of identifying an unowned problem and taking it on proactively, not waiting for instructions.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "analytical_range",
+      "question": "Walk me through a time you built a financial model, structured a market analysis, and wrote up a narrative for it.",
+      "source_quote": "You can build a financial model, structure a market analysis, and write a compelling narrative with equal comfort.",
+      "section": "requirement",
+      "looks_like": "Concrete examples spanning financial modeling, market/strategic analysis, and clear narrative writing, done by the same person.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "polished_writing",
+      "question": "Share a piece of writing — an investor update, a candidate email, a partnership brief — that went out without needing edits.",
+      "source_quote": "Writing that doesn't need editing.",
+      "section": "requirement",
+      "looks_like": "Writing samples (investor updates, candidate emails, partnership briefs) that are clear, direct, and required no further editing.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "technical_curiosity",
+      "question": "How do you engage with engineers or direct AI agents on technical work, even though you don't write code yourself?",
+      "source_quote": "You don't need to write code, but you understand how software gets built and can engage credibly with engineers - and direct AI agents that build for you.",
+      "section": "requirement",
+      "looks_like": "Evidence of understanding how software is built well enough to hold credible technical conversations with engineers and to direct AI agents to build things.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "fluent_english",
+      "question": "Can you confirm you're fluent in English, since that's the working language here?",
+      "source_quote": "Fluent English. It's our working language.",
+      "section": "requirement",
+      "looks_like": "Fluent, working-language-level English communication.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 2.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_fintech_saas_cfo",
+      "question": "Do you have experience in fintech, B2B SaaS, or the office-of-the-CFO space?",
+      "source_quote": "Experience in fintech, B2B SaaS, or the office-of-the-CFO space",
+      "section": "nice_to_have",
+      "looks_like": "Prior work experience within fintech, B2B SaaS, or an office-of-the-CFO function.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_startup_experience",
+      "question": "Have you worked at a startup before — as a founder, early employee, or operator?",
+      "source_quote": "Prior startup experience (founding, early employee, or operator role)",
+      "section": "nice_to_have",
+      "looks_like": "A background as a founder, early employee, or operator at a startup.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_fundraising_exposure",
+      "question": "Have you been involved in or close to a fundraising process before?",
+      "source_quote": "Exposure to fundraising processes. You've seen how rounds come together",
+      "section": "nice_to_have",
+      "looks_like": "Direct or close exposure to how funding rounds are put together.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "nice_languages",
+      "question": "Do you speak Spanish or German?",
+      "source_quote": "Spanish or German",
+      "section": "nice_to_have",
+      "looks_like": "Conversational or working proficiency in Spanish or German.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 1.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_frame_strategy",
+      "question": "How would you approach being the first person on a brand-new strategic question, like a build-vs-partner decision, before any resources are committed?",
+      "source_quote": "Frame strategy before it becomes a project.",
+      "section": "responsibility",
+      "looks_like": "Structuring an open-ended strategic question, running a first-pass analysis, and giving founders a direction to react to.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_financial_ops",
+      "question": "How would you manage financial operations across three entities, four banking providers, payroll, invoicing, and month-end close?",
+      "source_quote": "Three entities (US, Germany, Spain), external accountants in each, banking across four providers, payroll, invoicing, spend and receipt tracking, month-end coordination.",
+      "section": "responsibility",
+      "looks_like": "Ownership of multi-entity financial operations — banking, payroll, invoicing, receipts, month-end — with an eye toward automating them.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_recruiting",
+      "question": "How would you run recruiting operations, from sourcing through structured trial days to closing a candidate?",
+      "source_quote": "Source, screen, and coordinate candidates across business roles. Prepare and run our structured trial days, and help close top talent.",
+      "section": "responsibility",
+      "looks_like": "End-to-end recruiting ownership: sourcing, screening, coordinating, running trial days, and helping close offers.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_build_ai_agents",
+      "question": "Describe how you'd extend an internal fleet of AI agents built with tools like Claude Code or Codex.",
+      "source_quote": "Build with AI agents, not just spreadsheets.",
+      "section": "responsibility",
+      "looks_like": "Building or extending internal AI agents so repeated manual tasks get automated rather than redone a third time.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_gtm_support",
+      "question": "How would you support the GTM engine — account research, outbound infrastructure, CRM hygiene, and event operations?",
+      "source_quote": "Target account research, outbound infrastructure, CRM hygiene, event operations... from CFO dinners and conference sponsorships to hackathons we co-organize with top-tier partners.",
+      "section": "responsibility",
+      "looks_like": "Hands-on GTM support spanning research, outbound systems, CRM upkeep, and running events with top-tier partners.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_founder_leverage",
+      "question": "How would you act as founder leverage — handling the all-hands deck, investor updates, briefing materials, and making sure nothing falls through the cracks?",
+      "source_quote": "The weekly all-hands deck, investor updates, briefing materials, speaker submissions, meeting follow-ups.",
+      "section": "responsibility",
+      "looks_like": "Owning the unglamorous, high-leverage work that keeps founder time focused — decks, updates, briefings, follow-ups, and taking ownership of anything ownerless.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    },
+    {
+      "id": "resp_prepare_next",
+      "question": "As the company grows, how would you take ownership of new, unfamiliar topics landing on your desk?",
+      "source_quote": "Prepare for what's next.",
+      "section": "responsibility",
+      "looks_like": "Willingness and ability to own new topics as they arise with company growth.",
+      "hard": false,
+      "hard_quote": "",
+      "weight": 0.0,
+      "needs_confirmation": true
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 19,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}

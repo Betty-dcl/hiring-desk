@@ -1,0 +1,5 @@
+# Optional: only for the API backend of the model screener and the AI drafts
+# (NBH_BACKEND=api). The desk itself never calls a model and does not need it.
+# Only nbh/llm.py imports it. Last tested with anthropic 1.10.0. MIT.
+-r requirements.txt
+anthropic>=1.6,<2

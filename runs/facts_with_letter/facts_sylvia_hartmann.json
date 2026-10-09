@@ -1,0 +1,304 @@
+{
+  "candidate_id": "sylvia_hartmann",
+  "name": "Sylvia Hartmann",
+  "extracted_at": "2026-09-18T13:34:33.298538+00:00",
+  "model": "claude-sonnet-5",
+  "facts": [
+    {
+      "id": "role_independent_consultant",
+      "kind": "experience",
+      "claim": "Worked as an independent consultant, based in Madrid",
+      "source_quote": "Independent consultant",
+      "period": "2024 – present, Madrid",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "engagement_logistics",
+      "kind": "project",
+      "claim": "One of two consulting engagements was an operating review for a family-owned logistics business",
+      "source_quote": "an operating review for a family-owned logistics business",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "engagement_pricing",
+      "kind": "project",
+      "claim": "One of two consulting engagements was a pricing project for a software company",
+      "source_quote": "a pricing project for a software company",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "engagements_solo",
+      "kind": "other",
+      "claim": "Both consulting engagements were delivered solo",
+      "source_quote": "Both delivered solo",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "career_break_carer",
+      "kind": "other",
+      "claim": "Took a career break working as a full-time carer",
+      "source_quote": "Full-time carer",
+      "period": "2022 – 2024",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "career_break_no_work",
+      "kind": "other",
+      "claim": "States there was no professional work during the career break period",
+      "source_quote": "No professional work in this period",
+      "period": "2022 – 2024",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "role_finance_manager",
+      "kind": "experience",
+      "claim": "Worked as Finance Manager at Ardenne Frères in Lyon",
+      "source_quote": "Finance Manager — Ardenne Frères",
+      "period": "2017 – 2022, Lyon",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "finance_close_reporting",
+      "kind": "experience",
+      "claim": "Ran monthly close and reporting for three subsidiaries",
+      "source_quote": "Ran monthly close and reporting for three subsidiaries.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "finance_rebuilt_budget",
+      "kind": "experience",
+      "claim": "Rebuilt the budgeting process after the ERP migration",
+      "source_quote": "Rebuilt the budgeting process after the ERP migration",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "finance_budget_reason",
+      "kind": "experience",
+      "claim": "States the old budgeting process stopped working and nobody owned its replacement",
+      "source_quote": "stopped working and nobody owned the replacement",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "finance_auditor_relationship",
+      "kind": "experience",
+      "claim": "Managed the relationship with the external auditors",
+      "source_quote": "Managed the relationship with the external auditors.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "role_auditor",
+      "kind": "experience",
+      "claim": "Worked as an Auditor at Brentwood Associates in Lyon",
+      "source_quote": "Auditor — Brentwood Associates",
+      "period": "2014 – 2017, Lyon",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "auditor_statutory_audits",
+      "kind": "experience",
+      "claim": "Performed statutory audits for mid-market clients",
+      "source_quote": "Statutory audits for mid-market clients.",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "education_masters",
+      "kind": "education",
+      "claim": "Holds a Master Contrôle de Gestion from Université de Lyon-Sud, 2014",
+      "source_quote": "Master Contrôle de Gestion, Université de Lyon-Sud, 2014",
+      "period": "2014",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "language_french",
+      "kind": "language",
+      "claim": "Native French speaker",
+      "source_quote": "French (native)",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "language_spanish",
+      "kind": "language",
+      "claim": "Fluent in Spanish",
+      "source_quote": "Spanish (fluent)",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "language_english",
+      "kind": "language",
+      "claim": "Professional-level English",
+      "source_quote": "English (professional)",
+      "period": "",
+      "evidence": "instance",
+      "source": "cv",
+      "role": ""
+    },
+    {
+      "id": "letter_care_gap_explanation",
+      "kind": "other",
+      "claim": "The 2022-2024 gap on the CV was full-time care for a parent with early-onset dementia",
+      "source_quote": "The two-year gap on my CV, from 2022 to 2024, was full-time care for a parent with early-onset dementia.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "explanation"
+    },
+    {
+      "id": "letter_gap_not_sabbatical",
+      "kind": "other",
+      "claim": "Clarifies the gap was not a sabbatical nor a career change she was considering",
+      "source_quote": "It was not a sabbatical and it was not a career change I was considering.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "explanation"
+    },
+    {
+      "id": "letter_ardenne_budget_rebuild",
+      "kind": "experience",
+      "claim": "Rebuilt the broken budgeting process at Ardenne Frères after an ERP migration, over four months, and it ran the three subsidiaries' budgets until she left in 2022",
+      "source_quote": "At Ardenne Frères the ERP migration left the budgeting process broken and unowned for most of 2019 — the old one no longer reconciled and nobody had been asked to replace it. I rebuilt it over four months, in spreadsheets first and then in the new system, and it ran the three subsidiaries' budgets until I left in 2022.",
+      "period": "",
+      "evidence": "instance",
+      "source": "letter",
+      "role": "instance"
+    },
+    {
+      "id": "letter_consulting_engagements",
+      "kind": "experience",
+      "claim": "Took two solo consulting engagements since 2024: an operating review for a family logistics business and a pricing project for a software company",
+      "source_quote": "Since 2024 I have taken two consulting engagements on my own: an operating review for a family logistics business, and a pricing project for a software company.",
+      "period": "",
+      "evidence": "instance",
+      "source": "letter",
+      "role": "instance"
+    },
+    {
+      "id": "letter_consulting_solo_delivery",
+      "kind": "experience",
+      "claim": "Both consulting engagements were delivered alone from scoping through final presentation",
+      "source_quote": "Both were delivered alone, from scoping to final presentation.",
+      "period": "",
+      "evidence": "instance",
+      "source": "letter",
+      "role": "instance"
+    },
+    {
+      "id": "letter_claude_code_reporting",
+      "kind": "project",
+      "claim": "Has used Claude Code daily since January to rebuild the reporting pack for the logistics client, with the model writing transformations that she checks against source ledgers",
+      "source_quote": "I have been using Claude Code daily since January to rebuild the reporting pack for the logistics client — the model writes the transformations and I check them against the source ledgers.",
+      "period": "",
+      "evidence": "instance",
+      "source": "letter",
+      "role": "instance"
+    },
+    {
+      "id": "letter_claude_code_speed_claim",
+      "kind": "skill",
+      "claim": "States it is the first time in her career the gap between knowing what a report should do and the report existing has been reduced to hours",
+      "source_quote": "It is the first time in my career that the gap between \"I know what this report should do\" and \"the report exists\" has been a matter of hours.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "restatement"
+    },
+    {
+      "id": "letter_motivation_cfo_office",
+      "kind": "other",
+      "claim": "Drawn to Causa Prima's decision to put agents in the CFO office rather than sales",
+      "source_quote": "What draws me to Causa Prima specifically is the decision to put agents in the CFO office rather than in sales.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "motivation"
+    },
+    {
+      "id": "letter_motivation_reasoning",
+      "kind": "other",
+      "claim": "Reasons that building in accounts payable/treasury first is a harder commercial choice because errors there have immediate consequences",
+      "source_quote": "Accounts payable and treasury are where a wrong number has a consequence the same week, and building there first is a harder commercial choice than building where mistakes are invisible.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "motivation"
+    },
+    {
+      "id": "letter_motivation_open_door",
+      "kind": "other",
+      "claim": "Cites the company's open-door page claim that every application is read and everyone hears back",
+      "source_quote": "Your open-door page says you read every application and that everyone hears back.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "motivation"
+    },
+    {
+      "id": "letter_explanation_unsolicited",
+      "kind": "other",
+      "claim": "Explains she is writing this letter rather than waiting for a posted opening",
+      "source_quote": "That is why I am writing one rather than waiting for a posting.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "explanation"
+    },
+    {
+      "id": "letter_closing_self_praise",
+      "kind": "skill",
+      "claim": "Self-describes as rigorous, fast-moving, deeply analytical, high-ownership, thrives in ambiguity, and AI-native",
+      "source_quote": "I am rigorous, fast-moving, deeply analytical, and I take extreme ownership of everything I touch. I thrive in ambiguity and I am genuinely AI-native.",
+      "period": "",
+      "evidence": "assertion",
+      "source": "letter",
+      "role": "restatement"
+    }
+  ],
+  "rejected": [],
+  "extraction_yield": {
+    "kept": 29,
+    "rejected": 0,
+    "rate": 1.0
+  }
+}
